@@ -1,0 +1,91 @@
+{
+ "realms": {
+  "The Trade Roads": {
+   "name": "The Trade Roads",
+   "basicInfo": "The Trade Roads are the old cart tracks that stitch a hundred little towns together across a country nobody bothered to name, rutted, potholed and patrolled by nobody, so every town on them makes its own law and every travelling show learns each one the hard way.",
+   "known": true
+  }
+ },
+ "regions": {
+  "The Hollow Counties": {
+   "name": "The Hollow Counties",
+   "basicInfo": "The Hollow Counties were forest once, cut back over three generations into a patchwork of farms, hedges and market towns a day's ride apart, built low and squat against the wind with a church spire in every one, and the people here work the fields from dark to dark, go to market on the seventh day and go to the show when it comes, if the mayor lets it in. Nothing out here happens that the whole county hasn't heard about by supper.",
+   "x": 0,
+   "y": 0,
+   "realm": "The Trade Roads",
+   "known": true
+  },
+  "The Gloamwood": {
+   "name": "The Gloamwood",
+   "basicInfo": "The Gloamwood is what's left of the old forest, the part the axes never got into, black pine so thick the noon light comes through green, and the trade road runs straight through it because going round takes a week. Folk cross it in daylight, in groups, and don't stop. The things that come out of it at night are the reason every town in the Hollow Counties has a wall.",
+   "x": 1,
+   "y": 0,
+   "realm": "The Trade Roads",
+   "known": false
+  }
+ },
+ "locations": {
+  "Mudbury": {
+   "name": "Mudbury",
+   "basicInfo": "Mudbury is a market town of five hundred stubborn souls on a crossroads in the Hollow Counties, mud to the ankle nine months of the year, a high street of crooked shops, a church that leans, a mayor who hates fun, and a big empty field on the edge of town where the travelling shows set up because it's the only flat ground for a mile. Everyone here has an opinion about the show and most of them are bad.",
+   "hiddenInfo": "Mayor Pettigrew has been taking Gilt Circus money to run Dreamer's show out of town, and he left Bramble's cage unlatched himself.",
+   "x": -10,
+   "y": 5,
+   "radius": 3,
+   "region": "The Hollow Counties",
+   "complexityType": "complex",
+   "detailType": "detailed",
+   "areas": {
+    "The High Street": {
+     "description": "one long muddy street of crooked shopfronts, a baker, a chandler, a tavern called the Drowned Duck, and the church leaning over all of it, busy every hour of daylight with carts, gossip and people pretending not to stare at the show folk.",
+     "paths": [
+      "The Butcher's Yard",
+      "The Mayor's Garden",
+      "The Show's Camp"
+     ]
+    },
+    "The Butcher's Yard": {
+     "description": "a walled yard behind the butcher's shop, hooks, blocks and a drain that never quite runs clear, and the smell carries half a mile on a warm day, which is exactly how a half-blind old lion found it.",
+     "paths": [
+      "The High Street"
+     ]
+    },
+    "The Mayor's Garden": {
+     "description": "clipped hedges, a fish pond and roses Mayor Pettigrew loves more than any person in town, behind a gate he keeps locked, the one tidy place in Mudbury.",
+     "paths": [
+      "The High Street"
+     ]
+    },
+    "The Show's Camp": {
+     "description": "the big field at the edge of town where the painted wagons circle up around the tent, campfires, the cook's pot, the cages and the horses who hate everyone, home for as long as the town puts up with it.",
+     "paths": [
+      "The High Street"
+     ]
+    }
+   },
+   "known": true
+  }
+ },
+ "quests": {
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "questSource": "Old Marla, the lion tamer",
+   "status": "hidden",
+   "questStatement": "Bramble, the show's ancient half-blind lion, slipped his cage the night the wagons rolled into town and nobody noticed until the butcher came screaming down the high street, and now Old Marla needs him found and home before the town sheriff finds him first and the mayor gets the excuse he's been after to run the whole show out of town.",
+   "mainObjective": "Find Bramble and get him back in his cage before the sheriff does.",
+   "completionCondition": {
+    "type": "story",
+    "query": "Bramble the lion is back in his cage at the show's camp."
+   },
+   "detailType": "detailed",
+   "questDesignBrief": "Play it for laughs first: Bramble is old, deaf and harmless unless you get between him and a meal, and the town is losing its mind over him. Let the trail lead through the funniest places a lion could end up, a bakery, a church, the mayor's own garden, and let the sheriff and his deputies be the real danger, trigger-happy and scared stiff. The player gets him home by being clever or kind, never by a single roll.",
+   "questLocation": "Mudbury",
+   "onCompleteEffects": [
+    {
+     "type": "narrative-event-start",
+     "eventId": "gilt_circus_offer"
+    }
+   ]
+  }
+ }
+}
