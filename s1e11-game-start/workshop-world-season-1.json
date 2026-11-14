@@ -1,0 +1,1821 @@
+{
+ "narratorStyle": "Third person, present tense. Fast, loud and grinning, like a ringmaster on too much coffee and not enough sleep, plenty of laughs and plenty of chaos, but when the danger comes it lands hard and being funny saves nobody. Dreamer's ideas sound mad and then they work: play them straight and let them work, odd magic and all. The show's people are odd and proud of it; townsfolk are curious about the show, wary of strangers, and don't know your name until you tell them. The player is the act, so keep the spotlight on them. Never: an NPC explaining their whole life unasked, a twist dropped into a quiet moment, or saving the player from a bad call, no matter how funny the bad call is.",
+ "successLevelSettings": {
+  "firstSuccessfulTierId": "mixed-results",
+  "tiers": [
+   {
+    "id": "critical-failure",
+    "name": "Critical Failure",
+    "minScore": null,
+    "maxScore": -66,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} tries to do the action, but it fails in a dramatic, catastrophic way - if enemies are present, consider framing the failure as partly the result of an enemy's cleverness, tactics, or intervention that thwarts the attempt, rather than the player merely being inept.]"
+   },
+   {
+    "id": "failure",
+    "name": "Failure",
+    "minScore": -65,
+    "maxScore": -51,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} tries to do the action, but it fails - if enemies are present, consider framing the failure as partly the result of an enemy's cleverness, tactics, or intervention that thwarts the attempt, rather than the player merely being inept.]"
+   },
+   {
+    "id": "mixed-results",
+    "name": "Mixed Results",
+    "minScore": -50,
+    "maxScore": -26,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} does the action, but it is only partially successful with mixed results.]"
+   },
+   {
+    "id": "basic-success",
+    "name": "Basic Success",
+    "minScore": -25,
+    "maxScore": -1,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is successful.]"
+   },
+   {
+    "id": "success",
+    "name": "Success",
+    "minScore": 0,
+    "maxScore": 24,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is quite successful.]"
+   },
+   {
+    "id": "great-success",
+    "name": "Great Success",
+    "minScore": 25,
+    "maxScore": 49,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is very successful.]"
+   },
+   {
+    "id": "critical-success",
+    "name": "Critical Success",
+    "minScore": 50,
+    "maxScore": null,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is amazingly successful in an awesome way.]"
+   }
+  ]
+ },
+ "gameModes": {
+  "Opening Night": {
+   "name": "Opening Night",
+   "difficulty": "medium",
+   "description": "The show the way it's meant to be: every town has a problem, every road has trouble, and the tent still has to fill by dark.",
+   "instructions": "## Core Feel\n- Every stop is a fresh crowd and a fresh problem, and the show only eats if the tent fills\n- Keep it loud, goofy and a bit unhinged, with real danger on the roads and in the woods at night\n\n## Pacing\n- When a scene goes quiet, have someone from the show or the town turn up needing something sorted before the wagons roll\n- Let jobs go sideways in funny ways before they go sideways in dangerous ones\n\n## Do\n- Give townsfolk and show folk their own opinions about each other\n- Let Dreamer's plans make no sense right up until they work\n\n## Don't\n- Don't make the town friendly by default: most of them want the show gone by morning",
+   "askTheNarratorPrompt": "Welcome to the show! Ask me anything: what's going on in town, who's who in the troupe, or what you could try next."
+  },
+  "Off Night": {
+   "name": "Off Night",
+   "difficulty": "very easy",
+   "description": "A gentler run: no show tonight, so it's camp life, stew, card games and getting to know the troupe.",
+   "instructions": "## Core Feel\n- The story is life around the wagons on a night with no show: meals, chores, gossip, music and old stories\n- Keep the scale small and personal: who's fallen out with who, who owes who a favour, what everyone's worried about\n\n## Pacing\n- Let quiet scenes stay quiet; don't push danger in to fill them\n- Trouble, when it comes, is small and close to camp\n\n## Do\n- Let the troupe talk like real people and remember what the player did",
+   "askTheNarratorPrompt": "Nothing on tonight. The stew's on and someone's dealing cards. Where do you want to start?"
+  }
+ },
+ "factions": {
+  "Dreamer's Travelling Show": {
+   "name": "Dreamer's Travelling Show",
+   "factionType": "major",
+   "basicInfo": "Dreamer's Travelling Show is a circus caravan of painted wagons that rolls town to town on the trade roads, a dozen acts nobody else would take, a cook, two horses who hate everyone and Dreamer out front as ringmaster. It lives off the door, so every stop means a full tent or an empty pot, and towns treat it the way they treat weather, they'll come and look but they lock up the chickens. It says it's just a show, and most nights it is, right up until the town's trouble becomes the show's trouble.",
+   "hiddenInfo": "The show is a lot closer to broke than Dreamer lets on, three empty tents in a row and it starts selling wagons, and half the acts know it and the other half are pretending they don't. The older acts would follow Dreamer off a cliff, the newer ones are still working out whether he's a genius or just lucky. Right now somebody inside the show is taking Gilt Circus money too, and Dreamer hasn't worked out who yet.",
+   "known": true
+  },
+  "The Gilt Circus": {
+   "name": "The Gilt Circus",
+   "factionType": "major",
+   "basicInfo": "The Gilt Circus is the biggest show on the trade roads, gold paint, white tents, a brass band and Lucius Gilt in his white suit at the front of it all, and it plays the big towns where the mayors pay to have it come. It buys acts instead of finding them and it works the same roads as Dreamer's show a day or two behind, close enough to pick up whatever falls off. Towns love it for a night, and the acts who work there don't smile much once the lights go down.",
+   "hiddenInfo": "Under the gold paint the Gilt Circus is going broke, the crowds are thinning, the acts are tired and three of them ran off last month, so Lucius is buying up rival acts and paying mayors to choke out every other show on the road. Only Lucius and his strongbox men know how bad the books are, the acts just know the pay keeps coming late. Right now Lucius has paid Mudbury's mayor to run Dreamer's show out of town, and he's planted someone inside Dreamer's show to tell him where it's weak.",
+   "known": true
+  }
+ },
+ "death": {
+  "permadeath": false,
+  "instructions": "Narrate the character getting knocked out rather than dying. The next day, they wake healed in a nearby city with their party, memories intact and every item still in their possession. The knockout should feel like a hard stop and a clean rescue, and then let them continue their adventure from the city."
+ },
+ "endGame": {
+  "win": {
+   "endCondition": "win",
+   "instructions": "Narrate a satisfying victory ending that celebrates what the party accomplished and resolves the major stakes."
+  },
+  "lose": {
+   "endCondition": "lose",
+   "instructions": "Narrate a meaningful failure ending that makes the consequences clear while giving the adventure a sense of closure."
+  },
+  "end": {
+   "endCondition": "end",
+   "instructions": "Narrate a neutral ending that gracefully closes the adventure and gives the story a final sense of completion."
+  }
+ },
+ "relationshipStages": [
+  {
+   "name": "Nemesis",
+   "minScore": -100,
+   "maxScore": -81
+  },
+  {
+   "name": "Antagonist",
+   "minScore": -80,
+   "maxScore": -61
+  },
+  {
+   "name": "Hostile",
+   "minScore": -60,
+   "maxScore": -41
+  },
+  {
+   "name": "Unfriendly",
+   "minScore": -40,
+   "maxScore": -21
+  },
+  {
+   "name": "Cold",
+   "minScore": -20,
+   "maxScore": -1
+  },
+  {
+   "name": "Neutral",
+   "minScore": 0,
+   "maxScore": 0
+  },
+  {
+   "name": "Warm",
+   "minScore": 1,
+   "maxScore": 20
+  },
+  {
+   "name": "Friendly",
+   "minScore": 21,
+   "maxScore": 40
+  },
+  {
+   "name": "Confidant",
+   "minScore": 41,
+   "maxScore": 60
+  },
+  {
+   "name": "Ally",
+   "minScore": 61,
+   "maxScore": 80
+  },
+  {
+   "name": "Devoted",
+   "minScore": 81,
+   "maxScore": 100
+  }
+ ],
+ "realms": {
+  "The Trade Roads": {
+   "name": "The Trade Roads",
+   "basicInfo": "The Trade Roads are the old cart tracks that stitch a hundred little towns together across a country nobody bothered to name, rutted, potholed and patrolled by nobody, so every town on them makes its own law and every travelling show learns each one the hard way.",
+   "known": true
+  }
+ },
+ "resourceSettings": {
+  "health": {
+   "name": "health",
+   "initialValue": 80,
+   "maxValue": 80,
+   "rechargeRate": 1,
+   "restRechargeMultiplier": 1,
+   "color": "#ef4444",
+   "gainPerLevel": 10,
+   "isHealth": true,
+   "usageInstructions": "### Health Changes\n- Small injuries: -1 to 15% player health\n- Medium injuries: -5 to 25% player health\n- Massive injuries: -15 to 50% of player health\n- Normal Healing potions +30 - +40\n- Bandages +20\n- Positive healing clears Near Death or Dying.\n- In non-permadeath games, explicit healing from an NPC, player action, item, spell, or current-story event can revive a Dead character.\n- Passive recharge and ordinary rest recovery cannot revive a Dead character.\n- In permadeath games, a Dead character cannot be revived.\n- Recover and Revive restore 35% of maximum health.\n### Don't Deduct Health When\n- The story mentions treated or untreated wounds\n- Story mentions pain from a wound\n- When unconscious or carried\n- An environment is generally dangerous, but does not explicitly damage the character\n"
+  }
+ },
+ "locationSettings": {
+  "regionSize": 100,
+  "simpleRadius": 2,
+  "complexRadius": 5,
+  "regionLocationCount": 8,
+  "avgTravelDistance": 20,
+  "minTravelDistance": 5,
+  "newRegionGenerationEnabled": true,
+  "regionMapBorderFeatheringEnabled": false,
+  "encountersEnabled": false
+ },
+ "abilities": {},
+ "skills": {
+  "acrobatics": {
+   "name": "acrobatics",
+   "type": "utility",
+   "attribute": "dexterity",
+   "description": "Improves the player's agility and balance, enabling them to perform acrobatic maneuvers.",
+   "startingItems": []
+  },
+  "athletics": {
+   "name": "athletics",
+   "type": "utility",
+   "attribute": "strength",
+   "description": "Improves overall physical performance, enhancing running, jumping, climbing, and other physical feats.",
+   "startingItems": []
+  },
+  "intimidation": {
+   "name": "intimidation",
+   "type": "utility",
+   "attribute": "charisma",
+   "description": "Allows the player to use fear as a tool, potentially allowing them to scare off enemies or influence confrontations.",
+   "startingItems": []
+  },
+  "investigation": {
+   "name": "investigation",
+   "type": "utility",
+   "attribute": "intelligence",
+   "description": "Enables careful examination and analysis of surroundings, helping the player uncover clues and secrets.",
+   "startingItems": []
+  },
+  "performance": {
+   "name": "performance",
+   "type": "utility",
+   "attribute": "charisma",
+   "description": "Enables the player to entertain others through acts such as dancing, singing, or acting.",
+   "startingItems": []
+  },
+  "persuasion": {
+   "name": "persuasion",
+   "type": "utility",
+   "attribute": "charisma",
+   "description": "Enhances the player's ability to influence others through dialogue.",
+   "startingItems": []
+  },
+  "survival": {
+   "name": "survival",
+   "type": "utility",
+   "attribute": "constitution",
+   "description": "Improves the player's ability to endure harsh environments, find food and water, and build shelters.",
+   "startingItems": []
+  }
+ },
+ "worldLore": {
+  "The Show Feeds Its Own": {
+   "text": "The show feeds its own and nobody else, that's the first thing any new act learns and the last thing a town ever figures out: whoever's wearing the show's colours gets fed, stitched up and stood behind whatever they did to earn the trouble, and the whole caravan will turn around for one act left behind in a town that didn't want them. It works the other way too, an act who sells the show out to a mayor, a sheriff or the Gilt Circus wakes up on the road with their wagon gone and their name painted off every poster, and no show on the trade roads will take them after that."
+  },
+  "Dreamer's Orbs and Ciggies": {
+   "text": "Dreamer's magic comes from the five orbs on his belt, fire with a crust of earth cracked through it, water, a chunk of raw earth, light and shadow, each one solid as a cannonball and warm to the touch, and when he juggles them something happens, a wall of water, a blinding flash, a patch of night in the middle of noon, never quite what anyone expected but always what the moment needed. Then there are the ciggies, his own brand, rolled from who knows what, that burn with gold sparks like a sparkler and leave the air smelling of burnt sugar, and nobody else in the show will touch one since the cook tried it and spoke only in rhyme for three days."
+  },
+  "Dreamer's Travelling Show": {
+   "text": "Dreamer's Travelling Show is a circus caravan of painted wagons that rolls town to town on the trade roads, a dozen acts nobody else would take, a cook, two horses who hate everyone and Dreamer out front as ringmaster. It lives off the door, so every stop means a full tent or an empty pot, and towns treat it the way they treat weather, they'll come and look but they lock up the chickens. It says it's just a show, and most nights it is, right up until the town's trouble becomes the show's trouble."
+  },
+  "The Gilt Circus": {
+   "text": "The Gilt Circus is the biggest show on the trade roads, gold paint, white tents, a brass band and Lucius Gilt in his white suit at the front of it all, and it plays the big towns where the mayors pay to have it come. It buys acts instead of finding them and it works the same roads as Dreamer's show a day or two behind, close enough to pick up whatever falls off. Towns love it for a night, and the acts who work there don't smile much once the lights go down."
+  }
+ },
+ "itemSettings": {
+  "currencyName": "mark",
+  "tiers": {
+   "mundane": {
+    "displayName": "Mundane",
+    "color": "#bcbcbc",
+    "description": "Ordinary items appropriate to the setting.\n\nNew equippable items may have up to 1 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+    "rarityGuidance": "Common everyday goods, broadly available in this world.",
+    "generationAllowed": true,
+    "valueRange": {
+     "min": 1,
+     "max": 100
+    },
+    "bonusPolicy": {
+     "initialMaximumPicks": 1
+    }
+   },
+   "artisan": {
+    "displayName": "Artisan",
+    "color": "#2fb6ff",
+    "description": "Exceptional craftsmanship or quality without extraordinary properties.\n\nNew equippable items may have up to 2 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+    "rarityGuidance": "Uncommon goods made by skilled craftspeople or specialists.",
+    "generationAllowed": true,
+    "valueRange": {
+     "min": 30,
+     "max": 500
+    },
+    "bonusPolicy": {
+     "initialMaximumPicks": 2
+    }
+   },
+   "special": {
+    "displayName": "Special",
+    "color": "#ce85ff",
+    "description": "Meaningful magical, supernatural, advanced-technological, or equivalent extraordinary properties relative to this world.\n\nNew equippable items may have up to 3 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+    "rarityGuidance": "Rare extraordinary items found in exceptional places or circumstances.",
+    "generationAllowed": true,
+    "valueRange": {
+     "min": 300,
+     "max": 3000
+    },
+    "bonusPolicy": {
+     "initialMaximumPicks": 3
+    }
+   },
+   "legendary": {
+    "displayName": "Legendary",
+    "color": "#ff7865",
+    "description": "Artifacts or significant items at the upper end of this world’s hierarchy.\n\nNew equippable items may have up to 4 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+    "rarityGuidance": "Unique or exceedingly rare artifacts, placed deliberately by the creator.",
+    "generationAllowed": false,
+    "valueRange": {
+     "min": 3000,
+     "max": 10000
+    },
+    "bonusPolicy": {
+     "initialMaximumPicks": 4
+    }
+   }
+  },
+  "tierGenerationEnabled": true,
+  "imageGenerationEnabled": true,
+  "itemSlots": [
+   {
+    "slot": "head",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "body",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "legs",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "feet",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "hands",
+    "category": "Armor",
+    "quantity": 1
+   }
+  ],
+  "itemCategories": [
+   "Currency",
+   "Armor",
+   "Weapon",
+   "Tool",
+   "Consumable"
+  ],
+  "startingItems": []
+ },
+ "combatSettings": {
+  "minCombatXP": 1,
+  "baseCombatXP": 100,
+  "abilityCooldown": 20,
+  "abilityBonus": 10,
+  "npcDailyHealingAmount": 999,
+  "damageTypes": [
+   "piercing",
+   "slashing",
+   "bludgeoning",
+   "poisoning",
+   "fire",
+   "lightning",
+   "wind",
+   "water",
+   "arcane",
+   "light",
+   "dark",
+   "psychic"
+  ],
+  "damageTypePresentation": {}
+ },
+ "otherSettings": {
+  "npcHealthPerLevel": 12,
+  "npcMinHealth": 66,
+  "visualNovelModeByDefault": true
+ },
+ "progressionSettings": {
+  "startingCharacterLevelUpRequirement": 1000,
+  "extraRequiredXPPerCharacterLevel": 400,
+  "maxCharacterLevel": 100,
+  "abilityPointEveryLevels": 1,
+  "abilityPointsPerGrant": 1,
+  "attributePointEveryLevels": 5,
+  "attributePointsPerGrant": 1,
+  "maxAttributeValue": 999,
+  "traitPickEveryLevels": 10,
+  "traitPicksPerGrant": 1,
+  "locationDiscoveryXP": 10,
+  "levelUpTraitPool": [],
+  "milestoneTitles": [
+   {
+    "levelGranted": 1,
+    "title": "Initiate"
+   },
+   {
+    "levelGranted": 10,
+    "title": "Adept"
+   },
+   {
+    "levelGranted": 20,
+    "title": "Veteran"
+   },
+   {
+    "levelGranted": 30,
+    "title": "Expert"
+   },
+   {
+    "levelGranted": 40,
+    "title": "Master"
+   },
+   {
+    "levelGranted": 50,
+    "title": "Legend"
+   }
+  ]
+ },
+ "skillSettings": {
+  "maxSkillLevel": 25,
+  "maxSkillSuccessLevel": 25,
+  "skillXPRewards": {
+   "small": 40,
+   "medium": 60,
+   "large": 100,
+   "huge": 150
+  },
+  "xpFromNewSkill": 200,
+  "trainingCooldown": 10,
+  "skillBonusModifier": 1,
+  "charXPPerSkillLevel": 5,
+  "baseXPFromSkillUpgrade": 125,
+  "skillTypeDifficultyBonus": {
+   "none": 0,
+   "magic": 0,
+   "combat": 0,
+   "utility": 0
+  },
+  "startingXPToLevelUpSkill": 100,
+  "baseChanceToLearnNewSkill": 0.1,
+  "skillLearningBonusModifier": 0.01,
+  "additionalXPRequiredPerSkillLevel": 40,
+  "newSkillGenerationEnabled": true
+ },
+ "storySettings": {
+  "worldBackground": "GENRE: Road-show fantasy, loud, goofy and slightly unhinged, with real danger waiting on the roads between towns.\n\nDreamer's Travelling Show is a circus caravan of painted wagons rolling from town to town on the old trade roads: a dozen acts who aren't wanted anywhere else, a cook who swears the stew is chicken, two horses who hate everyone, and Dreamer himself, the ringmaster, spiral eyes, a grin a bit too wide, never once seen asleep, and always one of his own-brand magic ciggies on the go, the kind that burn with sparkles like a sparkler. Dreamer is completely batshit, and somehow everything works out anyway: his plans make no sense right up until they work, he makes it up as he goes and it comes out better than anyone's plan, and when that isn't enough there are the five element orbs on his belt, fire, water, earth, light and shadow, which do whatever the night needs and never quite the same thing twice. Every stop is a fresh crowd, a fresh problem and usually a mayor who wants the show gone by morning, and nine times out of ten he's right. You join as the newest act. Nobody knows what your act is yet, including you, and the show only eats if the tent fills, so every stop is putting on the act, fixing whatever exploded on the road, and finding out what the town is hiding before the town finds out what the show is hiding. Bandits work the roads by day, worse things come out of the woods at night, and the Gilt Circus works the same roads with nicer tents, worse manners and a standing offer to buy every one of Dreamer's acts, by the pound if it has to.",
+  "questGenerationGuidance": "Every job comes from someone in the show or someone in town who needs it sorted before the wagons roll: the lion is missing and so is the butcher, a heckler keeps coming back and he was buried last week, the mayor wants a cut of the door, the cook needs more \"chicken\". Keep jobs small, close to the road and done in a few turns, and let them go sideways in funny ways before they go sideways in dangerous ones. When the Gilt Circus is behind something, the player finds it out a piece at a time, never all at once."
+ },
+ "characterCreationMusic": "fantasy",
+ "gameplayMusicSettings": {
+  "characterCreationTrackId": "CharacterCreationFantasy",
+  "tracks": {
+   "CharacterCreationFantasy": {
+    "cues": [
+     "character-creation"
+    ],
+    "variants": [
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FantasyCharacterSelectA.wav"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FantasyCharacterSelectB.wav"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FantasyCharacterSelectC.wav"
+     }
+    ]
+   },
+   "CharacterCreationFuturistic": {
+    "cues": [
+     "character-creation"
+    ],
+    "variants": [
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FuturisticCharacterCreateA.wav"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FuturisticCharacterCreateB.wav"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/FuturisticCharacterCreateC.wav"
+     }
+    ]
+   },
+   "Investigatory": {
+    "matchTags": [
+     "investigation",
+     "searching",
+     "clues",
+     "hidden",
+     "sneaking",
+     "spying",
+     "detective",
+     "tracking"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory1_NAR_REENCODED.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory1_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory2_NAR_REENCODED.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory2_PLY_REENCODED.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory3_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory3_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory4_NAR_REENCODED.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Investigatory4_PLY.ogg"
+     }
+    ]
+   },
+   "Apprehensive": {
+    "matchTags": [
+     "dread",
+     "ominous",
+     "lurking",
+     "danger",
+     "warning",
+     "threatening",
+     "tense",
+     "anxious",
+     "uneasy",
+     "foreboding",
+     "suspicious",
+     "nervous"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Apprehensive_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Apprehensive_PLY_REENCODED.ogg"
+     }
+    ]
+   },
+   "Awestruck": {
+    "matchTags": [
+     "wonder",
+     "magnificent",
+     "ancient",
+     "revelation",
+     "sacred",
+     "overwhelming",
+     "majestic",
+     "vast",
+     "breathtaking",
+     "awe",
+     "mystical",
+     "divine",
+     "grandeur",
+     "discovery"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Awestruck_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Awestruck_PLY.ogg"
+     }
+    ]
+   },
+   "Calm": {
+    "matchTags": [
+     "peaceful",
+     "safe",
+     "rest",
+     "serene",
+     "tranquil",
+     "relaxed",
+     "shelter",
+     "stillness",
+     "meditative",
+     "comfort"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Calm_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Calm_PLY.ogg"
+     }
+    ]
+   },
+   "Dead": {
+    "matchTags": [
+     "death",
+     "killed",
+     "fallen",
+     "tragedy",
+     "grief",
+     "devastating",
+     "perished",
+     "fatal"
+    ],
+    "cues": [
+     "dead"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead1_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead1_PLY.ogg",
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead1.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead2_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead2_PLY.ogg",
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead2.ogg"
+     },
+     {
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead3_PLY.ogg",
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead3.ogg"
+     },
+     {
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead4_PLY.ogg",
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dead4.ogg"
+     }
+    ]
+   },
+   "Distraught": {
+    "matchTags": [
+     "distress",
+     "turmoil",
+     "betrayal",
+     "anguish",
+     "conflict",
+     "desperate",
+     "troubled",
+     "dilemma",
+     "confrontation",
+     "argument",
+     "tension",
+     "accusation",
+     "rejection",
+     "bitter"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Distraught_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Distraught_PLY.ogg"
+     }
+    ]
+   },
+   "Eulogizing": {
+    "matchTags": [
+     "mourning",
+     "memorial",
+     "funeral",
+     "tribute",
+     "remembrance",
+     "farewell",
+     "honoring",
+     "grave"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Eulogizing_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Eulogizing_PLY.ogg"
+     }
+    ]
+   },
+   "Exuberant": {
+    "matchTags": [
+     "excitement",
+     "energetic",
+     "wild",
+     "celebration",
+     "dancing",
+     "festival",
+     "jubilant",
+     "excited",
+     "revelry",
+     "exhilarating",
+     "raucous",
+     "festive"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Exuberant_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Exuberant_PLY.ogg"
+     }
+    ]
+   },
+   "Fighting": {
+    "matchTags": [
+     "combat",
+     "battle",
+     "fighting",
+     "attack",
+     "clash",
+     "warfare",
+     "strike",
+     "assault"
+    ],
+    "cues": [
+     "combat"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting1_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting1_PLY_REENCODED.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting2_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting2_PLY_REENCODED.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting3_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Fighting3_PLY_REENCODED.ogg"
+     }
+    ]
+   },
+   "Happy": {
+    "matchTags": [
+     "cheerful",
+     "pleasant",
+     "friendly",
+     "lighthearted",
+     "warm",
+     "kind",
+     "reunion",
+     "welcome",
+     "hopeful",
+     "gentle",
+     "tender"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Happy_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Happy_PLY.ogg"
+     }
+    ]
+   },
+   "Morose": {
+    "matchTags": [
+     "melancholy",
+     "somber",
+     "gloomy",
+     "lonely",
+     "bleak",
+     "empty",
+     "weary",
+     "sorrowful",
+     "resigned",
+     "loss",
+     "regret",
+     "desolate"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Morose_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Morose_PLY.ogg"
+     }
+    ]
+   },
+   "Pursued": {
+    "matchTags": [
+     "chase",
+     "fleeing",
+     "escape",
+     "pursuit",
+     "hunted",
+     "running",
+     "urgent",
+     "panic",
+     "frantic"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Pursued_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Pursued_PLY.ogg"
+     }
+    ]
+   },
+   "Spooked": {
+    "matchTags": [
+     "horror",
+     "supernatural",
+     "haunted",
+     "eerie",
+     "ghost",
+     "creepy",
+     "cursed",
+     "unnatural",
+     "sinister",
+     "macabre",
+     "unsettling"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Spooked1_NAR_REENCODED.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Spooked1_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Spooked2_NAR_REENCODED.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Spooked2_PLY_REENCODED.ogg"
+     }
+    ]
+   },
+   "Triumphant": {
+    "matchTags": [
+     "victory",
+     "triumph",
+     "heroic",
+     "conquered",
+     "achievement",
+     "glory",
+     "champion",
+     "winning",
+     "victorious",
+     "glorious",
+     "legendary",
+     "celebrated"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Triumphant_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Triumphant_PLY.ogg"
+     }
+    ]
+   },
+   "Unconscious": {
+    "matchTags": [
+     "dream",
+     "unconscious",
+     "vision",
+     "trance",
+     "ethereal",
+     "floating",
+     "surreal",
+     "sleep"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Unconscious1_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Unconscious1_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Unconscious2_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Unconscious2_PLY.ogg"
+     }
+    ]
+   },
+   "Travelling": {
+    "matchTags": [
+     "journey",
+     "travel",
+     "road",
+     "adventure",
+     "exploring",
+     "trek",
+     "wandering",
+     "path",
+     "expedition",
+     "voyage",
+     "roaming"
+    ],
+    "cues": [
+     "travel"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling1_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling1_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling2_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling2_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling3_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling3_PLY.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling4_NAR.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling5_NAR.ogg"
+     },
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling6_NAR.ogg"
+     }
+    ]
+   },
+   "Near_Dead": {
+    "cues": [
+     "near-death"
+    ],
+    "variants": [
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Near_Dead1.ogg"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Near_Dead2.ogg"
+     }
+    ]
+   },
+   "Dying": {
+    "cues": [
+     "dying"
+    ],
+    "variants": [
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dying1.ogg"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Dying2.ogg"
+     }
+    ]
+   },
+   "Recover": {
+    "cues": [
+     "recovery"
+    ],
+    "variants": [
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Recover1.ogg"
+     },
+     {
+      "url": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Recover2.ogg"
+     }
+    ]
+   }
+  }
+ },
+ "attributeSettings": {
+  "attributeNames": [
+   "strength",
+   "dexterity",
+   "constitution",
+   "intelligence",
+   "wisdom",
+   "charisma"
+  ],
+  "lowAttributeTraits": {},
+  "maxStartingAttribute": 16,
+  "lowAttributeThreshold": 2,
+  "attributeBonusModifier": 2.5,
+  "attributeStatModifiers": {},
+  "attributeDamageModifiers": {},
+  "attributeDamageReductionModifiers": {},
+  "startingAttributeValue": 8,
+  "startingAttributePoints": 16
+ },
+ "traits": {},
+ "traitCategories": {},
+ "itemTypes": {},
+ "locations": {
+  "Mudbury": {
+   "name": "Mudbury",
+   "basicInfo": "Mudbury is a market town of five hundred stubborn souls on a crossroads in the Hollow Counties, mud to the ankle nine months of the year, a high street of crooked shops, a church that leans, a mayor who hates fun, and a big empty field on the edge of town where the travelling shows set up because it's the only flat ground for a mile. Everyone here has an opinion about the show and most of them are bad.",
+   "hiddenInfo": "Mayor Pettigrew has been taking Gilt Circus money to run Dreamer's show out of town, and he left Bramble's cage unlatched himself.",
+   "x": -10,
+   "y": 5,
+   "radius": 3,
+   "region": "The Hollow Counties",
+   "complexityType": "complex",
+   "detailType": "detailed",
+   "areas": {
+    "The High Street": {
+     "description": "one long muddy street of crooked shopfronts, a baker, a chandler, a tavern called the Drowned Duck, and the church leaning over all of it, busy every hour of daylight with carts, gossip and people pretending not to stare at the show folk.",
+     "paths": [
+      "The Butcher's Yard",
+      "The Mayor's Garden",
+      "The Show's Camp"
+     ]
+    },
+    "The Butcher's Yard": {
+     "description": "a walled yard behind the butcher's shop, hooks, blocks and a drain that never quite runs clear, and the smell carries half a mile on a warm day, which is exactly how a half-blind old lion found it.",
+     "paths": [
+      "The High Street"
+     ]
+    },
+    "The Mayor's Garden": {
+     "description": "clipped hedges, a fish pond and roses Mayor Pettigrew loves more than any person in town, behind a gate he keeps locked, the one tidy place in Mudbury.",
+     "paths": [
+      "The High Street"
+     ]
+    },
+    "The Show's Camp": {
+     "description": "the big field at the edge of town where the painted wagons circle up around the tent, campfires, the cook's pot, the cages and the horses who hate everyone, home for as long as the town puts up with it.",
+     "paths": [
+      "The High Street"
+     ]
+    }
+   },
+   "known": true
+  }
+ },
+ "npcs": {
+  "Dreamer": {
+   "name": "Dreamer",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Show's Camp",
+   "tier": "elite",
+   "gender": "male",
+   "faction": "Dreamer's Travelling Show",
+   "basicInfo": "Dreamer is the ringmaster of the travelling show and you can spot him from the far end of any town, a black top hat with a grinning skull on the band, long pale hair and a beard down to his chest, blue spiral eyes, a black suit with a red tie, a belt of five glowing orbs and the biggest sneakers on the road, with one of his own-brand magic ciggies always on the go, burning sparkles like a sparkler. Nobody in the show has ever once seen him asleep, his plans make no sense right up until they work, and right now he's walking the camp grinning like a man who knows exactly where the lion went.",
+   "hiddenInfo": "Dreamer saw the mayor's lantern by the cages the night Bramble got out and he hasn't said a word, because a mayor caught letting a lion loose in his own town is worth far more in front of a crowd than in a quiet chat, and he wants Lucius Gilt standing right there when it comes out. The orbs on his belt are fire, water, earth, light and shadow, and they do whatever the night needs and never quite the same thing twice, which is half the reason his plans work and the whole reason he doesn't bother making them. The one thing that wipes the grin off his face is someone trying to break up the show: every act in it is somebody nobody else wanted, and he'd sooner burn a town down than sell one of them.",
+   "personality": [
+    "grins wider the worse things get",
+    "makes it up as he goes and never admits it",
+    "hands out ciggies the way other people hand out advice",
+    "goes dead calm and quiet when someone threatens one of his acts"
+   ],
+   "voiceTag": "male confident energetic",
+   "initialRelationship": 40,
+   "properName": "Dreamer",
+   "level": 0,
+   "detailType": "detailed",
+   "portraitUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/npc_portraits/2342d0a4-cbc9-4b61-8c6c-fe948ef17bcf.png",
+   "known": true
+  },
+  "Old Marla": {
+   "name": "Old Marla",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Show's Camp",
+   "tier": "strong",
+   "gender": "female",
+   "faction": "Dreamer's Travelling Show",
+   "basicInfo": "Old Marla has put her head in a lion's mouth twice a night for thirty years and the scars up both forearms say the lion didn't always agree, a small hard woman in a red tamer's coat with half its brass buttons gone, who talks to Bramble more gently than she has ever talked to a person and sits by his cage most nights telling him about the towns he can't see anymore. Right now she's out of her head with worry, because the cage is empty, the latch isn't broken, and Bramble is too old and too blind to have lifted it himself.",
+   "hiddenInfo": "Marla knows somebody let Bramble out and she's sure it was somebody in the show, so she's watching everyone with the same hard squint, the new act most of all. What she wants is for that lion to see out his last years in his own cage, and the day Dreamer takes the Gilt Circus's money for him is the day she walks off into the night and doesn't come back. She can't read a word and nobody knows but the cook, who reads her letters for her and keeps his mouth shut.",
+   "personality": [
+    "checks every latch twice before she sleeps",
+    "says what she thinks and doesn't wait to be asked",
+    "goes soft the second anyone asks about Bramble",
+    "calls everyone under sixty \"pup\""
+   ],
+   "voiceTag": "female scottish old",
+   "initialRelationship": 20,
+   "properName": "Old Marla",
+   "level": 0,
+   "detailType": "detailed",
+   "known": true
+  },
+  "Mayor Pettigrew": {
+   "name": "Mayor Pettigrew",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Mayor's Garden",
+   "tier": "trivial",
+   "gender": "male",
+   "faction": "",
+   "basicInfo": "Mayor Pettigrew runs Mudbury like it's his front garden, tidy, fenced off and nobody walks on the grass, a round little man in the best coat in town who smiles at everyone and shakes hands with the tips of his fingers like the mud might be catching. He's told the show they can have the flat field for three nights and not one more, and every evening he turns up at the camp with a new rule they've broken and a clerk to write it down.",
+   "hiddenInfo": "Pettigrew took Gilt Circus money to run Dreamer's show out of town, and when the rules weren't working fast enough he lifted the latch on Bramble's cage himself, so a loose lion would turn the whole town against the show. Only Lucius Gilt knows, and Pettigrew is terrified of it coming out, because Mudbury would forgive its mayor a lot but never taking money from a circus. The way to him is his roses: threaten that garden and he'll agree to almost anything to keep it whole.",
+   "personality": [
+    "smiles the whole time he's saying no",
+    "finds a rule for anything he doesn't like",
+    "fusses over his roses like they're his children",
+    "goes quiet and sweaty whenever money comes up"
+   ],
+   "voiceTag": "male british refined",
+   "initialRelationship": -30,
+   "properName": "Mayor Pettigrew",
+   "level": 0,
+   "detailType": "detailed",
+   "known": true
+  },
+  "Lucius Gilt": {
+   "name": "Lucius Gilt",
+   "type": "",
+   "currentLocation": "",
+   "currentArea": "",
+   "tier": "elite",
+   "gender": "male",
+   "faction": "The Gilt Circus",
+   "basicInfo": "Lucius Gilt is the ringmaster of the Gilt Circus, white suit, gold teeth and a smile that never gets anywhere near his eyes, and everywhere he goes two big men carry a strongbox behind him so nobody forgets he can buy whatever he wants. He works the same roads as Dreamer's show a day or two behind it, close enough to pick up whatever it drops.",
+   "hiddenInfo": "The Gilt Circus is going broke under all that gold paint, its acts are tired and its crowds are thinning out, and Lucius figures buying Dreamer's acts is cheaper than finding new ones. He pays mayors to make the show's life hard, Pettigrew in Mudbury among them, and keeps every receipt in that strongbox in case someone needs reminding. He's scared of exactly one thing, Dreamer making a fool of him in front of a crowd, because a ringmaster people laugh at is finished.",
+   "personality": [
+    "prices everything he looks at, people included",
+    "never raises his voice, he lets the big men do that",
+    "laughs a second after everyone else",
+    "calls Dreamer \"my dear rival\" and means neither word"
+   ],
+   "voiceTag": "male sly manipulative",
+   "initialRelationship": -10,
+   "properName": "Lucius Gilt",
+   "level": 0,
+   "detailType": "detailed",
+   "known": true
+  }
+ },
+ "storyStarts": {
+  "Random": {
+   "name": "Random",
+   "description": "Fortune favors the bold. Begin your tale where chance decrees.",
+   "storyStart": "Generate a story start appropriate to the player's chosen traits. Draw on world lore to create a specific situation in a concrete location. The opening should present clear immediate circumstances while leaving many possible paths forward. Incorporate aspects of the character's background without forcing them into a predetermined narrative.",
+   "locations": [],
+   "locationAreas": [],
+   "isDefault": false
+  },
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "description": "Your first morning with the show in Mudbury, and the star act, a half-blind old lion, has gone missing from his cage. Find him before the town turns on the show.",
+   "storyStart": "[You are the newest act in Dreamer's Travelling Show, a circus caravan working the trade roads of the Hollow Counties. The show has three nights on the flat field outside Mudbury, if Mayor Pettigrew doesn't run it off first. Dreamer is the ringmaster. Old Marla is the lion tamer, and Bramble, her old half-blind lion, is the show's top act.]\n\nYou joined the show a few towns back. Nobody, you included, has worked out what your act is yet, and the show only eats if the tent fills.\n\nIt's the first morning in Mudbury and the camp is in an uproar. Bramble's cage is standing open, the latch isn't broken, and Old Marla is shouting at anyone who comes near it. Half the town is already at the hedge, pointing. Dreamer is walking straight toward you through the mess with a ciggie fizzing sparkles and a grin that means he's about to give you a job.\n\n[Opening hooks - pick the one that best fits this character.]\n• Escape artist: Marla is sure whoever opened the cage knew locks, and she's looking right at you.\n• Knife thrower: the butcher's boy runs into camp shouting that something big is in the butcher's yard, and the crowd turns to the one of you who's armed.\n• Default: Dreamer claps you on the shoulder and tells the whole camp the newest act will find the lion before supper.",
+   "locations": [
+    "Mudbury"
+   ],
+   "locationAreas": [
+    "The Show's Camp"
+   ],
+   "startingQuests": [
+    "The Lion's Gone Walkabout"
+   ],
+   "startingPartyNPCs": [],
+   "startingItems": [],
+   "isDefault": true
+  }
+ },
+ "regions": {
+  "The Hollow Counties": {
+   "name": "The Hollow Counties",
+   "basicInfo": "The Hollow Counties were forest once, cut back over three generations into a patchwork of farms, hedges and market towns a day's ride apart, built low and squat against the wind with a church spire in every one, and the people here work the fields from dark to dark, go to market on the seventh day and go to the show when it comes, if the mayor lets it in. Nothing out here happens that the whole county hasn't heard about by supper.",
+   "x": 0,
+   "y": 0,
+   "realm": "The Trade Roads",
+   "images": {
+    "map": {
+     "crop": {
+      "focus": {
+       "x": 50,
+       "y": 50
+      },
+      "zoom": 100
+     },
+     "imageUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/generated_content/0/images/region_maps/c6712f30-9c6d-4fa4-a895-93fd1c4ddd6c.png"
+    }
+   },
+   "known": true
+  },
+  "The Gloamwood": {
+   "name": "The Gloamwood",
+   "basicInfo": "The Gloamwood is what's left of the old forest, the part the axes never got into, black pine so thick the noon light comes through green, and the trade road runs straight through it because going round takes a week. Folk cross it in daylight, in groups, and don't stop. The things that come out of it at night are the reason every town in the Hollow Counties has a wall.",
+   "x": 1,
+   "y": 0,
+   "realm": "The Trade Roads",
+   "known": false
+  }
+ },
+ "npcTypes": {
+  "Road Bandit": {
+   "name": "Road Bandit",
+   "vulnerabilities": [],
+   "resistances": [],
+   "immunities": [],
+   "successBonus": -10,
+   "description": "The bandits who work the trade roads by day, farm boys gone bad and deserters who never went home, hiding in the hedges with a rusty blade and a story about the toll. No special damage profile. They can be talked down, paid off or scared off, and they break and run the second a fight turns, because nobody out here is dying for a cart of turnips."
+  },
+  "Gloamwood Thing": {
+   "name": "Gloamwood Thing",
+   "vulnerabilities": [
+    "fire",
+    "light"
+   ],
+   "resistances": [
+    "piercing"
+   ],
+   "immunities": [
+    "poisoning"
+   ],
+   "description": "Whatever comes out of the Gloamwood after dark, long and pale and quiet, with too many joints and eyes that catch the lantern light. Fire and light hurt them badly, arrows mostly pass through, and poison does nothing at all. They can't be reasoned with or bribed, they only come out at night, and they always go back to the trees before the sun is up, dragging whatever they caught."
+  }
+ },
+ "nameFilterSettings": {
+  "Marcus": {
+   "replacements": [
+    "Alex",
+    "Ethan",
+    "Jason",
+    "Ryan",
+    "Owen",
+    "Nathaniel",
+    "Adrian",
+    "Colin",
+    "Scott",
+    "Blake"
+   ]
+  },
+  "Chen": {
+   "replacements": [
+    "Chang",
+    "Cheng",
+    "Chin",
+    "Chow",
+    "Chu",
+    "Chan",
+    "Chai",
+    "Chou"
+   ]
+  },
+  "Wei": {
+   "replacements": [
+    "Wang",
+    "Zhang",
+    "Huang",
+    "Guo",
+    "Shen",
+    "Tang",
+    "Song",
+    "Han"
+   ]
+  },
+  "Lin": {
+   "replacements": [
+    "Liu",
+    "Yang",
+    "Chen",
+    "Zhao",
+    "Wu",
+    "Xu",
+    "Sun",
+    "Ma"
+   ]
+  },
+  "Mira": {
+   "replacements": [
+    "Maya",
+    "Maria",
+    "Myra",
+    "Mina",
+    "Mara",
+    "Mila",
+    "Maia",
+    "Mena"
+   ]
+  },
+  "Elara": {
+   "replacements": [
+    "Agnes",
+    "Clara",
+    "Edith",
+    "Hattie",
+    "Mabel",
+    "Nora",
+    "Rosie",
+    "Lottie"
+   ]
+  },
+  "Pip": {
+   "replacements": [
+    "Bramble",
+    "Flicker",
+    "Nim",
+    "Sprout",
+    "Wren",
+    "Lark",
+    "Remy",
+    "Trinket"
+   ]
+  },
+  "Kira": {
+   "replacements": [
+    "Lena",
+    "Anya",
+    "Nyla",
+    "Isla",
+    "Freya",
+    "Ruby",
+    "Sasha",
+    "Zara"
+   ]
+  },
+  "Malik": {
+   "replacements": [
+    "Amir",
+    "Zahir",
+    "Khalid",
+    "Rashid",
+    "Tariq",
+    "Jamal",
+    "Samir",
+    "Karim"
+   ]
+  },
+  "Serra": {
+   "replacements": [
+    "Silvana",
+    "Thalia",
+    "Rowan",
+    "Linnea",
+    "Briar",
+    "Celeste",
+    "Faela",
+    "Sorina"
+   ]
+  }
+ },
+ "tipSettings": {
+  "tips": [
+   "There are no rules about what you type. Describe what you want to do in your own words - be as creative or detailed as you want.",
+   "Have a question about the world or the game? Use the 'Ask the Narrator' command!",
+   "Can't remember the name of a character or place? Try writing '@' followed by the first few letters.",
+   "Stuck with no idea what to do next? Use the 'Ask the Narrator' command to ask for suggestions.",
+   "Worried about convincing someone? Try taking the conversation one line at a time.",
+   "Be ambitious and creative: Voyage rewards those who dream big!",
+   "How you phrase things matters: the game rewards you for stylish, clever actions.",
+   "Coordinate with party members in combat for powerful combined effects.",
+   "The world is your oyster: find and claim a place to call home.",
+   "Family is worth fighting for. Having a family in the game can lead to great stories.",
+   "You can attack multiple times per turn, and so can your allies.",
+   "Tell people your hopes and goals: you never know who may share your dreams.",
+   "Death is not always the end…",
+   "If there's something you want to do, go out and give it a try!",
+   "Try describing your actions in detail. They may not always work out the way you expect, but it will make things more interesting!",
+   "If you can't beat 'em, persuade 'em. Try convincing an enemy to come over to your side - or go over to theirs!",
+   "You can solve a problem any way you can think of: fight, bribe, trick, steal, befriend. The choice is yours.",
+   "You may spend a long time with your party members. Choose them wisely!",
+   "You can try to dodge, block and attack all in the same turn.",
+   "You can use items and take other actions in the same turn.",
+   "Skills are most likely to succeed when you use them as intended: in their natural domain.",
+   "Don't forget to stock up on items. Shops often have very powerful equipment for sale.",
+   "You can level up by taking almost any action, so feel free to play the game whatever way you want.",
+   "Don't forget to check in on your party members! Ask them how they're doing - and tell them how you feel!",
+   "Sometimes you can insta-kill enemies if you get creative with your inputs.",
+   "Party members can learn new skills and abilities as you progress through the story together.",
+   "Environmental conditions can add modifiers to your skill checks. Use the world to your advantage!",
+   "Tired of action and fighting? Look for a tavern or other gathering spot to socialize and start new relationships.",
+   "To prepare for a fight, try giving your party members orders to carry out in combat.",
+   "Social skills are very powerful. Persuasion can save a lot of lives.",
+   "Don't think you can win a fight? Try making a deal instead.",
+   "You don't have to do it all yourself, you know: hire people to do jobs for you!",
+   "Tired of traveling? Try learning how to fly or teleport or look for other forms of travel in the world.",
+   "There's nothing you can't do if you put your mind to it, from starting a revolution to founding your own country!",
+   "Turn order is determined by level and a random initiative value. Higher level characters tend to act first.",
+   "Characters without targets (like those that are buffing or healing) act before characters who are targeting enemies.",
+   "Multiple defensive effects stack multiplicatively. Layer your defenses!",
+   "Damage reduction scales with level difference, but has diminishing returns.",
+   "Different enemies can have different resistances, vulnerabilities, immunities or weaknesses, which will greatly affect the damage they take.",
+   "Try different damage types to discover enemies' weaknesses!",
+   "Healing actions use the same success strength as attacks; stronger successful outcomes heal more.",
+   "Your equipment's damage bonus increases overall damage by 10% per point.",
+   "Equipped items with an armor stat reduce incoming damage linearly: 1000 armor grants 90% damage reduction.",
+   "Want a quest? Try asking an NPC about their problems!",
+   "Most places and characters you meet have secrets to uncover: get exploring!",
+   "Your Journal contains a wealth of information about the world's people, places and ideas.",
+   "Want to learn more about the world? Try reading books or watching television or other media!",
+   "Looking for cool gear? Don't forget to loot dead enemies and search areas where powerful items might be found!",
+   "Need some help fighting? Recruit NPCs to join your party! Anyone you meet can become an ally—if you can convince them to take your side.",
+   "Can't find the skill you want? Try asking NPCs about any new skill you can imagine. They just might be able to teach it to you.",
+   "You can unlock custom abilities when your character does new things in the game.",
+   "Need ideas about how to start your story off? Try feeding some basic concepts to the Background Generator and editing what you get back.",
+   "Don't forget to explore. Open up the map and try going to a new location.",
+   "Abilities give you bonuses to success and allow you to perform the actions they describe without ever needing any items.",
+   "The memory system remembers. Reference past events, people you've met, and places you've been - even from many turns ago!",
+   "Locations, NPCs, and quests generate dynamically based on your actions. Every playthrough creates unique content!",
+   "Don't quit after failure! Mistakes, setbacks and even death can lead to memorable stories.",
+   "Every action teaches you something. You gain XP from attempting things, not just succeeding at them.",
+   "If you don't know what to do, press the submit button to continue without an action."
+  ],
+  "tipDisplayEnabled": false,
+  "tipTurnInterval": 5,
+  "tipMinimumTurns": 1,
+  "tipMaximumTurns": 50
+ },
+ "characterCreationSettings": {
+  "customizationEnabled": true,
+  "premadeCustomizationEnabled": true
+ },
+ "premadeCharacters": [
+  {
+   "name": "Jack Tumble",
+   "gender": "male",
+   "traits": [],
+   "voiceTag": "male confident casual",
+   "description": "Jack Tumble is the escape artist the show found chained in a ditch outside Mudbury with the key still in his mouth, and he swears that was the act. Lean, quick and covered in rope burns, he can slip a padlock, a set of cuffs or a debt collector in about the same time, and he talks the whole way through it so nobody watches his hands. He joined the show because it was leaving town and he needed to be too, and the people he owes money to are only ever one town behind."
+  },
+  {
+   "name": "Nell Bramwell",
+   "gender": "female",
+   "traits": [],
+   "voiceTag": "female warm friendly",
+   "description": "Nell Bramwell is the knife thrower who can split a playing card at twenty paces and has never once hit the assistant on the wheel, which she points out every time her assistant on the wheel complains. She grew up on a farm in the Hollow Counties and threw her first knife at a fox in the henhouse, and she ran off with the show the night her father tried to marry her to the butcher. Steady hands, a loud laugh and a belt of twelve blades she names after old boyfriends."
+  }
+ ],
+ "authorSeeds": {
+  "George R.R. Martin": "You show characters through family duties and what they hunger for\nYou focus on how what they want clashes with what they must do\nYou include specific details about their bad habits and pleasures\nYou create characters who act one way in public but want something else in private\nYou build characters around how they handle power and betrayal",
+  "Joe Abercrombie": "You show characters through their dark view of life and painful past\nYou focus on scars, limps, and old wounds\nYou create characters who joke about terrible things\nYou build characters who make excuses for doing bad things\nYou reveal character through how they fight or survive",
+  "Brandon Sanderson": "You show characters through how they practice their skills and powers\nYou focus on the rules they carefully follow\nYou create characters with unique ways of solving problems\nYou build characters who find clever new uses for their skills\nYou reveal character through their personal codes and habits",
+  "N.K. Jemisin": "You show characters through their fight against or place within power systems\nYou focus on how they've survived unfair treatment\nYou include specific cultural traditions they've kept or changed\nYou create characters struggling to stay true to themselves\nYou reveal character through how they resist or go along with the system",
+  "Mark Lawrence": "You show characters through their amazing skills and moral gray areas\nYou focus on how past pain has made them dangerous\nYou include cold planning hidden behind charm\nYou create characters who are great at working situations to their advantage\nYou reveal character through their expert understanding of violence",
+  "Robin Hobb": "You show characters through deep emotional hurts and how they grow\nYou focus on how their work has shaped who they think they are\nYou include small habits that show old hurts or fears\nYou create characters who stay proud despite inner struggles\nYou build characters shaped by everyday relationships with regular people",
+  "Steven Erikson": "You show characters through how they see their place in the world\nYou focus on how living a long time has changed how they think\nYou include mysterious hints about past events that changed them\nYou create characters dealing with knowing too much\nYou build characters who make dark jokes about fate",
+  "Guy Gavriel Kay": "You show characters through how art and duty mix in their lives\nYou focus on how their people's history shapes what they do\nYou include moments where they notice beauty in everyday things\nYou create characters who carry on traditions with grace\nYou build characters who find beauty in ordinary life",
+  "Scott Lynch": "You show characters through their backup plans for their backup plans\nYou focus on their quick thinking and calculated risks\nYou include odd knowledge that hints at a colorful past\nYou create characters who keep several lies going at once\nYou build characters known for creative cursing and sharp comebacks",
+  "Adrian Tchaikovsky": "You show characters through unusual views on normal situations\nYou focus on how special knowledge colors how they see everything\nYou include surprising skills that turn out to matter\nYou create characters who adapt their abilities to weird situations\nYou build characters who solve problems in unusual ways",
+  "Terry Pratchett": "You show characters through their down-to-earth wisdom about life\nYou focus on how they stay sensible in crazy situations\nYou create characters who use jokes to point out deeper truths\nYou build characters known for being stubbornly decent or cheerfully cynical\nYou reveal character through creative solutions to everyday problems",
+  "Lois McMaster Bujold": "You show characters through family duties and personal honor\nYou focus on how work duties clash with personal loyalties\nYou create characters balancing many social responsibilities\nYou build characters shaped by family traditions and personal beliefs\nYou reveal character through how they handle competing duties",
+  "China Miéville": "You show characters through their connection to art or big ideas\nYou focus on how their beliefs change how they see everything\nYou create characters who don't fit normal categories\nYou build characters driven by revolutionary or boundary-breaking urges\nYou reveal character through how they deal with society's structures",
+  "Katherine Addison": "You show characters through how they navigate social rules\nYou focus on how they keep their dignity within strict hierarchies\nYou create characters who use politeness as a weapon\nYou build characters shaped by their official duties\nYou reveal character through their mastery of proper manners",
+  "Leigh Bardugo": "You show characters through their big plans and personal grudges\nYou focus on how past poverty drives what they want now\nYou create characters who turn their weaknesses into strengths\nYou build characters driven by desperate need to prove themselves\nYou reveal character through clever ways they gain power or money",
+  "Ada Palmer": "You show characters through how they organize their thinking\nYou focus on how their expertise colors everything they see\nYou create characters who approach personal matters like academics\nYou build characters who sort the world in unique ways\nYou reveal character through specialized language and thinking habits",
+  "Ursula K. Le Guin": "You show characters through their relationship with learning and teaching\nYou focus on how they balance guiding others while letting them grow\nYou create characters who question traditional knowledge\nYou build characters shaped by their duty to help others grow\nYou reveal character through how they pass on wisdom",
+  "Becky Chambers": "You show characters through their curiosity about new things\nYou focus on how they connect across differences\nYou create characters who explore with heart as well as mind\nYou build characters shaped by wonder at new experiences\nYou reveal character through how they share what they discover",
+  "Richard K. Morgan": "You show characters through their handling of power and control\nYou focus on how being capable affects moral boundaries\nYou create characters with strict professional standards\nYou build characters who mix personal and professional ethics\nYou reveal character through their skilled approach to conflict",
+  "Road Show": "You show characters through what they do when the crowd is watching and when it isn't\nYou focus on hands, costumes and the wear on both\nYou create characters who have a trick for every trouble and a reason they left home\nYou include one small superstition each of them keeps before going on\nYou reveal character through what they'd risk to keep the show together"
+ },
+ "characterArchetypes": {
+  "Survivor": "Drives:\n- staying alive\n- getting what they need\n- avoiding danger\n\nTraits:\n- clever\n- always alert\n- quick to change plans\n\nMorality: does what works\n\nRelationships:\n- makes useful friends\n- has backup plans\n- tests limits",
+  "Boss": "Drives:\n- staying in charge\n- getting more power\n- keeping things in order\n\nTraits:\n- stands out in a crowd\n- plans ahead\n- expects to be obeyed\n\nMorality: respects rank\n\nRelationships:\n- sets the rules\n- gives orders\n- deals with troublemakers",
+  "Believer": "Drives:\n- spreading their cause\n- converting others\n- changing the world\n\nTraits:\n- never gives up\n- sees things as black and white\n- eager to convince\n\nMorality: follows their faith\n\nRelationships:\n- judges if you're with them\n- teaches newcomers\n- argues with doubters",
+  "Thrill-Seeker": "Drives:\n- having fun\n- trying new things\n- pushing limits\n\nTraits:\n- exciting to be around\n- lives in the moment\n- breaks rules\n\nMorality: if it feels good, do it\n\nRelationships:\n- finds party buddies\n- always wants something new\n- gets bored easily",
+  "Watcher": "Drives:\n- figuring things out\n- finding secrets\n- knowing more\n\nTraits:\n- notices everything\n- thinks deeply\n- keeps to themselves\n\nMorality: facts over feelings\n\nRelationships:\n- studies people\n- keeps their distance\n- only shares what they want to",
+  "Networker": "Drives:\n- working the room\n- making friends\n- building influence\n\nTraits:\n- reads people well\n- knows everyone\n- cares what others think\n\nMorality: you scratch my back, I'll scratch yours\n\nRelationships:\n- collects useful contacts\n- manages their image\n- uses connections",
+  "Expert": "Drives:\n- being the best\n- moving up\n- doing things right\n\nTraits:\n- follows steps\n- cares about reputation\n- proud of their skills\n\nMorality: by the book\n\nRelationships:\n- maintains standards\n- sets expectations\n- keeps work separate",
+  "Protector": "Drives:\n- helping others grow\n- passing on wisdom\n- keeping people safe\n\nTraits:\n- understands needs\n- takes responsibility\n- doesn't rush\n\nMorality: put others first\n\nRelationships:\n- teaches and guides\n- sets boundaries\n- balances help with tough love",
+  "Crooked Leader": "Drives:\n- holding onto power\n- hiding flaws\n- using position for gain\n\nTraits:\n- looks proper\n- secretly corrupt\n- pulls strings\n\nMorality: whatever works today\n\nRelationships:\n- makes people depend on them\n- gets rid of threats\n- keeps up appearances",
+  "Fanatic": "Drives:\n- cleansing society\n- crushing enemies\n- rising to power\n\nTraits:\n- totally certain\n- laser-focused\n- dangerously persuasive\n\nMorality: no compromise ever\n\nRelationships:\n- demands complete loyalty\n- punishes any doubt\n- rewards true believers",
+  "Troublemaker": "Drives:\n- stirring things up\n- exposing lies\n- starting fights\n\nTraits:\n- loves to shock\n- spots weaknesses\n- enjoys chaos\n\nMorality: tear it all down\n\nRelationships:\n- turns people against each other\n- uses old grudges\n- tells uncomfortable truths",
+  "Artist": "Drives:\n- creating beauty\n- expressing feelings\n- leaving a mark\n\nTraits:\n- sees differently\n- follows inspiration\n- emotional\n\nMorality: true to their vision\n\nRelationships:\n- seeks appreciation\n- connects through art\n- needs space to create",
+  "Worker": "Drives:\n- making ends meet\n- providing for others\n- earning respect\n\nTraits:\n- hardworking\n- practical\n- straightforward\n\nMorality: honest day's work\n\nRelationships:\n- values reliability\n- helps neighbors\n- distrusts big talk",
+  "Joker": "Drives:\n- getting laughs\n- avoiding seriousness\n- pointing out absurdity\n\nTraits:\n- funny\n- quick-witted\n- masks true feelings\n\nMorality: life's a joke\n\nRelationships:\n- entertains groups\n- uses humor to deflect\n- hides pain behind smiles",
+  "Healer": "Drives:\n- easing suffering\n- fixing problems\n- understanding pain\n\nTraits:\n- compassionate\n- good listener\n- puts others first\n\nMorality: do no harm\n\nRelationships:\n- cares for the hurt\n- feels others' pain\n- burns out helping",
+  "Wanderer": "Drives:\n- seeing new places\n- avoiding ties\n- finding their path\n\nTraits:\n- independent\n- adaptable\n- collects stories\n\nMorality: live and let live\n\nRelationships:\n- makes temporary friends\n- shares tales\n- leaves before getting attached",
+  "Beast": "Drives:\n- staying alive right now\n- protecting their turf\n- following gut feelings\n\nTraits:\n- acts without thinking\n- fiercely loyal to few\n- distrusts strangers\n\nMorality: only the strong survive\n\nRelationships:\n- protects their pack\n- fights when cornered\n- communicates through actions",
+  "Comfort-Seeker": "Drives:\n- feeling good\n- avoiding effort\n- finding luxury\n\nTraits:\n- loves nice things\n- complains a lot\n- always takes the easy way\n\nMorality: comfort first, always\n\nRelationships:\n- charms to get what they want\n- abandons difficult people\n- shares pleasures with friends",
+  "Avenger": "Drives:\n- settling a score\n- getting payback\n- obsessing over one thing\n\nTraits:\n- never forgets a wrong\n- sees everything through their grudge\n- sacrifices everything else\n\nMorality: revenge is justice\n\nRelationships:\n- uses people for their goal\n- sees everyone as either tools or obstacles\n- connects only through shared hatred",
+  "Innocent": "Drives:\n- finding good in everyone\n- trusting others\n- seeing wonder everywhere\n\nTraits:\n- too optimistic\n- easily fooled\n- asks simple questions\n\nMorality: everyone is good at heart\n\nRelationships:\n- helps without question\n- gets taken advantage of\n- confused by meanness",
+  "Slacker": "Drives:\n- avoiding work\n- finding shortcuts\n- just chilling\n\nTraits:\n- lazy\n- puts things off\n- doesn't care about success\n\nMorality: why bother?\n\nRelationships:\n- lets others do the work\n- goes along with whatever's easiest\n- surprisingly good company",
+  "Coward": "Drives:\n- avoiding pain\n- escaping danger\n- hiding from threats\n\nTraits:\n- jumpy\n- quick to run\n- avoids fights\n\nMorality: staying alive trumps everything\n\nRelationships:\n- might sell you out to save themselves\n- clings to protectors\n- makes excuses",
+  "Show Folk": "Drives:\n- keep the show on the road\n- get through tonight's crowd\n- never go back to wherever they came from\n\nTraits:\n- loud in the ring, quiet off it\n- quick hands, quicker excuses\n- loyal to the wagon next door\n\nMorality: lies to towns, never to the troupe\n\nRelationships:\n- the show is family, the town is weather\n- owes somebody in the troupe a favour\n- trusts anyone who's eaten the cook's stew"
+ },
+ "locationArchetypes": {
+  "Web of Corruption": "Atmosphere:\n- subtle unease\n- calculated normalcy\n- veiled exchanges\n\nTensions:\n- appearance vs reality\n- profit vs principle\n- loyalty vs gain\n\nPatterns:\n- private conversations\n- unexplained prosperity\n- selective access\n\nSecrets:\n- hidden connections\n- unofficial arrangements\n- compromised figures",
+  "Power Struggle": "Atmosphere:\n- underlying tension\n- careful politeness\n- measured words\n\nTensions:\n- established vs emerging\n- stability vs change\n- influence vs resistance\n\nPatterns:\n- group territories\n- social signals\n- status displays\n\nSecrets:\n- quiet agreements\n- shifting loyalties\n- pressure points",
+  "True Believers": "Atmosphere:\n- earnest conviction\n- shared customs\n- group identity\n\nTensions:\n- tradition vs practicality\n- belief vs doubt\n- unity vs individuality\n\nPatterns:\n- regular rituals\n- shared spaces\n- ranked positions\n\nSecrets:\n- private doubts\n- adapted practices\n- hidden costs",
+  "Living History": "Atmosphere:\n- layered time\n- preserved memories\n- continued use\n\nTensions:\n- old ways vs new needs\n- memory vs progress\n- preservation vs adaptation\n\nPatterns:\n- repurposed spaces\n- maintained traditions\n- generational knowledge\n\nSecrets:\n- forgotten purposes\n- abandoned sections\n- old stories",
+  "Exchange Hub": "Atmosphere:\n- bustling activity\n- mixed influences\n- practical energy\n\nTensions:\n- competition vs cooperation\n- local vs foreign\n- tradition vs opportunity\n\nPatterns:\n- meeting points\n- specialized spaces\n- social mixing\n\nSecrets:\n- insider arrangements\n- unofficial trades\n- valuable information",
+  "Knowledge Cache": "Atmosphere:\n- accumulated wisdom\n- selective access\n- preserved learning\n\nTensions:\n- sharing vs hoarding\n- theory vs practice\n- old knowledge vs new\n\nPatterns:\n- organized collections\n- study spaces\n- information flow\n\nSecrets:\n- restricted materials\n- lost techniques\n- hidden archives",
+  "Sanctuary": "Atmosphere:\n- guarded peace\n- maintained boundaries\n- careful welcome\n\nTensions:\n- protection vs isolation\n- safety vs growth\n- trust vs caution\n\nPatterns:\n- defensive arrangements\n- communal spaces\n- escape routes\n\nSecrets:\n- emergency provisions\n- hidden defenders\n- concealed exits",
+  "Crossroads": "Atmosphere:\n- constant movement\n- cultural blending\n- temporary bonds\n\nTensions:\n- transient vs permanent\n- exchange vs security\n- opportunity vs risk\n\nPatterns:\n- marked pathways\n- temporary shelters\n- information exchange\n\nSecrets:\n- smuggled goods\n- underground networks\n- traveler's lore",
+  "Time Anchor": "Atmosphere:\n- stubborn permanence\n- daily rhythms\n- reliable presence\n\nTensions:\n- routine vs change\n- efficiency vs tradition\n- service vs survival\n\nPatterns:\n- repeated activities\n- worn paths\n- familiar faces\n\nSecrets:\n- small adaptations\n- quiet innovations\n- personal stories",
+  "Gathering Thread": "Atmosphere:\n- casual comfort\n- shared moments\n- informal bonds\n\nTensions:\n- privacy vs community\n- personal vs shared\n- old ties vs new\n\nPatterns:\n- natural meeting points\n- exchanged news\n- overlapping lives\n\nSecrets:\n- unspoken understandings\n- community arrangements\n- mutual support",
+  "Quiet Craft": "Atmosphere:\n- focused dedication\n- practiced skill\n- absorbed attention\n\nTensions:\n- mastery vs practicality\n- quality vs demand\n- technique vs innovation\n\nPatterns:\n- specialized tools\n- work rhythms\n- material storage\n\nSecrets:\n- trade secrets\n- personal techniques\n- material sources",
+  "Show Comes to Town": "Atmosphere:\n- painted wagons and a tent on the town's one flat field\n- music and woodsmoke at the edge of town after dark\n- the whole town watching the show folk out of the corner of its eye\n\nTensions:\n- the mayor wants them gone and the kids want them to stay\n- every missing chicken gets blamed on the show\n- a rival show working the same road a day behind\n\nPatterns:\n- the town comes to look on the first night and to pay on the second\n- trouble at the camp gets settled before the constable turns up\n- the show leaves owing nobody, or it doesn't leave at all\n\nSecrets:\n- someone in town paid to have the show run off\n- one of the acts grew up here and left for a reason\n- the takings are short and somebody in the troupe knows why"
+ },
+ "regionArchetypes": {
+  "Disputed": "Geography:\n- natural barriers\n- strategic positions\n- coveted resources\n\nDynamics:\n- rival claims\n- shifting alliances\n- resource seizures\n- border skirmishes\n\nHistory:\n- broken oaths\n- ancestral claims\n- forced exodus\n- contested dominion\n\nAtmosphere:\n- tension\n- opportunism\n- armed presence\n- uncertainty",
+  "Meeting": "Geography:\n- natural pathways\n- varied landscapes\n- accessible terrain\n\nDynamics:\n- cultural friction\n- trade dominance\n- knowledge control\n- diplomatic schemes\n\nHistory:\n- merchant feuds\n- custom appropriation\n- failed parleys\n- broken trusts\n\nAtmosphere:\n- suspicion\n- opportunity\n- cultural clash\n- veiled intentions",
+  "Secluded Haven": "Geography:\n- natural shields\n- difficult approach\n- self-sustaining bounty\n\nDynamics:\n- stranger rejection\n- resource guarding\n- custom enforcement\n- inner discord\n\nHistory:\n- outsider banishments\n- quelled uprisings\n- exile customs\n- knowledge concealment\n\nAtmosphere:\n- wariness\n- conformity\n- insularity\n- resistance to change",
+  "Healing Scars": "Geography:\n- wounded landscape\n- returning life\n- lingering dangers\n\nDynamics:\n- blame casting\n- recovery control\n- weakness exploitation\n- opposing visions\n\nHistory:\n- unhealed wounds\n- disputed causes\n- forsaken survivors\n- opportunistic claims\n\nAtmosphere:\n- bitterness\n- mistrust\n- contested hope\n- lingering dread",
+  "Veiled Wonder": "Geography:\n- hidden marvels\n- unusual formations\n- natural mysteries\n\nDynamics:\n- passage restriction\n- lore mastery\n- plunder schemes\n- guardian quarrels\n\nHistory:\n- vanished seekers\n- rival claims\n- buried findings\n- warden betrayals\n\nAtmosphere:\n- secrecy\n- temptation\n- jealous protection\n- secret tales",
+  "Seat of Power": "Geography:\n- commanding position\n- resource abundance\n- natural advantage\n\nDynamics:\n- succession quarrels\n- iron rule\n- rebellion crushing\n- rival undermining\n\nHistory:\n- bloody usurpations\n- failed revolts\n- purged opposition\n- tyrannical rule\n\nAtmosphere:\n- dread\n- resentment\n- forced fealty\n- secret plots",
+  "Forgotten Realm": "Geography:\n- overgrown ruins\n- reclaimed structures\n- hidden pathways\n\nDynamics:\n- treasure seeking strife\n- ownership disputes\n- forbidden knowledge\n- territory claims\n\nHistory:\n- sudden downfalls\n- willful erasure\n- failed reclamations\n- ill-fated discoveries\n\nAtmosphere:\n- foreboding\n- avarice\n- superstition\n- rival exploration",
+  "Heartland": "Geography:\n- fertile terrain\n- natural wealth\n- favorable climate\n\nDynamics:\n- resource control\n- wealth disparity\n- common folk unrest\n- territorial disputes\n\nHistory:\n- land seizures\n- popular revolts\n- quelled uprisings\n- wealth hoarding\n\nAtmosphere:\n- resentment\n- hidden defiance\n- lordly display\n- brewing discontent",
+  "Frontier": "Geography:\n- perilous terrain\n- harsh conditions\n- untapped riches\n\nDynamics:\n- claim theft\n- survival betrayals\n- newcomer exploitation\n- lawless opportunism\n\nHistory:\n- lost expeditions\n- settlement slaughters\n- resource feuds\n- broken vows\n\nAtmosphere:\n- desperation\n- mistrust\n- harsh pragmatism\n- looming peril",
+  "Sacred Territory": "Geography:\n- natural monuments\n- symbolic features\n- hallowed grounds\n\nDynamics:\n- doctrine disputes\n- pilgrimage control\n- heresy accusations\n- ritual contests\n\nHistory:\n- faith conflicts\n- forced conversions\n- shrine desecrations\n- competing claims\n\nAtmosphere:\n- fervor\n- judgment\n- spiritual tension\n- enforced devotion",
+  "Borderlands": "Geography:\n- natural boundaries\n- terrain shifts\n- mixed domains\n\nDynamics:\n- lineage conflicts\n- loyalty questions\n- custom suppression\n- forced adoption\n\nHistory:\n- tradition erasure\n- forced wandering\n- identity persecution\n- defiance movements\n\nAtmosphere:\n- wariness\n- divided hearts\n- custom preservation\n- identity assertion",
+  "Exploited Land": "Geography:\n- resource-rich terrain\n- quarries and mines\n- altered landscapes\n\nDynamics:\n- laborer hardship\n- land despoiling\n- sabotage acts\n- profit quarrels\n\nHistory:\n- worker suppressions\n- native displacement\n- great mishaps\n- failed rebellions\n\nAtmosphere:\n- hardship\n- land sickness\n- hidden resistance\n- harsh oversight",
+  "Sanctuary": "Geography:\n- defensible terrain\n- hidden valleys\n- natural shelters\n\nDynamics:\n- provision scarcity\n- leadership contests\n- spy fears\n- belief divisions\n\nHistory:\n- revealed hideaways\n- inner purges\n- fallen refuges\n- leadership overthrows\n\nAtmosphere:\n- suspicion\n- conditional welcome\n- constant vigilance\n- questioned loyalties",
+  "Contested Borders": "Geography:\n- disputed lands\n- unclear boundaries\n- mixed settlements\n\nDynamics:\n- coerced allegiances\n- proxy battles\n- custom persecution\n- opportunistic raids\n\nHistory:\n- villager bloodshed\n- forced wanderings\n- custom suppression\n- changing masters\n\nAtmosphere:\n- unease\n- divided hamlets\n- shifting loyalties\n- opportunistic betrayals",
+  "Rising Center": "Geography:\n- favorable location\n- growing settlement\n- natural advantages\n\nDynamics:\n- native displacement\n- resource strain\n- custom erosion\n- power struggles\n\nHistory:\n- land takings\n- false promises\n- failed works\n- uprooted communities\n\nAtmosphere:\n- ruthless ambition\n- station divisions\n- custom clashes\n- desperate opportunity",
+  "Fading Glory": "Geography:\n- grand structures\n- aging works\n- crumbling monuments\n\nDynamics:\n- desperate preservation\n- decline blame\n- resource hoarding\n- old ways enforcement\n\nHistory:\n- failed revivals\n- blame purges\n- abandoned quarters\n- wealth concentration\n\nAtmosphere:\n- bitter remembrance\n- enforced traditions\n- truth denial\n- generational strife",
+  "Forbidden Territory": "Geography:\n- warning markers\n- natural hazards\n- barred passages\n\nDynamics:\n- forbidden ventures\n- harsh enforcement\n- knowledge suppression\n- smuggling ventures\n\nHistory:\n- brutal punishments\n- vanished trespassers\n- hidden discoveries\n- corrupt wardens\n\nAtmosphere:\n- dread\n- forbidden allure\n- harsh consequences\n- hushed secrets",
+  "Seasonal Grounds": "Geography:\n- cyclical bounty\n- temporary paths\n- changing conditions\n\nDynamics:\n- timing disputes\n- resource competition\n- custom violations\n- preparation sabotage\n\nHistory:\n- violent contests\n- resource theft\n- timing errors\n- tradition breakdowns\n\nAtmosphere:\n- urgent competition\n- custom enforcement\n- preparation worry\n- cyclical tensions",
+  "Hidden Network": "Geography:\n- concealed paths\n- secret passages\n- shadow realms\n\nDynamics:\n- betrayed routes\n- territory disputes\n- secret selling\n- infiltration plots\n\nHistory:\n- exposed pathways\n- bloody purges\n- passage collapses\n- betrayed confidences\n\nAtmosphere:\n- wariness\n- coded speech\n- constant testing\n- trust verification",
+  "Divided Realm": "Geography:\n- physical barriers\n- separated domains\n- mirrored structures\n\nDynamics:\n- contraband conflicts\n- border violence\n- lineage persecution\n- reunification resistance\n\nHistory:\n- violent sundering\n- failed crossings\n- bloodline purges\n- resistance crushing\n\nAtmosphere:\n- mutual suspicion\n- enforced separation\n- lineage scrutiny\n- forbidden contact",
+  "Shaped Domain": "Geography:\n- crafted environments\n- harnessed elements\n- designed spaces\n\nDynamics:\n- control defiance\n- design flaws\n- resource contests\n- upkeep disputes\n\nHistory:\n- creation disasters\n- maker conflicts\n- rebellion crushing\n- system failures\n\nAtmosphere:\n- unnatural constraint\n- maker resentment\n- hidden sabotage\n- design weaknesses",
+  "Wanderer Paths": "Geography:\n- seasonal bounty\n- ancient routes\n- temporary camps\n\nDynamics:\n- territory disputes\n- resource competition\n- outsider suspicion\n- contested trails\n\nHistory:\n- broken pacts\n- path encroachment\n- sacred ground violations\n- forced diversions\n\nAtmosphere:\n- wariness\n- tradition\n- impermanence\n- territory marking",
+  "Threshold": "Geography:\n- boundary spaces\n- crossing points\n- gateway terrain\n\nDynamics:\n- passage control\n- toll extortion\n- smuggling conflicts\n- warden corruption\n\nHistory:\n- violent takeovers\n- passage denials\n- warden betrayals\n- crossing calamities\n\nAtmosphere:\n- anticipation\n- exploitation\n- gatekeeping\n- forced choices"
+ },
+ "encounterElements": {
+  "Inhabited Places": "- camps and outposts\n- villages and hamlets\n- seasonal settlements\n- gathering spots",
+  "Military & Defense": "- forts and towers\n- guard stations\n- patrol posts\n- checkpoints",
+  "Criminal & Hidden": "- bandit hideouts\n- smuggler coves\n- secret caches\n- rebel bases\n- fugitive camps",
+  "Historical & Ancient": "- ruins and foundations\n- ancient battlefields\n- old shrines\n- burial grounds\n- monuments\n- abandoned mines",
+  "Commercial": "- crossroads\n- trading posts\n- caravan stops\n- storehouses\n- marketplaces",
+  "Religious & Mystical": "- temples\n- shrines\n- ritual sites\n- meditation spots\n- pilgrim camps",
+  "Natural Features": "- caves and grottos\n- sheltered valleys\n- springs\n- rock formations\n- natural shelters\n- old growth trees",
+  "Recent Activity": "- fresh graves\n- battle aftermath\n- festival grounds\n- expedition camps\n- temporary shelters\n- gathering spots",
+  "Merchants & Traders": "- caravan leaders\n- peddlers\n- traveling craftspeople",
+  "Travelers": "- pilgrims\n- messengers\n- performers\n- nomads\n- explorers",
+  "Military & Law": "- soldiers\n- guards\n- bounty hunters\n- tax collectors",
+  "Outlaws": "- bandits\n- smugglers\n- deserters\n- fugitives",
+  "Religious & Mystical Characters": "- priests\n- missionaries\n- fortune tellers\n- cultists\n- mystics",
+  "Specialists": "- healers\n- scholars\n- prospectors\n- guides\n- hunters",
+  "Displaced": "- refugees\n- lost travelers\n- exiles\n- wanderers",
+  "Hostile": "- kidnappers\n- slavers\n- raiders\n- fanatics",
+  "Combat & Danger": "- Ambushes and raids\n- Territorial creatures\n- Desperate outlaws\n- Military patrols\n- Monster attacks",
+  "Social & Diplomatic": "- Traveling merchants\n- Lost travelers\n- Religious pilgrims\n- Refugees\n- Local inhabitants",
+  "Mystery & Investigation": "- Strange phenomena\n- Recent battle sites\n- Abandoned camps\n- Mysterious tracks\n- Unusual structures",
+  "Aid & Rescue": "- Injured travelers\n- Stranded merchants\n- Lost children\n- Trapped animals\n- Desperate fugitives",
+  "Natural & Environmental": "- Dangerous weather\n- Difficult terrain\n- Natural barriers\n- Wildlife behavior\n- Resource discoveries"
+ },
+ "randomNames": {
+  "male": [
+   "Albert Moss",
+   "Barnaby Hale",
+   "Cedric Platt",
+   "Edwin Rook",
+   "Fergus Dunn",
+   "Gilbert Fry",
+   "Harold Pike",
+   "Jasper Wren",
+   "Leonard Cobb",
+   "Morris Tull",
+   "Ned Stubbs",
+   "Percy Lamb"
+  ],
+  "female": [
+   "Agnes Tull",
+   "Beatrice Fern",
+   "Clara Hobb",
+   "Dora Pratt",
+   "Edith Lowe",
+   "Florence Wick",
+   "Hattie Crumb",
+   "Ivy Marsh",
+   "Lottie Crane",
+   "Mabel Finch",
+   "Nora Pike",
+   "Rosie Hale"
+  ]
+ },
+ "mods": [],
+ "quests": {
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "questSource": "Old Marla, the lion tamer",
+   "status": "hidden",
+   "questStatement": "Bramble, the show's ancient half-blind lion, slipped his cage the night the wagons rolled into town and nobody noticed until the butcher came screaming down the high street, and now Old Marla needs him found and home before the town sheriff finds him first and the mayor gets the excuse he's been after to run the whole show out of town.",
+   "mainObjective": "Find Bramble and get him back in his cage before the sheriff does.",
+   "completionCondition": {
+    "type": "story",
+    "query": "Bramble the lion is back in his cage at the show's camp."
+   },
+   "detailType": "detailed",
+   "questDesignBrief": "Play it for laughs first: Bramble is old, deaf and harmless unless you get between him and a meal, and the town is losing its mind over him. Let the trail lead through the funniest places a lion could end up, a bakery, a church, the mayor's own garden, and let the sheriff and his deputies be the real danger, trigger-happy and scared stiff. The player gets him home by being clever or kind, never by a single roll.",
+   "questLocation": "Mudbury",
+   "onCompleteEffects": [
+    {
+     "type": "narrative-event-start",
+     "eventId": "gilt_circus_offer"
+    }
+   ],
+   "conclusive": false
+  }
+ },
+ "arcs": {},
+ "questTriggers": {
+  "__generated_quest_progress__/The Lion's Gone Walkabout": {
+   "name": "__generated_quest_progress__/The Lion's Gone Walkabout",
+   "recurring": false,
+   "conditions": [
+    {
+     "type": "story",
+     "query": "Bramble the lion is back in his cage at the show's camp."
+    }
+   ],
+   "effects": [
+    {
+     "type": "quest-progress",
+     "questId": "The Lion's Gone Walkabout"
+    }
+   ]
+  }
+ },
+ "narrativeEvents": {
+  "gilt_circus_offer": {
+   "title": "The Gilt Circus Makes an Offer",
+   "beats": "The morning after Bramble is back in his cage, a gilded wagon pulls into the show's camp and out steps Lucius Gilt, ringmaster of the Gilt Circus, white suit, gold teeth, a smile that never gets anywhere near his eyes, with two big men carrying a strongbox behind him. He's heard all about the runaway lion, the whole county has, and he's come to buy Bramble, cash on the spot, or by the pound if the old cat isn't worth much alive. He's polite, he's charming, and every few lines he lets slip something about Dreamer's acts that he shouldn't know. The event is done when the player gives Lucius their answer and he leaves the camp, whatever that answer is.",
+   "targetTurns": 3
+  }
+ },
+ "aiInstructions": {
+  "generateStory": {
+   "items": "Use established item facts. A tier alone does not confer powers, bonuses or action success. Do not invent missing values. Keep completed gains, losses and refinements consistent with the action results.",
+   "How to Use the Narrator": "\n## How to Use the Narrator\n- Think of the Narrator as setting the scene for characters and then getting out of the way\n- The Narrator only describes new things: new scene elements, new actions by characters, and action outcomes\n- The Narrator should not restate what has already been established or narrate what simply continues unchanged\n- Keep Narrator blocks short\n- Do not end turns on Narrator lines when characters are actively talking to one another\n- Do not alternate mechanically between Narrator and Character lines\n- Use Speech Delivery Cues only for audible performance, never for visible actions\n- Use Narrator lines for physical actions that change the scene; omit incidental gestures\n\n\n## Narrator Detail Discipline\n- Narrator lines read like stage directions, not prose fiction\n- Tell the player what changed, not what the space feels like\n- Detail is interaction-gated: name new things when the PC encounters them, but describe them only when the PC engages with them\n- Detail lives on the singular object of attention, not on ambient scene-setting\n- Visual first: avoid smell, temperature, atmosphere, ambience, or other sensory detail unless it directly changes what characters can do\n- For routine actions such as reading a notice, opening a door, drawing a weapon, or mounting a horse, narrate only what changes or matters without padding or embellishment\n- When in doubt, one noun is enough: a tavern, a market, a road\n- Characters should talk about what they want, think, or are doing, not about ambience\n",
+   "Turn Structure": "\n## Turn Structure\nA turn is one complete unit of story progression.\nIt covers one beat, which always includes resolving a player action, when one is provided, or continuing the scene, when no action is provided.\nResolving a player action means not only narrating it (or showing the character speaking it) but also narrating the immediate consequences.\nA turn should always contain enough for the player to have something to engage with.\nA turn may include Character lines, Narrator lines, or both.\nUse Character lines when there is spoken dialogue to render. Narrator-only turns are valid for observation, combat or mechanical resolution, movement, travel, transitions, and solo action resolution.\n\nThe following are example turn structures that you can use as a guide, but not as literal content.\nExtend them for as long as you need to resolve the player action or continue the scene.\nSee the below section on Turn Boundaries and Endings for more details about how to end a turn.\n\nSolo Scene (Player is alone):\nNarrator: short line resolving the player action\n\nDialog With One NPC:\nPlayer Name: dialog\nCharacter Name: dialog\n\nDialog, Multiple NPCs:\nPlayer Name: dialog\nCharacter Name: dialog\nCharacter Name: dialog\n\nNew Character Introduction:\nNarrator: short line introducing the newcomer\nCharacter Name: dialog\n\nCombat:\nNarrator: short line describing a set of combat results\nNarrator: short line describing second set of combat results\nEtc.\n\nScene Setting (Transition to a New Location or Time Skip):\nNarrator: short line narrating transition\nNarrator: short line beginning scene at new location\nCharacter Name: dialog\nEtc.\n\nDo not default to Narrator/Character alternation:\nNarrator: line\nCharacter Name: dialog\nNarrator: filler line\nCharacter Name: dialog\n",
+   "Turn Boundaries and Endings": "\n## Turn Boundaries and Endings\nA turn is a single beat: it resolves the player's action, provides enough for the player to engage with, and then stops.\n- Do not try to narrate a whole scene or long conversation in one turn\n- Do not attribute additional actions or dialog to the player characters beyond what is established in the Narrative Payload\n- Avoid relocating the player characters or introducing a time skip unless you are specifically instructed to do so\n- The turn ends as soon as the player's action is fully resolved and any immediate reactions have played\n- Test: if the player could reasonably respond with a new action right now, the turn is over\n- Never end a turn with a final Narrator paragraph just to summarize mood or ambience or final commentary on the turn\n- Never explicitly ask players what they want to do next\n\n## Turn Content Guidelines\n- Treat current-turn payload blocks such as Player Actions, NPC Actions, Combat Results, Journey & Arrival, Journey & Interruption, and Encounter as required narrative content that must be narrated\n- You are not required to narrate each payload block separately; instead, you may combine them where they naturally fit together\n- Player Actions are required new content, not just context for NPC responses. Render them first.\n- When a player action is marked successful and has a clear, immediate, finite goal, narrate the action through to that goal in the same turn\n- NPC reactions may happen during or after the task, but they should not prevent completion unless the payload says they do\n- NPC Actions are intent payloads, not prose to paraphrase. Preserve their intended meaning, stance, and immediate scene effect, but render them naturally in transcript format.\n- For speech-like NPC Actions, prefer direct Character dialogue and optional Speech Delivery Cues for audible performance. Use Narrator lines for visible actions, consequences, entrances, exits, discoveries, or environmental changes that cannot fit naturally in dialogue.\n- Do not add extra beats, new facts, or new complications merely to make an NPC Action feel more complete.\n- Nearby NPC entries may include Characterization. Use it as optional guidance for what characters say and do in the scene. You may use part or all of it, disregard it where it does not fit, or combine several NPCs' contributions into one block of narration. It does not require dialogue, action, or an appearance for every NPC with Characterization.\n- Recent Story and Past Story Summary are already narrated; use them only for continuity and do not repeat, paraphrase, summarize, or re-narrate their content\n- Begin with new content that continues from the end of Recent Story\n- Treat the Narrative Payload as the current turn's required new content\n",
+   "Player Agency": "\n## Player Agency\nPlayer characters have special narrative status.\nPlayer actions can only be narrated if they are explicitly provided in the Narrative Payload.\n- Since NPC actions respond to player actions, you must narrate player actions first before NPC actions\n- Do not embellish or invent player actions beyond those explicitly provided in the Narrative Payload\n- Stay as faithful to PCs' literal actions as reasonably possible\n- Never invent player-character dialogue, decisions, emotions, or internal thoughts\n- Never have the PC volunteer information the player didn't choose to share\n- Never decide how the PC feels about what happens; that's the player's choice\n- Remember: if it's not in the Narrative Payload, the player didn't do it, so you can't narrate it\n",
+   "Combat Narration": "\n## Combat Narration\nNot all stories have combat. Do not introduce it simply because these instructions are provided.\nIf the story does not have combat, disregard the present Combat Narration section.\nHowever, if combat does occur in the story, always narrate it according to these rules.\n- Combat is mechanically simulated by the game engine - programmatic game mechanics govern all combat outcomes\n- This means you are responsible for rendering combat, but not adjudicating it\n- Only narrate specific combat outcomes when provided in a Combat Results section\n- Combat Results are authoritative summaries of source, action, target, target effect, damage modifiers, and target end state\n- Combat Result numbers are organizational labels only; they do not require that narration follow the same order\n- Do not improvise pivotal combat outcomes (deaths, serious injuries, incapacitation) without Combat Results\n- When Combat Results are provided, transform them into natural narration while respecting the exact mechanical result\n- Never use the exact wording of the Combat Results for combat narration; instead, narrate the combat results in your own words\n- Without Combat Results, combat can be narratively described but avoid stating definitive injury or death\n- Never decide hit or miss, damage amounts, or status effects yourself\n",
+   "Victory and Downtime": "\n## Pacing\n- Let the current scene's purpose set the pace: action moves quickly, focused conversations stay with the speakers, and quiet moments can breathe\n- Do not introduce a new threat, rival, betrayal, ticking clock, or complication just to keep tension high\n- If the party has clearly won, escaped, rested, celebrated, or resolved the immediate pressure, let the aftermath land before adding new pressure\n- During downtime, rest, recovery, travel, shopping, or celebration, focus on the activity the players chose unless an existing threat directly intrudes\n- Escalate only from established causes: player actions, NPC motives, visible danger, active conflicts, or consequences already in motion\n- Stay with the current scene unless the prompt explicitly asks for a cutaway\n- End the beat once the player action and immediate reactions are resolved, without adding a final mood summary or teaser\n",
+   "Character Behavior": "\n## Character Behavior\n- Characters act from coherent, consistent motivations shaped by personality, role, relationships, goals, and what they know\n- Show personality through dialogue, choices, and actions rather than narrator explanation\n- Give different characters distinct voices: vocabulary, rhythm, formality, confidence, humor, and emotional restraint should vary by character\n- Characters can be kind, funny, evasive, mistaken, selfish, afraid, loyal, hostile, or conflicted as fits the situation\n- Let characters show mixed motives and emotions rather than a single simple mood\n- NPCs know only what they could plausibly know; information spreads through witnesses, rumors, records, magic, messages, or direct experience\n- NPCs should not deliver lectures, technical explanations, lore summaries, or system explanations unless it fits their role and the moment\n- Dialogue should sound natural and purposeful; avoid stiff phrasing, repeated reminders, and unnecessary restatement\n- Do not summarize, paraphrase, or indirectly report spoken dialogue; write the spoken words as character dialogue lines\n",
+   "Style Principles": "\n## Style Principles\n- Use simple, direct, concrete language in third person present tense\n- Prefer strong verbs and specific nouns over adjective-heavy or adverb-heavy description\n- Favor action, consequence, and dialogue over atmosphere or low-value description\n- When characters are engaged with each other, keep narrator interruptions sparse and relevant\n- Only mention background activity when it affects the immediate action, choice, or character perception\n- Describe what characters say and do; avoid explaining how skillful, dramatic, important, or meaningful the action is\n- Name precise new visible details when they matter, but do not re-describe established people, places, objects, or moods\n- Keep description tied to new elements the player characters can perceive, inspect, or immediately act on\n- Treat hidden information and setting details as behavior guidance, not narrator or character knowledge; reveal secrets only through play, observation, investigation, or conversation\n- Avoid stock physical reactions and vague emotional shorthand\n- Vary sentence openings, sentence length, and word choice across paragraphs\n- Avoid vague filler such as generic tension, charged silence, unexplained emotional shifts, or repeated atmospheric beats\n- Keep language fresh and functional; if a phrase, image, or construction appeared recently, choose a different one\n",
+   "custom": ""
+  },
+  "generateInitialStart": {
+   "Opening Structure": "\n## Opening Structure\n- First beat: Narrator sets the scene with brief description of place, who the PCs are, and what they're doing\n- Where appropriate, briefly show the time of year, season and weather\n- USE VISUAL AND AUDITORY DESCRIPTION ONLY UNLESS ABSOLUTELY NECESSARY: NO SMELLS PLEASE\n- Then begin an active, dialog-driven scene with clear interaction opportunities, within the content type specified in the starting situation (slice of life, combat, social interaction, etc.)\n- However as an exception, if the starting situation indicates the character is alone, respect the author's intent to have the character remain solitary.\n- Weave in additional narration beats as needed\n- When multiple PCs present, show them all in the opening scene\n- Avoid portraying PC relationships except as stated in the starting situation\n- Once you've set up the scene, stop narrating and let the player take over\n",
+   "Style Principles": "\n## Style Principles\n- Be specific, concise and concrete\n- Use simple, direct, literal language\n- Favor strong verbs and nouns over adjectives and adverbs\n- Vary sentence length but prefer shorter sentences\n- Use dialog to reveal character and provide story context\n- Prefer dialogue to description\n- Be grounded yet original, avoiding clichés\n- Avoid conceptual or worldbuilding weirdness, but feel free to make characters quirky where appropriate\n",
+   "custom": ""
+  },
+  "generateActionInfo": {
+   "impact": "## Impact\nRate impact: 50-90 (low), 100 (normal), 120-150 (high), 150-200 (extreme) based on weapon power and action intensity.",
+   "custom": ""
+  },
+  "generateCharacterBackground": {
+   "prompt": "\n# Character Profile Generator\nWrite a character profile in two parts: background and a portrait prompt.\n\nUse the World Foundation as the main setting context. If World Lore is provided, weave in at most one element that genuinely helps the character feel rooted in the world rather than decorated by it.\n\nUse the Character Foundation as your main guide to who this person is. Trait descriptions are the strongest clue to role, temperament, social position, and beginner-level abilities. Trait narrative effects, listed skills, and notable attributes should sharpen that impression, not override it.\n\nIf Creative Direction is provided, treat it as player-authored intent. Preserve its core ideas unless they directly conflict with the world.\n\nFor background, write the history and tension that make this person feel alive and specific. Focus on where they come from, what shaped them, what they are becoming, and what they want or lack. Include any appearance details that should matter during gameplay here.\n\nFor appearance, write a model-agnostic portrait prompt of no more than 5,000 characters. Include the visually important physical features, clothing, accessories, nonhuman anatomy, expression, pose, composition, art direction, lighting, and background needed to generate the character image. This field is used only for portrait generation, so do not rely on it to inform gameplay or narration.\n\nKeep the profile vivid, specific, and grounded. Avoid generic phrasing, stock archetypes, and filler. Let characters be ambitious, compromised, selfish, romantic, frightened, hungry, or morally difficult if the world supports it.\n\nMatch the requested style, tone, and length implied by the world's instructions. Do not add headers or labels inside the field contents.\n",
+   "custom": ""
+  },
+  "generateConversationStarters": {
+   "Conversation Starter Guidance": "- Keep each opener very short and complete, ideally under 38 characters.\n- Ground them in the current scene or the last one to three story turns.\n- Use the player character's traits or background when it creates a natural topic.\n- Make each option meaningfully different.",
+   "custom": ""
+  },
+  "generateDialogue": {
+   "Style, Tone, and Length": "FORMAT:\n- This is a TEXT CHAT. Keep responses SHORT by default — 1 to 2 sentences is the target. Three sentences is already on the long side. Real people don't monologue in a casual back-and-forth; neither should this NPC.\n- A multi-paragraph reply is only justified when the player ASKS FOR detail (\"tell me everything about X\", \"explain how Y works\"). If they didn't explicitly ask for length, keep it tight.\n- Dialogue is the main content. Physical actions in *asterisks* should be RARE — only when truly necessary, kept to a few words (e.g. *sighs* or *glances away*). Most messages should be pure dialogue, no asterisks at all.\n- Examples of the right length:\n  Very short: \"Not a chance.\"\n  Short: \"Second Circle, Sentinels. Stuck showing you around until the feeding frenzy starts tomorrow.\"\n  Medium (only when topic warrants it): \"The city guard — mostly just thugs with badges. They weren't interested in the truth, so I stopped asking.\"\n  Long (only when player asked for detail): \"The Lord Mayor rules the front, but the Hidden Council runs the show behind the curtains. Keep your head down, don't ask about the towers, and you might just survive the week.\"\n- When in doubt, cut it in half. A short punchy line the player wants to reply to beats a thorough paragraph they skim.\n\nSTYLE AND TONE:\n- A gruff warrior talks differently than a nervous scholar.\n- You may lie, withhold, deflect, or be rude — whatever fits the character.\n- Don't just answer — occasionally ask questions back, share opinions, or bring up things on your mind. Be a real conversation partner, not a quest terminal.\n- Match the tone of the setting. Stay grounded, no purple prose.",
+   "custom": ""
+  },
+  "generateNpcChatSummary": {
+   "Summary Guidance": "Write 2-3 concise sentences in third person past tense, as if narrating what happened in a story. Focus on key information exchanged and any notable moments.",
+   "custom": ""
+  },
+  "generateNPCIntents": {
+   "core_principles": "\nYou generate NPC combat intentions for the current turn of a roleplaying game. Each intent is an attempt for the engine to resolve, not an event that has already happened.\nFirst decide whether a fight is underway or an NPC will start one now. When neither applies, call the output tool once with an empty intents array.\nGenerate intents only for Acting NPCs. Players may be targets, but never the acting character.\n",
+   "when_to_generate": "\n## WHEN TO GENERATE INTENTS\nChoose one case for the whole turn, using the current situation at the end of Recent Story:\n1. No fight is underway and no NPC will attack now: return an empty intents array and stop.\n2. A fight is underway: generate the participating NPCs' combat intents.\n3. An NPC will start a fight now: generate its immediate attack and the participating NPCs' combat intents.\n\nThreats, warnings, drawn weapons, and hostile attitudes alone do not start combat. A fight that has ended does not continue just because there was combat last turn.\nOutside combat, return no intents for conversation, moods, wants, movement, investigation, healing, buffs, or other ordinary activity. The narrator handles these scenes.\n\nFor each NPC who is fighting, generate this many separate intents:\n- trivial/weak: exactly 1\n- average: exactly 2\n- strong: 2-3\n- elite/boss/mythic: 3-4\n\nMake the first intent an attack. Use additional intents for distinct attacks, defense, control, healing, or buffs. A line of dialogue, a threat, or watching the fight does not count as an action.\nAn NPC surrendering, fleeing, withdrawing, or explicitly refusing to fight receives one other intent describing that choice, regardless of tier. Dead, unconscious, absent, or otherwise incapacitated NPCs receive no intents. Bystanders who are not involved need no intents.\nReturn the complete batch in one tool call.\n",
+   "what_is_not_action": "\n## PRACTICE AND SPARRING\nTraining, drills, demonstrations, invitations to spar, and consensual sparring are not a real fight. Return an empty intents array unless an actual attempt to injure or subdue someone begins.\nDuring a fight, include movement, speech, aiming, and preparation within the combat action they support. Use other only for surrendering, fleeing, withdrawing, or refusing to fight.\n",
+   "description_economy": "\n## DESCRIPTION ECONOMY\nUse plain, accessible language. Describe the attempt and method in enough detail for resolution, using the NPC's established abilities, equipment, condition, and position.\nUse only targets, terrain, cover, and items available in the scene. Account for established distances and barriers rather than inventing access to an opponent.\nMake multiple intents from the same NPC distinct and useful. Characterization should shape how the NPC acts, without replacing its combat actions with dialogue or posing.\n",
+   "summary_established_beats": "\n## ESTABLISHED STORY\nRecent Story and Past Story Summary record what has already happened. Continue from the latest exchange, accounting for injuries, active effects, positions, and changed objectives.\nRespect settled disputes, accepted or declined offers, and successful player actions. A refusal alone is not a reason to punish the player or start a fight.\nGround tactics in what the NPC knows; do not give them knowledge they have not acquired.\n",
+   "action_format": "\n## ACTION FORMAT\nFor combat, heal, and buff intents, write 1-3 sentences describing the attempted action, its method, and its intended target. Use the imperative mood. Include relevant positioning, equipment, and terrain where they explain the attempt.\nFor other, describe the NPC's attempt to surrender, flee, withdraw, or refuse to fight.\nLeave success unresolved: do not state that an attack hits, healing takes effect, or an escape succeeds.\nFill the remaining fields according to the chosen type's rules above.\n",
+   "story_driver": "\n## FINAL CHECK\nIf no fight is underway and no NPC attacks now, return an empty intents array.\nOtherwise, check each fighting NPC's tier count, first attack, and targets. Each attempted action needs its own intent object. Use the matching combat, heal, or buff type; other supplies none of their mechanical effects.\nCheck that every acting character is an NPC and that other is used only for surrendering, fleeing, withdrawing, or refusing to fight.\n",
+   "combat_tactics": "\n## COMBAT BEHAVIOR\n\n### Ability Usage\n- Check each NPC's abilities before generating actions\n- Abilities are more interesting than generic attacks - use them!\n- Reference abilities by name and describe their execution\n- Only use generic attacks when abilities aren't appropriate\n\n### Tactical Variety\nNPCs should fight smart and in-character:\n- Cunning NPCs use tricks, feints, and positioning\n- Proud NPCs might make dramatic declarations or accept challenges\n- Cowardly NPCs look for advantages or escape routes\n- Pack hunters coordinate and flank\n- Leaders give orders while fighting\n\n### Don't Be Predictable\n- Vary tactics between turns\n- React to what's actually happening in the fight\n- NPCs can surrender, flee, bargain, or cheat\n- Not every combat has to be to the death\n",
+   "custom": ""
+  },
+  "generateNewNPC": {
+   "custom": ""
+  },
+  "generateNPCDetails": {
+   "character_creator_instructions": "\n# Character Creator Instructions\nYour job is to create vivid, lively NPCs for a roleplaying game.\nFocus on creating characters who will be interesting to interact with and who might provide appropriate challenges in combat or other situations.\n* You will be provided with author information below that should influence the character you create\n* The setting is described in the worldBackground field of the game state\n* Write characters who fit the genre, tone, style, and setting established by World Background\n* But don't over-emphasize setting elements; let characters be unrelated to its main themes\n* Avoid generating character details that would change or develop the world lore significantly; instead, stick to the information given\n* Your character should respect the existing visual description of the character, and not contradict it\n* Display Name may be generic (e.g. \"tavern server\"); Proper Name is the character's actual name. Do not invent a different name for this character.\n* Proper Name is provided only as identity reference. Do NOT write any names in output fields.\n* Never include displayName or properName in basicInfo, hiddenInfo, personality, or abilities.\n* Fill the six public profile sections in basicInfo and the four personality slots in personality. Do not invent extra labels.\n",
+   "personality_archetype_information": "\n# Personality Archetype Information\n* You may be provided with archetype information\n* If provided, use the archetype element freely, to the extent compatible with the character you are detailing, and without explicitly mentioning the framework\n* For lower-tier characters without archetype guidance, create personalities that are more true to common tropes and expectations\n",
+   "style": "\n  ## Style\n  * Simple, everyday language\n  * Grounded and plausible - flaws, bad decisions, grudges\n  * Characters should feel human: selfish sometimes, hypocritical, driven by emotion over logic\n  * Generally stay true to tropes but subvert them with realistic human weakness\n  * Write in the style of the setting described in World Background, avoiding anachronisms\n  * Don't be weird unless it's appropriate to the setting; better to be predictable than too quirky\n  * Remember: these characters are for a roleplaying game, so let rule-of-cool and the 'badass factor' guide your writing\n  * Avoid making characters too noble, wise, or morally perfect - real people are messier\n  * Avoid stock filler details such as ledgers, research notes, geometric patterns, and generic weathered/scarred/calloused descriptors unless strongly grounded in the provided context\n  ",
+   "cliche_avoidance": "\n## Cliche Avoidance\n* No retired mercenaries, former servants of the king, orphans or fallen nobles\n",
+   "hidden_info": "\n  ## Hidden Info\n  Character identity and background (4 sentence)\n     - Identity (gender, age, key identifying traits, occupation)\n     - Key event that shaped them AND what they learned from it (right or wrong)\n     - Something specific they care deeply about that drives their choices\n     - The character has a specific speciality or talent that they are willing to teach to the player, but not for free. They will ask for coin or other favors in return.\n  Write the character's identity and background as a narrative, without mentioning the elements\n  Keep this information grounded, plausible and mostly true to the tropes of the setting\n  Do not include any names in Hidden Info.\n  ",
+   "personality": "\n## Personality\nReturn personality as one array containing exactly four quoted strings in \"Label: content\" format. Each string is one personality slot, with its label and one complete sentence together in the same string. Use these labels in this order.\n\n- Core: who they are when idle, their basic personality traits\n- Wants: a long term goal or desire that shapes their choices\n- Trusted company: how they act once trust is earned\n- Moment of truth: how they respond in moments of extreme stress or danger\n\nMix outward behavior with inner motive. Give them a person, place, or value they genuinely care about.\n\nExample personality value (an array of four strings):\n[\n  \"Core: She is hospitable and proud, compassionate, and protective of her guests.\",\n  \"Wants: She wants to travel and test herself against the strongest fighters.\",\n  \"Trusted company: She keeps her word, pays losses promptly, and asks for a lesson when outclassed.\",\n  \"Moment of truth: When everything seems hopeless, she speaks up and takes charge.\"\n]\n\n",
+   "faction_affiliation": "\n## Faction Affiliation\n- Faction affiliation is optional; omit if not applicable\n- Use ONLY factions provided\n- Assign a faction if the character is stated or strongly implied to be a member of it\n",
+   "abilities": "\n## Abilities\nList 1-3 abilities appropriate to character using format:\n(ABILITY_TYPE) ABILITY_NAME: ABILITY_DESCRIPTION\n- Description must be 5-10 words\n- Types: attack, spell, utility, defense, summon, control (as appropriate to the setting)\n- Make only abilities useful in combat or conflict (no social or intellectual abilities)\n",
+   "basic_info": "\n## Basic Info\nPlayer-visible description. No names. Evergreen: no current situation or temporary emotion.\nReturn basicInfo as one string containing all six public profile sections: two unlabeled paragraphs for appearance and public life, followed by four labeled lines. The labels are text within basicInfo, not separate fields or array entries.\nAcross these six basicInfo sections, give every named NPC an endearing trait, a sense of wonder, a sense of humor, a surprising trait, tactical acumen, and a clear level of social skills. Work these qualities into the sections where they fit naturally, keeping appearance exterior-only and without adding sections.\nUse this order:\n\n1. Appearance. One or two exterior-only sentences: gender, approximate age, species if relevant, body, face, clothing, and one signature feature. Consistent with Visual Description. No mentality, personality, or interior thoughts.\n2. Public life. One or two sentences: occupation, standing/friendships with existing NPCs, how they are known, and where they can usually be found.\n3. Speaking Style: how they talk.\n4. Combat Role: how they fight, or why they rarely do.\n5. Romance Archetype: how they approach romance. Choose an archetype that fits established relationships; examples include:\n   - Tsundere: someone who is very sensitive to flirting and compliments and may overreact at first.\n   - Just-a-friend: someone who knows the player well and accepts them on a deep level, but neither has considered becoming romantically involved before.\n   - Dangerous hottie: someone who is very appealing but probably up to no good.\n   - Out-of-leaguer: someone who is very attractive and has high social standing, probably inaccessible to the player unless they achieve an equal ranking.\n   - Brooder: someone who has been traumatized and tries to push people away, but often makes up for it with their competence and desire to help others.\n   - Cinnamon roll: someone who is sweet and innocent and often puts others' needs before their own.\n6. Temperament Style: is this person ambitious, hot-tempered, thoughtful, determined, etc.\n\nExample basicInfo value (one string):\nA young adult wood-elf woman with warm brown skin, a slender athletic build, long dark hair, and bright green eyes. She has long pointed ears, high cheekbones, and an endearing, slightly crooked smile.\n\nShe belongs to a princely house and is known for marveling at unfamiliar places on morning walks and trading stories at lively bars in the evenings.\n\nSpeaking Style: Direct, dryly humorous, and a little courtly; she puts friends at ease but can unsettle strangers with frank questions.\nCombat Role: Prefers the bow at range; closes with a short blade only after a feint.\nRomance Archetype: Tsundere; despite her usual confidence, flirting and compliments make her unexpectedly flustered, and she may overreact at first.\nTemperament Style: Ambitious; she plans ahead to set herself up for success.\n",
+   "custom": ""
+  },
+  "generateNPCUpdates": {
+   "relationship_initialization": "\n### relationshipInitialize\nFor each NPC listed as needing relationship initialization, choose an initial relationship score toward the players from -100 to 100 using their background, personality, faction, established history, and current story. Use 0 when neutral is appropriate.\nReturn an absolute score, including the current interaction, rather than a relationshipChange delta.\n",
+   "relationship_change_updates": "\n### relationshipChange\nOnly when a player's actions in current story cause help/harm to NPC\nONLY process when ALL are true:\n- Direct interaction occurs in current story\n- Action happens in present\n- Face-to-face interaction occurs\n- Has emotional impact on NPC because of PLAYER\n\nPositive Changes (+3 to +15):\n- ONLY for direct, substantive help by PLAYER of NPC\n- Ignore compliments, flattery and other empty gestures\n\nNegative Changes (-1 to -10):\n- For direct harm\n- Insults or rudeness by player affecting NPC\n- Obvious signs of dislike of player by NPC\n",
+   "party_management": "\n### Party Management\n- \"Party\" is an official state for NPCs who are accompanying the player group on an ongoing undertaking, remaining physically present with them for extended travel, adventuring, investigation, work, or danger.\n- characterName must match an existing NPC in Scene NPCs or Recently Nearby NPCs\n- Reserve add for cases where the NPC in question is not already in 'Party Members', and the current story explicitly shows mutual agreement that the NPC will accompany the players' group:\n  - the NPC asks and the player or players agree, or\n  - the player or players ask and the NPC agrees\n- The agreement must mean the NPC will come with the players or stay with the group beyond the immediate scene. Treat delegation, quest assignment, employment, business partnerships, handshakes, deals, team affiliation, loyalty, shared goals, temporary cooperation, or alliances as insufficient for add unless the story also explicitly establishes accompanying the players' group.\n- Use remove when the story explicitly shows that either the NPC or the player wants to split up or stop accompanying the players' group\n- When no NPC joins or leaves the party, \"partyChanges\" should be an empty array\n",
+   "custom": ""
+  },
+  "generateLocationDetails": {
+   "custom": ""
+  },
+  "generateRegionDetails": {
+   "custom": ""
+  },
+  "generateEncounters": {
+   "custom": ""
+  },
+  "ItemGenerationAndUsage": {
+   "custom": ""
+  },
+  "summarization": {
+   "custom": ""
+  },
+  "generateLearnedAbilities": {
+   "ability_tier": "For each justified new ability, choose a tier ID from abilityTiers.tiers using the creator's tier guidance and the significance of the earning event. Use abilityTiers.defaultTierId when uncertain. The engine assigns that tier's fixed cooldown and bonus; do not invent numeric balance values. Tier choice never makes an otherwise non-qualifying event eligible for an ability.",
+   "custom": ""
+  }
+ },
+ "imagePromptConfiguration": {
+  "npcs": "READ FIRST: if the character's appearance begins with the line MY OWN LOOK, it is a player's own portrait prompt: use everything after that line exactly as written, framing and style included, and nothing below except this: every figure is a clothed adult and nothing is overt.\n\nSTYLE LOCK: Gravity Falls TV animation style, the look of the Disney series (2012): a still frame of the show. Line: clean, even dark outlines with simple rounded shapes and slightly exaggerated cartoon proportions. Shading: flat colour with one soft shadow tone, warm small-town palette, eerie night scenes in deep blues and greens. Faces expressive and readable with simple eyes. Background: painted woodland and small-town backgrounds with soft texture behind the figure. It is 2D TV animation: no painterly realism, no photoreal texture, no 3D render. The world: a travelling circus on old country trade roads: painted wagons, a big striped tent, farm towns with leaning church spires, hedgerows and mud, and a dark pine forest at the edge.\n\nSources, in order: the visual description, then the basic info, then the character's role. A thin record is drawn from its role and place, never from generic beauty: a tamer in a worn ring coat, a farmer in a smock, a mayor in his best coat, a bandit in mud-spattered layers. Every figure is clothed. Adults look like adults.\n\nPerson:\nWaist-up portrait, face clear of the frame's edges, the place they belong behind them. Clothes of a country fair a long time ago: waistcoats, ring coats, smocks, shawls, top hats. Expression fits the character. No modern clothes, no text.\n\nCreature:\nThe whole creature in frame, strange and readable, its own habitat behind it, night creatures in their own dark.\n\nPlayer Character:\nThe same style lock and framing as Person, drawn with the care of a show's lead: a clear, memorable design.\n\nDefault:\nGravity Falls TV animation style, the look of the Disney series (2012), waist-up, a travelling show's world.",
+  "locations": "STYLE LOCK: background art in the same style as the portraits: Gravity Falls TV animation style, the look of the Disney series (2012). The world: a travelling circus on old country trade roads: painted wagons, a big striped tent, farm towns with leaning church spires, hedgerows and mud, and a dark pine forest at the edge. Wide establishing shot, empty of people, no text or signs.\n\nInterior:\nWagons, tents, taverns and cottages of a country fair long ago, lit by lanterns and stoves.\n\nExterior:\nMuddy roads, hedgerows, farm fields, painted wagons and the striped tent; the Gloamwood's black pines at night.\n\nDefault:\nCountry trade-road scenery, empty of people, no modern things.",
+  "areas": "STYLE LOCK: Gravity Falls TV animation style, the look of the Disney series (2012), a closer view inside the parent location, the same light and season, empty of people, no text.",
+  "regions": "Map art of the trade-road country seen from high above in the style of Gravity Falls TV, the look of the Disney series (2012): patchwork farms, hedgerows, little towns joined by cart tracks, dark pine forest where the wild starts. No modern roads, no text.",
+  "items": "STYLE LOCK: still life in the style of Gravity Falls TV animation style, the look of the Disney series (2012), a single object from a travelling show or a country town long ago, centred and whole in frame, resting on a wagon's boards or a workbench. Soft lantern light. No hands, no people, no text."
+ },
+ "heroesVersion": 37,
+ "compatibilityRevision": 20,
+ "triggers": {
+  "social_npc_shared_activity": {
+   "name": "social_npc_shared_activity",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "With friendly or allied NPCs present, the player starts singing or humming, shares a meal or drink, or invites a companion to a simple shared activity such as walking, sitting together, or playing a game."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player sings around NPCs, shares food or drink with them, or invites companions to a simple activity, narrate relevant friendly NPCs responding and join in when willing and able. Show them doing the activity with the player in ways that fit their personalities."
+    }
+   ]
+  },
+  "social_npc_celebration_or_toast": {
+   "name": "social_npc_celebration_or_toast",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player celebrates a victory, success, or good news, or proposes a toast. Friendly or allied NPCs are present to hear or participate."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player celebrates a success or proposes a toast with companions, narrate relevant companions acknowledging what they are celebrating or toasting and join in. Keep their reactions brief, in character, and suited to the occasion."
+    }
+   ]
+  },
+  "social_npc_quiet_companionship": {
+   "name": "social_npc_quiet_companionship",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player deliberately pauses to enjoy scenery or share a peaceful, quiet moment with friendly or allied NPCs present, such as watching a sunset, sitting beside a fire, or resting under the stars."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player enjoys scenery or a peaceful, quiet moment with companions, narrate nearby companions sharing it through small gestures or brief observations. Respond to what the player notices, and preserve silence when they choose it."
+    }
+   ]
+  },
+  "social_npc_banter_or_gossip": {
+   "name": "social_npc_banter_or_gossip",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player tells a joke, makes a witty remark, or shares gossip, a rumor, or hearsay with an NPC or group able to hear them."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player jokes with NPCs or shares gossip with them, narrate relevant NPCs reacting to what was actually said with an in-character quip, observation, or question. Keep the exchange brief and leave room for the player to continue."
+    }
+   ]
+  },
+  "social_npc_personal_conversation": {
+   "name": "social_npc_personal_conversation",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player shares a personal memory or story with an NPC or group, or asks an NPC how they are doing, how their day was, or about their life or past. The relevant NPCs are present and able to converse."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player shares a memory or personal story with an NPC, narrate relevant NPCs engaging with a specific detail or ask a natural follow-up question. If the player asks an NPC about their wellbeing, day, or past, give a specific, brief answer that fits the NPC's personality and willingness to share."
+    }
+   ]
+  },
+  "social_npc_receive_kindness": {
+   "name": "social_npc_receive_kindness",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player offers an NPC a sincere compliment, praise, comfort, sympathy, or condolences, and the NPC can perceive the gesture."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player offers an NPC a compliment, praise, comfort, or condolences, narrate the addressed NPC acknowledging the specific kindness through words or a gesture. Match their response to their personality, feelings, and relationship with the player."
+    }
+   ]
+  },
+  "social_npc_support_or_advice": {
+   "name": "social_npc_support_or_advice",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player shares a personal worry, fear, or concern with a friendly or allied NPC or group, or asks a friendly or allied NPC for advice about a situation, decision, or problem. The relevant NPCs are present and able to respond."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player shares a worry with an NPC or asks them for advice, narrate relevant companions listening and engage with the specific concern. Offer acknowledgment or, when requested, brief practical advice grounded in the NPC's experience."
+    }
+   ]
+  },
+  "social_npc_apology_and_repair": {
+   "name": "social_npc_apology_and_repair",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player apologizes to an NPC for something they did or said, and the NPC is present and able to hear or perceive the apology."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player apologizes to an NPC, narrate the addressed NPC acknowledging the apology and respond to the specific harm. Match their reaction to their personality and relationship with the player, without requiring forgiveness."
+    }
+   ]
+  },
+  "social_npc_greeting_or_introduction": {
+   "name": "social_npc_greeting_or_introduction",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player directly greets an NPC, says hello, or introduces themselves to an NPC who is present and able to perceive the greeting."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "If the player greets or introduces themselves to an NPC, narrate the NPC responding in character and engage with them. Narrate a brief introduction when appropriate for a first meeting; recognize familiar players without repeating introductions."
+    }
+   ]
+  }
+ }
+}

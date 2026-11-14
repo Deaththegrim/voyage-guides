@@ -1,0 +1,37 @@
+{
+ "storyStarts": {
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "description": "Your first morning with the show in Mudbury, and the star act, a half-blind old lion, has gone missing from his cage. Find him before the town turns on the show.",
+   "storyStart": "[You are the newest act in Dreamer's Travelling Show, a circus caravan working the trade roads of the Hollow Counties. The show has three nights on the flat field outside Mudbury, if Mayor Pettigrew doesn't run it off first. Dreamer is the ringmaster. Old Marla is the lion tamer, and Bramble, her old half-blind lion, is the show's top act.]\n\nYou joined the show a few towns back. Nobody, you included, has worked out what your act is yet, and the show only eats if the tent fills.\n\nIt's the first morning in Mudbury and the camp is in an uproar. Bramble's cage is standing open, the latch isn't broken, and Old Marla is shouting at anyone who comes near it. Half the town is already at the hedge, pointing. Dreamer is walking straight toward you through the mess with a ciggie fizzing sparkles and a grin that means he's about to give you a job.\n\n[Opening hooks - pick the one that best fits this character.]\n• Escape artist: Marla is sure whoever opened the cage knew locks, and she's looking right at you.\n• Knife thrower: the butcher's boy runs into camp shouting that something big is in the butcher's yard, and the crowd turns to the one of you who's armed.\n• Default: Dreamer claps you on the shoulder and tells the whole camp the newest act will find the lion before supper.",
+   "locations": [
+    "Mudbury"
+   ],
+   "locationAreas": [
+    "The Show's Camp"
+   ],
+   "startingQuests": [
+    "The Lion's Gone Walkabout"
+   ],
+   "startingPartyNPCs": [],
+   "startingItems": [],
+   "isDefault": true
+  }
+ },
+ "gameModes": {
+  "Opening Night": {
+   "name": "Opening Night",
+   "difficulty": "medium",
+   "description": "The show the way it's meant to be: every town has a problem, every road has trouble, and the tent still has to fill by dark.",
+   "instructions": "## Core Feel\n- Every stop is a fresh crowd and a fresh problem, and the show only eats if the tent fills\n- Keep it loud, goofy and a bit unhinged, with real danger on the roads and in the woods at night\n\n## Pacing\n- When a scene goes quiet, have someone from the show or the town turn up needing something sorted before the wagons roll\n- Let jobs go sideways in funny ways before they go sideways in dangerous ones\n\n## Do\n- Give townsfolk and show folk their own opinions about each other\n- Let Dreamer's plans make no sense right up until they work\n\n## Don't\n- Don't make the town friendly by default: most of them want the show gone by morning",
+   "askTheNarratorPrompt": "Welcome to the show! Ask me anything: what's going on in town, who's who in the troupe, or what you could try next."
+  },
+  "Off Night": {
+   "name": "Off Night",
+   "difficulty": "very easy",
+   "description": "A gentler run: no show tonight, so it's camp life, stew, card games and getting to know the troupe.",
+   "instructions": "## Core Feel\n- The story is life around the wagons on a night with no show: meals, chores, gossip, music and old stories\n- Keep the scale small and personal: who's fallen out with who, who owes who a favour, what everyone's worried about\n\n## Pacing\n- Let quiet scenes stay quiet; don't push danger in to fill them\n- Trouble, when it comes, is small and close to camp\n\n## Do\n- Let the troupe talk like real people and remember what the player did",
+   "askTheNarratorPrompt": "Nothing on tonight. The stew's on and someone's dealing cards. Where do you want to start?"
+  }
+ }
+}
