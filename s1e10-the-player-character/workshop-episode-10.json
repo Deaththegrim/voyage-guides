@@ -1,0 +1,62 @@
+{
+ "premadeCharacters": [
+  {
+   "name": "Jack Tumble",
+   "gender": "male",
+   "traits": [],
+   "voiceTag": "male confident casual",
+   "description": "Jack Tumble is the escape artist the show found chained in a ditch outside Mudbury with the key still in his mouth, and he swears that was the act. Lean, quick and covered in rope burns, he can slip a padlock, a set of cuffs or a debt collector in about the same time, and he talks the whole way through it so nobody watches his hands. He joined the show because it was leaving town and he needed to be too, and the people he owes money to are only ever one town behind."
+  },
+  {
+   "name": "Nell Bramwell",
+   "gender": "female",
+   "traits": [],
+   "voiceTag": "female warm friendly",
+   "description": "Nell Bramwell is the knife thrower who can split a playing card at twenty paces and has never once hit the assistant on the wheel, which she points out every time her assistant on the wheel complains. She grew up on a farm in the Hollow Counties and threw her first knife at a fox in the henhouse, and she ran off with the show the night her father tried to marry her to the butcher. Steady hands, a loud laugh and a belt of twelve blades she names after old boyfriends."
+  }
+ ],
+ "randomNames": {
+  "male": [
+   "Albert Moss",
+   "Barnaby Hale",
+   "Cedric Platt",
+   "Edwin Rook",
+   "Fergus Dunn",
+   "Gilbert Fry",
+   "Harold Pike",
+   "Jasper Wren",
+   "Leonard Cobb",
+   "Morris Tull",
+   "Ned Stubbs",
+   "Percy Lamb"
+  ],
+  "female": [
+   "Agnes Tull",
+   "Beatrice Fern",
+   "Clara Hobb",
+   "Dora Pratt",
+   "Edith Lowe",
+   "Florence Wick",
+   "Hattie Crumb",
+   "Ivy Marsh",
+   "Lottie Crane",
+   "Mabel Finch",
+   "Nora Pike",
+   "Rosie Hale"
+  ]
+ },
+ "nameFilterSettings": {
+  "Elara": {
+   "replacements": [
+    "Agnes",
+    "Clara",
+    "Edith",
+    "Hattie",
+    "Mabel",
+    "Nora",
+    "Rosie",
+    "Lottie"
+   ]
+  }
+ }
+}
