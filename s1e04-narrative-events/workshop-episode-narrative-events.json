@@ -1,0 +1,31 @@
+{
+ "narrativeEvents": {
+  "gilt_circus_offer": {
+   "title": "The Gilt Circus Makes an Offer",
+   "beats": "The morning after Bramble is back in his cage, a gilded wagon pulls into the show's camp and out steps Lucius Gilt, ringmaster of the Gilt Circus, white suit, gold teeth, a smile that never gets anywhere near his eyes, with two big men carrying a strongbox behind him. He's heard all about the runaway lion, the whole county has, and he's come to buy Bramble, cash on the spot, or by the pound if the old cat isn't worth much alive. He's polite, he's charming, and every few lines he lets slip something about Dreamer's acts that he shouldn't know. The event is done when the player gives Lucius their answer and he leaves the camp, whatever that answer is.",
+   "targetTurns": 3
+  }
+ },
+ "quests": {
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "questSource": "Old Marla, the lion tamer",
+   "status": "hidden",
+   "questStatement": "Bramble, the show's ancient half-blind lion, slipped his cage the night the wagons rolled into town and nobody noticed until the butcher came screaming down the high street, and now Old Marla needs him found and home before the town sheriff finds him first and the mayor gets the excuse he's been after to run the whole show out of town.",
+   "mainObjective": "Find Bramble and get him back in his cage before the sheriff does.",
+   "completionCondition": {
+    "type": "story",
+    "query": "Bramble the lion is back in his cage at the show's camp."
+   },
+   "detailType": "detailed",
+   "questDesignBrief": "Play it for laughs first: Bramble is old, deaf and harmless unless you get between him and a meal, and the town is losing its mind over him. Let the trail lead through the funniest places a lion could end up, a bakery, a church, the mayor's own garden, and let the sheriff and his deputies be the real danger, trigger-happy and scared stiff. The player gets him home by being clever or kind, never by a single roll.",
+   "questLocation": "",
+   "onCompleteEffects": [
+    {
+     "type": "narrative-event-start",
+     "eventId": "gilt_circus_offer"
+    }
+   ]
+  }
+ }
+}
