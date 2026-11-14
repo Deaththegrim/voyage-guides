@@ -1,0 +1,35 @@
+{
+ "attributeSettings": {
+  "attributeNames": [
+   "strength",
+   "dexterity",
+   "constitution",
+   "intelligence",
+   "wisdom",
+   "charisma"
+  ],
+  "lowAttributeTraits": {
+   "strength": "Weak arms and a weaker back: heavy lifting, climbing the rigging and hauling wagons out of the mud go badly, and anything that needs raw muscle is a struggle to learn and to do.",
+   "charisma": "Crowds go cold on you: patter falls flat, hecklers smell blood, and talking a mayor or a mark round takes twice the work it should."
+  },
+  "maxStartingAttribute": 16,
+  "lowAttributeThreshold": 2,
+  "attributeBonusModifier": 2.5,
+  "attributeStatModifiers": {
+   "constitution": [
+    {
+     "variable": "health",
+     "amount": 2
+    }
+   ]
+  },
+  "attributeDamageModifiers": {
+   "strength": 2
+  },
+  "attributeDamageReductionModifiers": {
+   "dexterity": 1
+  },
+  "startingAttributeValue": 8,
+  "startingAttributePoints": 16
+ }
+}
