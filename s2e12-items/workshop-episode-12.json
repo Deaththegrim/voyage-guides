@@ -1,0 +1,93 @@
+{
+ "itemTypes": {
+  "mark": {
+   "name": "mark",
+   "category": "Currency",
+   "description": "The coin of the Hollow Counties, a thin copper disc stamped with a wheatsheaf on one side and whichever county minted it on the other, and every town swears the other towns' marks are light.",
+   "bonuses": []
+  },
+  "Throwing Knives": {
+   "name": "Throwing Knives",
+   "category": "Weapon",
+   "slot": "weapon",
+   "description": "A belt of six balanced throwing knives, plain steel with the handles wrapped in red cord, sharp enough to split a playing card and dull enough on the spine to catch.",
+   "bonuses": [
+    {
+     "type": "stat",
+     "variable": "damage",
+     "value": 2
+    }
+   ],
+   "tier": "artisan",
+   "estimatedValue": 40
+  },
+  "Patched Ring Coat": {
+   "name": "Patched Ring Coat",
+   "category": "Armor",
+   "slot": "body",
+   "description": "A heavy performer's coat in faded red with brass buttons, patched at both elbows and lined with old canvas from a tent that blew down, warm in the wind and thick enough to turn a cheap blade.",
+   "bonuses": [
+    {
+     "type": "stat",
+     "variable": "armor",
+     "value": 50
+    }
+   ],
+   "tier": "mundane",
+   "estimatedValue": 25
+  },
+  "Bottle of Liniment": {
+   "name": "Bottle of Liniment",
+   "category": "Consumable",
+   "description": "A brown bottle of horse liniment the cook swears works on people too, stinging, eye-watering stuff that takes the ache out of a bruise and the skin off a cut.",
+   "bonuses": [],
+   "tier": "mundane",
+   "estimatedValue": 3
+  }
+ },
+ "itemSettings": {
+  "currencyName": "mark",
+  "itemSlots": [
+   {
+    "slot": "head",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "body",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "legs",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "feet",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "hands",
+    "category": "Armor",
+    "quantity": 1
+   },
+   {
+    "slot": "weapon",
+    "category": "Weapon",
+    "quantity": 1
+   }
+  ],
+  "startingItems": [
+   {
+    "item": "mark",
+    "quantity": 5
+   },
+   {
+    "item": "Bottle of Liniment",
+    "quantity": 1
+   }
+  ]
+ }
+}
