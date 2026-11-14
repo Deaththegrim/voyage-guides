@@ -1,0 +1,42 @@
+{
+ "abilities": {
+  "Fan Throw": {
+   "name": "Fan Throw",
+   "requirements": [
+    {
+     "type": "attribute",
+     "variable": "dexterity",
+     "amount": 12
+    }
+   ],
+   "bonus": 10,
+   "cooldown": 3,
+   "description": "What it does: one throw at up to three targets close together, a strong ranged attack on each; then it needs a few turns before it's ready again.\n\nYou roll your shoulders like it's just another night under the lights and then your hand opens all at once, everything in it spinning out in a flat bright fan that whistles across the gap, and before anyone has finished flinching they're finding out exactly where each piece went."
+  },
+  "Slip the Cuffs": {
+   "name": "Slip the Cuffs",
+   "requirements": [
+    {
+     "type": "characterLevel",
+     "amount": 2
+    }
+   ],
+   "bonus": 15,
+   "cooldown": 5,
+   "description": "What it does: a strong bonus to get free of anything holding you, ropes, chains, a grab, a locked room, once every few turns.\n\nYou go loose and boneless and start talking, something about your old mum and the weather, and while every eye is on your mouth your wrists are folding in ways wrists shouldn't, a shoulder pops out and slides back in, and the knot or the lock or the hand gives up a second before anyone notices you're not in it anymore."
+  },
+  "Crowd Pleaser": {
+   "name": "Crowd Pleaser",
+   "requirements": [
+    {
+     "type": "attribute",
+     "variable": "charisma",
+     "amount": 12
+    }
+   ],
+   "bonus": 10,
+   "cooldown": 4,
+   "description": "What it does: a bonus to win over a crowd, an audience or a mob, turning a cold room warm or an angry one into an audience, once every few turns.\n\nYou step up onto the nearest crate with your arms wide like you've been waiting all night for exactly these people, the first joke lands on the loudest heckler, the second gets the back row, and by the third the whole room has forgotten what it was angry about and is waiting to see what you do next."
+  }
+ }
+}
