@@ -1,0 +1,18 @@
+{
+ "quests": {
+  "The Lion's Gone Walkabout": {
+   "name": "The Lion's Gone Walkabout",
+   "questSource": "Old Marla, the lion tamer",
+   "status": "hidden",
+   "questStatement": "Bramble, the show's ancient half-blind lion, slipped his cage the night the wagons rolled into town and nobody noticed until the butcher came screaming down the high street, and now Old Marla needs him found and home before the town sheriff finds him first and the mayor gets the excuse he's been after to run the whole show out of town.",
+   "mainObjective": "Find Bramble and get him back in his cage before the sheriff does.",
+   "completionCondition": {
+    "type": "story",
+    "query": "Bramble the lion is back in his cage at the show's camp."
+   },
+   "detailType": "detailed",
+   "questDesignBrief": "Play it for laughs first: Bramble is old, deaf and harmless unless you get between him and a meal, and the town is losing its mind over him. Let the trail lead through the funniest places a lion could end up, a bakery, a church, the mayor's own garden, and let the sheriff and his deputies be the real danger, trigger-happy and scared stiff. The player gets him home by being clever or kind, never by a single roll.",
+   "questLocation": ""
+  }
+ }
+}
