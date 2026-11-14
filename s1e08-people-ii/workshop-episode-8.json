@@ -1,0 +1,56 @@
+{
+ "npcTypes": {
+  "Road Bandit": {
+   "name": "Road Bandit",
+   "vulnerabilities": [],
+   "resistances": [],
+   "immunities": [],
+   "successBonus": -10,
+   "description": "The bandits who work the trade roads by day, farm boys gone bad and deserters who never went home, hiding in the hedges with a rusty blade and a story about the toll. No special damage profile. They can be talked down, paid off or scared off, and they break and run the second a fight turns, because nobody out here is dying for a cart of turnips."
+  },
+  "Gloamwood Thing": {
+   "name": "Gloamwood Thing",
+   "vulnerabilities": [
+    "fire",
+    "light"
+   ],
+   "resistances": [
+    "piercing"
+   ],
+   "immunities": [
+    "poisoning"
+   ],
+   "description": "Whatever comes out of the Gloamwood after dark, long and pale and quiet, with too many joints and eyes that catch the lantern light. Fire and light hurt them badly, arrows mostly pass through, and poison does nothing at all. They can't be reasoned with or bribed, they only come out at night, and they always go back to the trees before the sun is up, dragging whatever they caught."
+  }
+ },
+ "factions": {
+  "Dreamer's Travelling Show": {
+   "name": "Dreamer's Travelling Show",
+   "factionType": "major",
+   "known": true,
+   "basicInfo": "Dreamer's Travelling Show is a circus caravan of painted wagons that rolls town to town on the trade roads, a dozen acts nobody else would take, a cook, two horses who hate everyone and Dreamer out front as ringmaster. It lives off the door, so every stop means a full tent or an empty pot, and towns treat it the way they treat weather, they'll come and look but they lock up the chickens. It says it's just a show, and most nights it is, right up until the town's trouble becomes the show's trouble.",
+   "hiddenInfo": "The show is a lot closer to broke than Dreamer lets on, three empty tents in a row and it starts selling wagons, and half the acts know it and the other half are pretending they don't. The older acts would follow Dreamer off a cliff, the newer ones are still working out whether he's a genius or just lucky. Right now somebody inside the show is taking Gilt Circus money too, and Dreamer hasn't worked out who yet."
+  },
+  "The Gilt Circus": {
+   "name": "The Gilt Circus",
+   "factionType": "major",
+   "known": true,
+   "basicInfo": "The Gilt Circus is the biggest show on the trade roads, gold paint, white tents, a brass band and Lucius Gilt in his white suit at the front of it all, and it plays the big towns where the mayors pay to have it come. It buys acts instead of finding them and it works the same roads as Dreamer's show a day or two behind, close enough to pick up whatever falls off. Towns love it for a night, and the acts who work there don't smile much once the lights go down.",
+   "hiddenInfo": "Under the gold paint the Gilt Circus is going broke, the crowds are thinning, the acts are tired and three of them ran off last month, so Lucius is buying up rival acts and paying mayors to choke out every other show on the road. Only Lucius and his strongbox men know how bad the books are, the acts just know the pay keeps coming late. Right now Lucius has paid Mudbury's mayor to run Dreamer's show out of town, and he's planted someone inside Dreamer's show to tell him where it's weak."
+  }
+ },
+ "worldLore": {
+  "Dreamer's Travelling Show": {
+   "text": "Dreamer's Travelling Show is a circus caravan of painted wagons that rolls town to town on the trade roads, a dozen acts nobody else would take, a cook, two horses who hate everyone and Dreamer out front as ringmaster. It lives off the door, so every stop means a full tent or an empty pot, and towns treat it the way they treat weather, they'll come and look but they lock up the chickens. It says it's just a show, and most nights it is, right up until the town's trouble becomes the show's trouble."
+  },
+  "The Gilt Circus": {
+   "text": "The Gilt Circus is the biggest show on the trade roads, gold paint, white tents, a brass band and Lucius Gilt in his white suit at the front of it all, and it plays the big towns where the mayors pay to have it come. It buys acts instead of finding them and it works the same roads as Dreamer's show a day or two behind, close enough to pick up whatever falls off. Towns love it for a night, and the acts who work there don't smile much once the lights go down."
+  }
+ },
+ "characterArchetypes": {
+  "Show Folk": "Drives:\n- keep the show on the road\n- get through tonight's crowd\n- never go back to wherever they came from\n\nTraits:\n- loud in the ring, quiet off it\n- quick hands, quicker excuses\n- loyal to the wagon next door\n\nMorality: lies to towns, never to the troupe\n\nRelationships:\n- the show is family, the town is weather\n- owes somebody in the troupe a favour\n- trusts anyone who's eaten the cook's stew"
+ },
+ "authorSeeds": {
+  "Road Show": "You show characters through what they do when the crowd is watching and when it isn't\nYou focus on hands, costumes and the wear on both\nYou create characters who have a trick for every trouble and a reason they left home\nYou include one small superstition each of them keeps before going on\nYou reveal character through what they'd risk to keep the show together"
+ }
+}
