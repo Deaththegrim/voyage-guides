@@ -1,0 +1,69 @@
+{
+ "triggerDefinitions": {
+  "bramble_swipe": {
+   "name": "bramble_swipe",
+   "scope": "player",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action",
+     "query": "The player gets between Bramble the lion and his food, or tries to take food off him."
+    }
+   ],
+   "effects": [
+    {
+     "type": "player-resource",
+     "resource": "health",
+     "operator": "subtract",
+     "value": 5,
+     "target": "satisfyingPlayers"
+    },
+    {
+     "type": "story",
+     "instruction": "Bramble's old and half blind but he still knows where his dinner is: one lazy swipe of a paw the size of a skillet sends them sprawling."
+    }
+   ]
+  },
+  "met_lucius": {
+   "name": "met_lucius",
+   "recurring": false,
+   "conditions": [
+    {
+     "type": "story",
+     "query": "Lucius Gilt, ringmaster of the Gilt Circus, meets the player face to face."
+    }
+   ],
+   "effects": [
+    {
+     "type": "write-boolean",
+     "key": "met_lucius",
+     "operator": "set",
+     "value": true
+    }
+   ]
+  },
+  "gilt_watching": {
+   "name": "gilt_watching",
+   "recurring": false,
+   "conditions": [
+    {
+     "type": "read-boolean",
+     "key": "met_lucius",
+     "operator": "equals",
+     "value": true
+    },
+    {
+     "type": "party-area",
+     "operator": "equals",
+     "value": "The Show's Camp"
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "One of Lucius Gilt's big men is leaning on the hedge at the edge of the camp, not even pretending he isn't watching."
+    }
+   ]
+  }
+ }
+}

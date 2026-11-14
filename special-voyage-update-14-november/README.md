@@ -8,7 +8,7 @@ Short version: check your names (section 1). Everything else is optional, or onl
 
 What changed: Voyage fixed "several issues where traits, abilities, items, quests, openings, NPCs, or map locations that share a name could be mixed up". So Voyage now has to tell apart two records that carry the same name. A trait called Katana that gives you an item called Katana is the common case. So is a quest with the same title as the trait it rewards, or an ability named after the trait that grants it.
 
-Why bother: one record per name takes the whole problem away, and you don't have to guess how Voyage resolves it. I've renamed these in all my published worlds. If your players hit "Your selected traits are not available for this story start" when they finish making a character, check your shared trait names first. I haven't proven that's the cause yet, but it's the cheapest thing to rule out.
+Why bother: one record per name takes the whole problem away, and you don't have to guess how Voyage resolves it. I've renamed these in all my published worlds. If your players hit "Your selected traits are not available for this story start" when they finish making a character, that isn't your names: it's an old saved character made before the update. Have them make a fresh one.
 
 How to find them:
 - Easiest: export your world JSON from Studio and run the checker in this folder: `python3 shared_names_check.py "Your World.json"`. It only reads the file. It lists every name used by two kinds of record, with the trait ones first.

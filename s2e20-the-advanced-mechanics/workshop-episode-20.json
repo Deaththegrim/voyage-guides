@@ -1,0 +1,60 @@
+{
+ "progressionSettings": {
+  "startingCharacterLevelUpRequirement": 1000,
+  "extraRequiredXPPerCharacterLevel": 400,
+  "maxCharacterLevel": 100,
+  "abilityPointEveryLevels": 1,
+  "abilityPointsPerGrant": 1,
+  "attributePointEveryLevels": 5,
+  "attributePointsPerGrant": 1,
+  "maxAttributeValue": 999,
+  "traitPickEveryLevels": 10,
+  "traitPicksPerGrant": 1,
+  "locationDiscoveryXP": 10,
+  "levelUpTraitPool": [],
+  "milestoneTitles": [
+   {
+    "levelGranted": 1,
+    "title": "First of May"
+   },
+   {
+    "levelGranted": 10,
+    "title": "Ring Hand"
+   },
+   {
+    "levelGranted": 20,
+    "title": "Featured Act"
+   },
+   {
+    "levelGranted": 30,
+    "title": "Headliner"
+   },
+   {
+    "levelGranted": 40,
+    "title": "Star of the Show"
+   },
+   {
+    "levelGranted": 50,
+    "title": "Talk of the Roads"
+   }
+  ]
+ },
+ "death": {
+  "permadeath": false,
+  "instructions": "Narrate the character getting knocked out rather than dying. They come round the next morning on a cot in the show's camp, wherever it's pitched, patched up and stinking of Old Marla's liniment, memories intact and every item still in their possession, with the show already packing up around them. The knockout should feel like a hard stop and a clean rescue, and then let them carry on from the camp."
+ },
+ "endGame": {
+  "win": {
+   "endCondition": "win",
+   "instructions": "Narrate a satisfying victory ending that celebrates what the party accomplished and resolves the major stakes: the show goes on, the tent is full, and the crowd is on its feet."
+  },
+  "lose": {
+   "endCondition": "lose",
+   "instructions": "Narrate a meaningful failure ending that makes the consequences clear while giving the adventure a sense of closure: the wagons roll out of town in the dark, lighter than they came in."
+  },
+  "end": {
+   "endCondition": "end",
+   "instructions": "Narrate a neutral ending that gracefully closes the adventure and gives the story a final sense of completion."
+  }
+ }
+}

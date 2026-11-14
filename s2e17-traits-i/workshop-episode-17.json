@@ -1,0 +1,246 @@
+{
+ "traitCategories": {
+  "Background": {
+   "name": "Background",
+   "description": "Where you came from, before the show or how you ended up in it. Pick one.",
+   "maxSelections": 1,
+   "traits": [
+    "Born on the Road",
+    "Ran Away to Join"
+   ]
+  },
+  "Act": {
+   "name": "Act",
+   "description": "What you do for the show. Pick one.",
+   "maxSelections": 1,
+   "traits": [],
+   "subcategories": [
+    {
+     "name": "In the ring",
+     "description": "The acts the crowd pays to see.",
+     "traits": [
+      "Knife Thrower",
+      "Acrobat",
+      "Escape Artist"
+     ]
+    },
+    {
+     "name": "Around the show",
+     "description": "The work that keeps the show on the road.",
+     "traits": [
+      "Barker",
+      "Animal Keeper"
+     ]
+    }
+   ]
+  }
+ },
+ "traits": {
+  "Born on the Road": {
+   "name": "Born on the Road",
+   "description": "You were born in the back of a wagon somewhere between two towns nobody remembers, and the road's the only home you've ever had, you can pitch a tent in the rain, find water in a dry field and sleep through anything short of a storm.",
+   "traitNarrativeEffects": "You were born in the back of a wagon somewhere between two towns nobody remembers, and the road's the only home you've ever had, you can pitch a tent in the rain, find water in a dry field and sleep through anything short of a storm.",
+   "attributes": [
+    {
+     "attribute": "constitution",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "survival",
+     "modifier": 1
+    }
+   ],
+   "resources": [
+    {
+     "resource": "stamina",
+     "modifier": 5
+    }
+   ],
+   "startingItems": [],
+   "abilities": [],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Ran Away to Join": {
+   "name": "Ran Away to Join",
+   "description": "You were somebody's kid in some farm town until the show came through one summer, and you climbed in the back of the last wagon out and never went home, so you still notice the things the old hands stopped seeing a long time ago.",
+   "traitNarrativeEffects": "You were somebody's kid in some farm town until the show came through one summer, and you climbed in the back of the last wagon out and never went home, so you still notice the things the old hands stopped seeing a long time ago.",
+   "attributes": [
+    {
+     "attribute": "wisdom",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "investigation",
+     "modifier": 1
+    }
+   ],
+   "resources": [],
+   "startingItems": [],
+   "abilities": [],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Knife Thrower": {
+   "name": "Knife Thrower",
+   "description": "You've spent so many nights putting blades into a board around a living person that your hands don't shake anymore, and the act's simple, they stand very still, you throw, and the crowd holds its breath right up until the last knife thunks in a finger's width from an ear.",
+   "traitNarrativeEffects": "You've spent so many nights putting blades into a board around a living person that your hands don't shake anymore, and the act's simple, they stand very still, you throw, and the crowd holds its breath right up until the last knife thunks in a finger's width from an ear.",
+   "attributes": [
+    {
+     "attribute": "dexterity",
+     "modifier": 4
+    },
+    {
+     "attribute": "wisdom",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "knife throwing",
+     "modifier": 2
+    }
+   ],
+   "resources": [],
+   "startingItems": [],
+   "abilities": [
+    "Fan Throw"
+   ],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Acrobat": {
+   "name": "Acrobat",
+   "description": "You've been thrown, caught, dropped and thrown again since you could walk, and now you can land on a wagon roof from a running horse, walk the high wire in a crosswind and still have the breath left to bow at the end.",
+   "traitNarrativeEffects": "You've been thrown, caught, dropped and thrown again since you could walk, and now you can land on a wagon roof from a running horse, walk the high wire in a crosswind and still have the breath left to bow at the end.",
+   "attributes": [
+    {
+     "attribute": "dexterity",
+     "modifier": 4
+    },
+    {
+     "attribute": "strength",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "acrobatics",
+     "modifier": 2
+    }
+   ],
+   "resources": [
+    {
+     "resource": "stamina",
+     "modifier": 10
+    }
+   ],
+   "startingItems": [],
+   "abilities": [],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Escape Artist": {
+   "name": "Escape Artist",
+   "description": "Chain you up, lock you in the box and lower you into the water tank, and a minute later you're climbing out the back of the crowd waving, because there isn't a knot, a lock or a pair of cuffs you haven't worked out how to get out of.",
+   "traitNarrativeEffects": "Chain you up, lock you in the box and lower you into the water tank, and a minute later you're climbing out the back of the crowd waving, because there isn't a knot, a lock or a pair of cuffs you haven't worked out how to get out of.",
+   "attributes": [
+    {
+     "attribute": "dexterity",
+     "modifier": 4
+    },
+    {
+     "attribute": "constitution",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "sleight of hand",
+     "modifier": 2
+    }
+   ],
+   "resources": [],
+   "startingItems": [],
+   "abilities": [
+    "Slip the Cuffs"
+   ],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Barker": {
+   "name": "Barker",
+   "description": "You're the voice outside the tent, the one with the cane and the loud waistcoat who can talk a whole street of tired farmers into paying to see a two-headed calf, and you can tell from the back of a crowd who's got coin, who's got doubts and who's about to start trouble.",
+   "traitNarrativeEffects": "You're the voice outside the tent, the one with the cane and the loud waistcoat who can talk a whole street of tired farmers into paying to see a two-headed calf, and you can tell from the back of a crowd who's got coin, who's got doubts and who's about to start trouble.",
+   "attributes": [
+    {
+     "attribute": "charisma",
+     "modifier": 4
+    },
+    {
+     "attribute": "intelligence",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "persuasion",
+     "modifier": 2
+    },
+    {
+     "skill": "performance",
+     "modifier": 1
+    }
+   ],
+   "resources": [],
+   "startingItems": [],
+   "abilities": [
+    "Crowd Pleaser"
+   ],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  },
+  "Animal Keeper": {
+   "name": "Animal Keeper",
+   "description": "You muck out, feed and doctor every animal the show owns and they all know your step, the horses settle when you walk in, the dogs stop barking, and even Bramble lets you get close enough to check his teeth.",
+   "traitNarrativeEffects": "You muck out, feed and doctor every animal the show owns and they all know your step, the horses settle when you walk in, the dogs stop barking, and even Bramble lets you get close enough to check his teeth.",
+   "attributes": [
+    {
+     "attribute": "wisdom",
+     "modifier": 4
+    },
+    {
+     "attribute": "strength",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "animal handling",
+     "modifier": 2
+    }
+   ],
+   "resources": [
+    {
+     "resource": "health",
+     "modifier": 10
+    }
+   ],
+   "startingItems": [],
+   "abilities": [],
+   "unlockedBy": [],
+   "excludedBy": [],
+   "requirements": []
+  }
+ }
+}

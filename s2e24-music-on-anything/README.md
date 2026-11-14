@@ -112,7 +112,7 @@ I ran every one through Voyage's own validator inside a real world. It passed at
 How to use it:
 1. Open your world in Studio's JSON editor.
 2. Find `"gameplayMusicSettings"`, then `"tracks"`. Paste the playlists you want inside it, next to the ones already there. Mind the commas between entries.
-3. Find `"triggers"` (newer Studio exports call it `"triggerDefinitions"`) and paste the triggers you want inside it.
+3. Find `"triggerDefinitions"` (older exports call it `"triggers"`) and paste the triggers you want inside it.
 4. Change the names to yours: the playlist name, your song links, and the place, person, item or trait each trigger watches. The trigger's outer key and its `"name"` must stay the same as each other.
 5. Save. If Studio warns "references missing ...", a name doesn't match your world exactly.
 
@@ -136,3 +136,7 @@ Here's each "where" on its own, so you can see the only line that changes. The O
 That's it. Every city, boss arena and creator screen in my worlds runs on these three steps.
 
 My worlds and lorebooks: https://deaththegrim.github.io/
+
+## This episode's own setup
+
+`workshop-episode-24.json` holds the two playlists from this episode (Show Night by mood, Camp Theme pinned by triggers, both using Latitude's own library songs) and the two camp music triggers. examples.json has seven more playlists and eleven more triggers. Paste the playlists under Audio > Music and the triggers under Mechanics > Advanced > Triggers, in a test world.

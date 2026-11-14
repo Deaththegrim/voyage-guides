@@ -1,0 +1,30 @@
+{
+ "skills": {
+  "knife throwing": {
+   "name": "knife throwing",
+   "type": "combat",
+   "attribute": "dexterity",
+   "description": "Throwing blades at a target, on the board in front of a crowd or at somebody who's earned it, and the roll says how close it lands, a poor one sticks in the wood a hand's width off, a good one pins a sleeve to the boards, and a great one goes exactly where you were looking before anyone saw your arm move.",
+   "startingItems": [
+    {
+     "item": "Throwing Knives",
+     "quantity": 1
+    }
+   ]
+  },
+  "sleight of hand": {
+   "name": "sleight of hand",
+   "type": "utility",
+   "attribute": "dexterity",
+   "description": "Card tricks, palming coins, lifting a purse or slipping something into a pocket that wasn't there before, a poor roll gets you caught with your hand in someone's coat, a good one gets it done with nobody the wiser, and a great one has them thanking you for the show while you walk off with their watch.",
+   "startingItems": []
+  },
+  "animal handling": {
+   "name": "animal handling",
+   "type": "utility",
+   "attribute": "wisdom",
+   "description": "Calming, training and reading animals, the show's horses, a guard dog at a farm gate or Bramble on a bad night, a poor roll and the animal smells your nerves before you know you've got any, a good one and it settles and does what it's asked, and a great one and it follows you round like you raised it.",
+   "startingItems": []
+  }
+ }
+}

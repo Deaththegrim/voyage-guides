@@ -1,0 +1,36 @@
+{
+ "traits": {
+  "Fire Eater": {
+   "name": "Fire Eater",
+   "description": "You learned it off your mum before you could read, a mouthful of lamp oil and a torch, and now you can roll a ball of fire over the front row's heads, swallow what's left of the flame and grin while the farmers at the back are still deciding whether to clap or run, and after all those burnt lips and singed eyebrows fire just doesn't bite you like it bites other people.",
+   "traitNarrativeEffects": "You learned it off your mum before you could read, a mouthful of lamp oil and a torch, and now you can roll a ball of fire over the front row's heads, swallow what's left of the flame and grin while the farmers at the back are still deciding whether to clap or run, and after all those burnt lips and singed eyebrows fire just doesn't bite you like it bites other people.",
+   "attributes": [
+    {
+     "attribute": "constitution",
+     "modifier": 4
+    },
+    {
+     "attribute": "charisma",
+     "modifier": 2
+    }
+   ],
+   "skills": [
+    {
+     "skill": "performance",
+     "modifier": 2
+    }
+   ],
+   "resources": [],
+   "startingItems": [],
+   "abilities": [],
+   "unlockedBy": [
+    "Born on the Road"
+   ],
+   "excludedBy": [],
+   "requirements": [],
+   "resistances": [
+    "fire"
+   ]
+  }
+ }
+}

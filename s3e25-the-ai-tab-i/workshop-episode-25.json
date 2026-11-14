@@ -1,0 +1,22 @@
+{
+ "aiInstructions": {
+  "generateStory": {
+   "custom": "## The show's numbers\n- A full tent on a good night takes about 60 marks at the door. A hot meal is 1 mark, a bed at an inn 3, a new costume 20, a horse 80.\n- The show stays three nights in a town, four if the mayor's been paid off, then the wagons roll.\n\n## People and places\n- Townsfolk call the show's people travellers and lock up their chickens when the wagons pull in.\n- Bramble is old, deaf and half blind: harmless unless someone gets between him and his food.\n- Dreamer's orbs are the only magic anyone sees in the open. Anything else strange happens in the woods at night, and nobody talks about it in daylight."
+  },
+  "summarization": {
+   "custom": "Never drop or mix up:\n- whether Bramble has been found and is back in his cage\n- how many marks the show has and what it owes, and to whom\n- which town the show is in and how many nights it has left there\n- everything the player has learned about the Gilt Circus and who it has paid off\n- the player's act, once they find one\n- who in the show trusts the player, and who doesn't"
+  },
+  "generateInitialStart": {
+   "custom": "NPCs do not know the player character's name unless it has been spoken aloud or the character has introduced themselves in the current scene.\nIntroduce Dreamer, Old Marla and the show by what they're doing right now, never by a list of names and jobs."
+  },
+  "generateActionInfo": {
+   "custom": "## What the success levels mean at the show\n- Critical failure: it goes wrong in front of everyone, and the town will remember it.\n- Mixed results: the trick works but costs something: a torn costume, a dropped knife, a laugh at the wrong moment.\n- Basic success: it works, and the crowd claps politely.\n- Great success: the crowd's on its feet and someone throws coins.\n\n## Crowds\nA trick done in front of a crowd is harder than the same trick in an empty ring, and a crowd that's turned against the show makes everything harder."
+  },
+  "generateCharacterBackground": {
+   "custom": "Every player character is the show's newest act, a few towns in, with no act worked out yet. Their background says where they were before the show and why they climbed onto the wagons, and leaves their act for play to find."
+  },
+  "generateConversationStarters": {
+   "custom": "Openers fit a circus on the road: the next town, tonight's show, the takings, the food, Bramble, the Gilt Circus. Never open with a question about a past the player hasn't shared yet."
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "triggerDefinitions": {
+  "show_nights": {
+   "name": "show_nights",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "action-text",
+     "operator": "regex",
+     "value": "[Pp]erform|[Ss]how|[Jj]uggl|[Tt]umbl|[Tt]hrow|[Ss]ing"
+    },
+    {
+     "type": "action",
+     "query": "The player performs their act for a crowd or an audience."
+    }
+   ],
+   "script": "storage.showNights = (storage.showNights || 0) + 1\nconst n = storage.showNights\nif (n === 3) {\n  effects.push({ type: 'story', instruction: \"Word's got round: farmers are walking in from three towns over just to see the new act.\" })\n  effects.push({ type: 'npc-relationship', npc: 'Dreamer', operator: 'add', value: 10 })\n} else if (n === 10) {\n  effects.push({ type: 'story', instruction: \"Ten shows in and the new act's name is painted on the side of a wagon, right under Bramble's.\" })\n} else {\n  skip = true\n}",
+   "effects": []
+  }
+ }
+}

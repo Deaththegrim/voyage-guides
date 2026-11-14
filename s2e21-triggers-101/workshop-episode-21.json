@@ -1,0 +1,49 @@
+{
+ "triggerDefinitions": {
+  "bramble_in_the_roses": {
+   "name": "bramble_in_the_roses",
+   "recurring": false,
+   "conditions": [
+    {
+     "type": "party-area",
+     "operator": "equals",
+     "value": "The Mayor's Garden"
+    },
+    {
+     "type": "story",
+     "query": "The player finds Bramble the lion in the mayor's garden."
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "Bramble's asleep in the middle of the mayor's prize rose bed with half the roses flattened under him, snoring like a cart going over a bridge."
+    },
+    {
+     "type": "npc-relationship",
+     "npc": "Mayor Pettigrew",
+     "operator": "subtract",
+     "value": 10
+    }
+   ]
+  },
+  "running_on_empty": {
+   "name": "running_on_empty",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "player-resource",
+     "resource": "stamina",
+     "operator": "lessThanOrEqual",
+     "value": 0
+    }
+   ],
+   "effects": [
+    {
+     "type": "story",
+     "instruction": "Whoever's out of stamina is spent: legs like wet rope, lungs on fire, and nothing strenuous until they've rested or eaten."
+    }
+   ]
+  }
+ }
+}

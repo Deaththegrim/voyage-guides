@@ -1,0 +1,22 @@
+{
+ "aiInstructions": {
+  "ItemGenerationAndUsage": {
+   "custom": "## Getting things\n- Nothing goes in the inventory until the player has actually taken it or paid for it. Browsing a stall or hearing about an item adds nothing.\n- A purchase only completes once the player agrees to the price.\n\n## Prices, in marks\nA hot meal 1, a bed 3, a coil of rope 2, a new costume 20, a horse 80.\n\n## Loot\nBandits carry a few marks and cheap knives, never anything grand. Anything really good comes from the Gilt Circus or the woods."
+  },
+  "generateLearnedAbilities": {
+   "custom": "Learnable: circus skills (new tricks, acts and stunts), road skills (driving a team, reading the weather) and con tricks. Not learnable: real magic, which only Dreamer's orbs do. A new trick comes from practising with someone in the show, or from a night the act goes wrong and something new comes out of it."
+  },
+  "generateEncounters": {
+   "custom": "By day on the road: bandits after the takings, a broken axle, a farmer who'll swap food for a show. At night near the woods: something strange that's better avoided than fought. About half of encounters shouldn't need a fight at all."
+  },
+  "generateLocationDetails": {
+   "custom": "Towns on the trade roads have one main street, a church with a leaning spire, a pub, and a field the show can pitch on. On first entry give one thing you see, one thing you hear, and how the town feels about the wagons rolling in."
+  },
+  "generateRegionDetails": {
+   "custom": "Regions are farm country on the old trade roads: patchwork fields, hedgerows, small towns half a day apart, and dark pine woods at the edges. Name towns plainly, after what they're known for (Mudbury, Saltby, Three Oaks)."
+  }
+ },
+ "encounterElements": {
+  "Circus Road": "- broken-down wagons\n- rival circus posters\n- crossroads fairs\n- farmhouses that trade food for a show\n- toll bridges with greedy keepers"
+ }
+}

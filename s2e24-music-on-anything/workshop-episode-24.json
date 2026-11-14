@@ -1,0 +1,93 @@
+{
+ "gameplayMusicSettings": {
+  "tracks": {
+   "Show Night": {
+    "matchTags": [
+     "circus",
+     "big top",
+     "ringmaster",
+     "crowd",
+     "applause",
+     "performance",
+     "spotlight",
+     "juggling",
+     "acrobats",
+     "showtime"
+    ],
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Exuberant_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Exuberant_PLY.ogg"
+     }
+    ]
+   },
+   "Camp Theme": {
+    "variants": [
+     {
+      "narrationUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling1_NAR.ogg",
+      "gameplayUrl": "https://latitude-standard-pull-zone-1.b-cdn.net/site_assets/heroes/audio/music/Travelling1_PLY.ogg"
+     }
+    ]
+   }
+  }
+ },
+ "triggerDefinitions": {
+  "camp_music_on": {
+   "name": "camp_music_on",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "party-area",
+     "operator": "equals",
+     "value": "The Show's Camp"
+    },
+    {
+     "type": "read-boolean",
+     "key": "camp_music",
+     "operator": "equals",
+     "value": false
+    }
+   ],
+   "effects": [
+    {
+     "type": "music-track-set",
+     "trackId": "Camp Theme"
+    },
+    {
+     "type": "write-boolean",
+     "key": "camp_music",
+     "operator": "set",
+     "value": true
+    }
+   ]
+  },
+  "camp_music_off": {
+   "name": "camp_music_off",
+   "recurring": true,
+   "conditions": [
+    {
+     "type": "read-boolean",
+     "key": "camp_music",
+     "operator": "equals",
+     "value": true
+    },
+    {
+     "type": "party-area",
+     "operator": "notEquals",
+     "value": "The Show's Camp"
+    }
+   ],
+   "effects": [
+    {
+     "type": "music-track-clear"
+    },
+    {
+     "type": "write-boolean",
+     "key": "camp_music",
+     "operator": "set",
+     "value": false
+    }
+   ]
+  }
+ }
+}

@@ -62,7 +62,7 @@
       }
     }
   },
-  "triggers": {
+  "triggerDefinitions": {
     "music_warren_on": {
       "name": "music_warren_on",
       "recurring": true,

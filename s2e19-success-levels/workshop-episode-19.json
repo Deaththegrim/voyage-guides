@@ -1,0 +1,63 @@
+{
+ "successLevelSettings": {
+  "firstSuccessfulTierId": "mixed-results",
+  "tiers": [
+   {
+    "id": "critical-failure",
+    "name": "Critical Failure",
+    "minScore": null,
+    "maxScore": -66,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} tries the action and it goes wrong in front of everyone, the kind of disaster the whole camp will still be telling stories about at supper - if enemies are present, consider framing the failure as partly the result of an enemy's cleverness, tactics, or intervention that thwarts the attempt, rather than the player merely being inept.]"
+   },
+   {
+    "id": "failure",
+    "name": "Failure",
+    "minScore": -65,
+    "maxScore": -51,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} tries to do the action, but it fails - if enemies are present, consider framing the failure as partly the result of an enemy's cleverness, tactics, or intervention that thwarts the attempt, rather than the player merely being inept.]"
+   },
+   {
+    "id": "mixed-results",
+    "name": "Mixed Results",
+    "minScore": -50,
+    "maxScore": -26,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}} does the action, but it is only partially successful with mixed results.]"
+   },
+   {
+    "id": "basic-success",
+    "name": "Basic Success",
+    "minScore": -25,
+    "maxScore": -1,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is successful.]"
+   },
+   {
+    "id": "success",
+    "name": "Success",
+    "minScore": 0,
+    "maxScore": 24,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is quite successful.]"
+   },
+   {
+    "id": "great-success",
+    "name": "Great Success",
+    "minScore": 25,
+    "maxScore": 49,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is very successful.]"
+   },
+   {
+    "id": "critical-success",
+    "name": "Critical Success",
+    "minScore": 50,
+    "maxScore": null,
+    "imageUrl": "",
+    "prompt": "[Note: {{characterName}}'s action is amazingly successful, the kind of thing a crowd would pay twice to see and talk about all the way home.]"
+   }
+  ]
+ }
+}

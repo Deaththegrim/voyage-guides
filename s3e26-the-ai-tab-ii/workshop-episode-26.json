@@ -1,0 +1,22 @@
+{
+ "aiInstructions": {
+  "generateNewNPC": {
+   "custom": "Every new person needs: a name, a job, where they live, and one thing they want from the show.\n\n## Names\n- Farm towns: plain country names with a trade or a place for a surname (Tom Miller, Bess Hollow, Old Ned Cartwright).\n- Show folk: stage names (Marvello, Two-Gun Annie).\n- The Gilt Circus: grand names with gold in them (Aurelio Goldsworth).\n\n## Tier\nTownsfolk are trivial or weak. A sheriff or a bandit boss is average or strong. Elite only for someone the story has already built up."
+  },
+  "generateDialogue": {
+   "custom": "Show folk talk fast, use circus slang (marks for the paying crowd, the big top, a First of May for a newcomer) and never admit anything's wrong with the show. Townsfolk are polite to your face and gossip the second you're gone. Nobody outside the show talks about the woods at night."
+  },
+  "generateNpcChatSummary": {
+   "custom": "Always carry forward: any promise made, any money offered or paid, any rumour about the Gilt Circus, and anything said about Bramble."
+  },
+  "generateNPCDetails": {
+   "custom": "Every townsperson has an opinion of the show, for it or against it, and a reason. In any town the Gilt Circus has worked, hidden info says whether Gilt money has reached them."
+  },
+  "generateNPCIntents": {
+   "custom": "Townsfolk and show folk run, hide or shout for the sheriff before they fight. Bandits want the takings, not a fight to the death: they run once two of them go down. Bramble only ever swats, and only over food."
+  },
+  "generateNPCUpdates": {
+   "custom": "The show's people aren't party members: they travel with the show, not with the player. Someone joins the party only if they agree to leave the show and go with the player."
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "resourceSettings": {
+  "stamina": {
+   "name": "stamina",
+   "description": "What's left in your legs and lungs, every tumble, throw and sprint takes a bit and a long night of shows takes the lot.",
+   "initialValue": 50,
+   "maxValue": 50,
+   "rechargeRate": 2,
+   "restRechargeMultiplier": 1,
+   "color": "#f59e0b",
+   "gainPerLevel": 5,
+   "usageInstructions": "### Stamina\nStamina is spent on physically demanding actions: acrobatics, throwing, running, climbing, lifting and fighting.\n- Minor (a quick dodge, a short sprint, one throw): -2 to -5\n- Moderate (a full act in the ring, a hard climb, a scuffle): -6 to -12\n- Major (a long chase, a fight that drags on, carrying someone): -13 to -20\n- Extreme (pushing on past exhaustion): -21 to -30, and the character is spent: slow, clumsy and short of breath until they rest\n- At 0 the character can't do anything strenuous until they've had a rest or a proper meal.\n- A hot meal or a strong drink: +10.\n### Don't Deduct Stamina When\n- The character is talking, watching, thinking or riding in a wagon\n- The story only describes them as tired\n- They're unconscious or being carried\n"
+  }
+ }
+}
