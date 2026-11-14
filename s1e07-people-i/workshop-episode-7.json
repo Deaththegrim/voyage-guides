@@ -1,0 +1,84 @@
+{
+ "npcs": {
+  "Dreamer": {
+   "name": "Dreamer",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Show's Camp",
+   "tier": "elite",
+   "gender": "male",
+   "faction": "",
+   "basicInfo": "Dreamer is the ringmaster of the travelling show and you can spot him from the far end of any town, a black top hat with a grinning skull on the band, long pale hair and a beard down to his chest, blue spiral eyes, a black suit with a red tie, a belt of five glowing orbs and the biggest sneakers on the road, with one of his own-brand magic ciggies always on the go, burning sparkles like a sparkler. Nobody in the show has ever once seen him asleep, his plans make no sense right up until they work, and right now he's walking the camp grinning like a man who knows exactly where the lion went.",
+   "hiddenInfo": "Dreamer saw the mayor's lantern by the cages the night Bramble got out and he hasn't said a word, because a mayor caught letting a lion loose in his own town is worth far more in front of a crowd than in a quiet chat, and he wants Lucius Gilt standing right there when it comes out. The orbs on his belt are fire, water, earth, light and shadow, and they do whatever the night needs and never quite the same thing twice, which is half the reason his plans work and the whole reason he doesn't bother making them. The one thing that wipes the grin off his face is someone trying to break up the show: every act in it is somebody nobody else wanted, and he'd sooner burn a town down than sell one of them.",
+   "personality": [
+    "grins wider the worse things get",
+    "makes it up as he goes and never admits it",
+    "hands out ciggies the way other people hand out advice",
+    "goes dead calm and quiet when someone threatens one of his acts"
+   ],
+   "voiceTag": "male confident energetic",
+   "initialRelationship": 40,
+   "known": true
+  },
+  "Old Marla": {
+   "name": "Old Marla",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Show's Camp",
+   "tier": "strong",
+   "gender": "female",
+   "faction": "",
+   "basicInfo": "Old Marla has put her head in a lion's mouth twice a night for thirty years and the scars up both forearms say the lion didn't always agree, a small hard woman in a red tamer's coat with half its brass buttons gone, who talks to Bramble more gently than she has ever talked to a person and sits by his cage most nights telling him about the towns he can't see anymore. Right now she's out of her head with worry, because the cage is empty, the latch isn't broken, and Bramble is too old and too blind to have lifted it himself.",
+   "hiddenInfo": "Marla knows somebody let Bramble out and she's sure it was somebody in the show, so she's watching everyone with the same hard squint, the new act most of all. What she wants is for that lion to see out his last years in his own cage, and the day Dreamer takes the Gilt Circus's money for him is the day she walks off into the night and doesn't come back. She can't read a word and nobody knows but the cook, who reads her letters for her and keeps his mouth shut.",
+   "personality": [
+    "checks every latch twice before she sleeps",
+    "says what she thinks and doesn't wait to be asked",
+    "goes soft the second anyone asks about Bramble",
+    "calls everyone under sixty \"pup\""
+   ],
+   "voiceTag": "female scottish old",
+   "initialRelationship": 20,
+   "known": true
+  },
+  "Mayor Pettigrew": {
+   "name": "Mayor Pettigrew",
+   "type": "",
+   "currentLocation": "Mudbury",
+   "currentArea": "The Mayor's Garden",
+   "tier": "trivial",
+   "gender": "male",
+   "faction": "",
+   "basicInfo": "Mayor Pettigrew runs Mudbury like it's his front garden, tidy, fenced off and nobody walks on the grass, a round little man in the best coat in town who smiles at everyone and shakes hands with the tips of his fingers like the mud might be catching. He's told the show they can have the flat field for three nights and not one more, and every evening he turns up at the camp with a new rule they've broken and a clerk to write it down.",
+   "hiddenInfo": "Pettigrew took Gilt Circus money to run Dreamer's show out of town, and when the rules weren't working fast enough he lifted the latch on Bramble's cage himself, so a loose lion would turn the whole town against the show. Only Lucius Gilt knows, and Pettigrew is terrified of it coming out, because Mudbury would forgive its mayor a lot but never taking money from a circus. The way to him is his roses: threaten that garden and he'll agree to almost anything to keep it whole.",
+   "personality": [
+    "smiles the whole time he's saying no",
+    "finds a rule for anything he doesn't like",
+    "fusses over his roses like they're his children",
+    "goes quiet and sweaty whenever money comes up"
+   ],
+   "voiceTag": "male british refined",
+   "initialRelationship": -30,
+   "known": true
+  },
+  "Lucius Gilt": {
+   "name": "Lucius Gilt",
+   "type": "",
+   "currentLocation": "",
+   "currentArea": "",
+   "tier": "elite",
+   "gender": "male",
+   "faction": "",
+   "basicInfo": "Lucius Gilt is the ringmaster of the Gilt Circus, white suit, gold teeth and a smile that never gets anywhere near his eyes, and everywhere he goes two big men carry a strongbox behind him so nobody forgets he can buy whatever he wants. He works the same roads as Dreamer's show a day or two behind it, close enough to pick up whatever it drops.",
+   "hiddenInfo": "The Gilt Circus is going broke under all that gold paint, its acts are tired and its crowds are thinning out, and Lucius figures buying Dreamer's acts is cheaper than finding new ones. He pays mayors to make the show's life hard, Pettigrew in Mudbury among them, and keeps every receipt in that strongbox in case someone needs reminding. He's scared of exactly one thing, Dreamer making a fool of him in front of a crowd, because a ringmaster people laugh at is finished.",
+   "personality": [
+    "prices everything he looks at, people included",
+    "never raises his voice, he lets the big men do that",
+    "laughs a second after everyone else",
+    "calls Dreamer \"my dear rival\" and means neither word"
+   ],
+   "voiceTag": "male sly manipulative",
+   "initialRelationship": -10,
+   "known": true
+  }
+ }
+}
