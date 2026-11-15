@@ -1,0 +1,43 @@
+{
+ "worldVoices": {
+  "ringmaster": {
+   "label": "The Ringmaster",
+   "voiceTag": "male confident energetic",
+   "instructions": "Loud and quick like he's selling tickets to the whole street, always a laugh waiting under the words, and he leans on the big words like a drumroll.",
+   "speed": 1.1,
+   "effects": {
+    "reverb": {
+     "enabled": true,
+     "space": "hall",
+     "mix": 0.2
+    }
+   },
+   "exposeInCharacterCreation": false
+  },
+  "gilt_whisper": {
+   "label": "Gilt Whisper",
+   "voiceTag": "male sly manipulative",
+   "instructions": "Low and close like he's letting you in on a secret, never raises his voice, every compliment sounds like a price tag.",
+   "speed": 0.9,
+   "effects": {
+    "pitch": {
+     "enabled": true,
+     "semitones": -2
+    }
+   },
+   "exposeInCharacterCreation": false
+  },
+  "road_drawl": {
+   "label": "Road Drawl",
+   "voiceTag": "male australian young casual",
+   "instructions": "Easy and dry, like nothing on the road has ever really surprised him, short answers, a grin you can hear.",
+   "exposeInCharacterCreation": true
+  },
+  "farm_girl": {
+   "label": "Farm Girl",
+   "voiceTag": "female warm friendly",
+   "instructions": "Plain and steady with a bit of country in it, says exactly what she thinks and laughs at her own jokes.",
+   "exposeInCharacterCreation": true
+  }
+ }
+}

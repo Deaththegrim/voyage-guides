@@ -1,0 +1,186 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.100
+Hey, Dreamer here.
+
+4
+00:00:09.100 --> 00:00:11.999
+Last time our show got its first job, a runaway lion.
+
+5
+00:00:11.999 --> 00:00:17.468
+Today we give that job a sting in the tail with a narrative event: a scene Voyage plays out for you,
+
+6
+00:00:17.468 --> 00:00:20.093
+what starts one, and how Voyage knows it's over.
+
+7
+00:00:21.500 --> 00:00:24.832
+A narrative event is a scene you write ahead of time.
+
+8
+00:00:24.832 --> 00:00:28.792
+Voyage stages it in the story over a few turns, then it's done.
+
+9
+00:00:28.792 --> 00:00:31.998
+But here's the catch: just making one does nothing.
+
+10
+00:00:31.998 --> 00:00:33.632
+Something has to start it.
+
+11
+00:00:35.033 --> 00:00:37.144
+Story, then Narrative Events.
+
+12
+00:00:37.144 --> 00:00:40.856
+In the list it shows by its key, gilt circus offer.
+
+13
+00:00:40.856 --> 00:00:44.932
+That key is what quests and triggers use to point at it.
+
+14
+00:00:45.367 --> 00:00:47.452
+The title is the name you read.
+
+15
+00:00:47.452 --> 00:00:48.865
+Nothing points at it.
+
+16
+00:00:48.865 --> 00:00:50.278
+They all use the key.
+
+17
+00:00:50.733 --> 00:00:52.071
+The beats do two jobs.
+
+18
+00:00:52.071 --> 00:00:54.322
+They tell the narrator what to stage,
+
+19
+00:00:54.322 --> 00:00:58.822
+and Voyage checks the story against the same words to know when it's done.
+
+20
+00:00:58.822 --> 00:01:02.471
+So say who turns up, what happens, and what done looks like.
+
+21
+00:01:02.933 --> 00:01:04.628
+Target turns is the pace.
+
+22
+00:01:04.628 --> 00:01:07.610
+Three means wrap it up in about three turns.
+
+23
+00:01:07.610 --> 00:01:13.371
+Nothing's forced at three, but if it drags to twice that, Voyage finishes it for you.
+
+24
+00:01:13.833 --> 00:01:17.334
+On complete effects is what happens when it's done,
+
+25
+00:01:17.334 --> 00:01:20.903
+like handing out a quest or starting the next scene.
+
+26
+00:01:20.903 --> 00:01:22.413
+Ours is empty for now.
+
+27
+00:01:23.800 --> 00:01:25.242
+So what starts ours?
+
+28
+00:01:25.242 --> 00:01:31.660
+Story, then Quests, back to the lion job, and right down the bottom: on complete effects.
+
+29
+00:01:32.100 --> 00:01:35.792
+This one is a narrative event start.
+
+30
+00:01:36.233 --> 00:01:37.857
+And it points at our event.
+
+31
+00:01:37.857 --> 00:01:43.873
+So the moment Bramble's back in his cage, Lucius Gilt rolls into camp with a strongbox and an offer.
+
+32
+00:01:45.267 --> 00:01:47.015
+Three rules, and one more.
+
+33
+00:01:47.015 --> 00:01:49.033
+Only one event runs at a time.
+
+34
+00:01:49.033 --> 00:01:54.482
+If another tries to start while one's running, it's ignored, not saved for later.
+
+35
+00:01:54.482 --> 00:01:57.845
+If the player walks away from the scene, it stops.
+
+36
+00:01:57.845 --> 00:02:02.553
+And if something starts it again, it picks up right where it left off.
+
+37
+00:02:02.553 --> 00:02:04.975
+Arguing or fighting doesn't stop it.
+
+38
+00:02:04.975 --> 00:02:07.329
+That still counts as playing along.
+
+39
+00:02:08.733 --> 00:02:11.430
+Write beats the narrator can act out right now.
+
+40
+00:02:11.430 --> 00:02:14.471
+Who turns up, what happens, and what done looks like.
+
+41
+00:02:14.471 --> 00:02:17.570
+Don't use events for rules that should always be true.
+
+42
+00:02:17.570 --> 00:02:20.668
+They only run once, so a trigger is the tool for that.
+
+43
+00:02:22.067 --> 00:02:23.734
+That's narrative events.
+
+44
+00:02:23.734 --> 00:02:30.404
+The event and the quest link are in the description if you want to paste them into a test world.
+
+45
+00:02:30.404 --> 00:02:35.337
+Next time, episode five, the map: realms, regions, locations and areas.
+
+46
+00:02:35.800 --> 00:02:39.748
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

@@ -1,0 +1,294 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.340
+Hey, Dreamer here.
+
+4
+00:00:09.340 --> 00:00:14.026
+Our show has a voice, a job and a rival, but it's got nowhere to go!
+
+5
+00:00:14.026 --> 00:00:16.783
+Today we build the map: realms, regions,
+
+6
+00:00:16.783 --> 00:00:20.917
+locations and areas, and how they all fit inside each other.
+
+7
+00:00:22.333 --> 00:00:24.874
+Think of it like boxes in boxes.
+
+8
+00:00:24.874 --> 00:00:27.177
+The realm is the whole world.
+
+9
+00:00:27.177 --> 00:00:29.956
+Regions are the squares on the map.
+
+10
+00:00:29.956 --> 00:00:33.926
+Locations are places inside a region, like a town.
+
+11
+00:00:33.926 --> 00:00:39.008
+And areas are the spots inside a location, like the high street.
+
+12
+00:00:39.008 --> 00:00:41.549
+Most worlds only need one realm.
+
+13
+00:00:42.933 --> 00:00:46.385
+Open Map, then Realms, and there's ours, The Trade Roads.
+
+14
+00:00:46.385 --> 00:00:50.019
+A realm is the top box, the whole world your story lives in,
+
+15
+00:00:50.019 --> 00:00:54.984
+and you only need a second one for something like a dream world or a shadow world.
+
+16
+00:00:55.433 --> 00:00:58.821
+Basic info is what the narrator reads about it.
+
+17
+00:00:58.821 --> 00:01:02.713
+Mine says every town on these roads makes its own law.
+
+18
+00:01:03.167 --> 00:01:06.476
+Initial known means players can see it from the start.
+
+19
+00:01:06.476 --> 00:01:10.214
+Players can only reach places inside a realm they know about.
+
+20
+00:01:11.600 --> 00:01:13.405
+Next, Map, then Regions.
+
+21
+00:01:13.405 --> 00:01:18.141
+We've got two: The Hollow Counties, all farms and market towns,
+
+22
+00:01:18.141 --> 00:01:22.653
+and The Gloamwood, the old forest where the bad stuff lives.
+
+23
+00:01:22.653 --> 00:01:24.232
+Here's the first one.
+
+24
+00:01:24.667 --> 00:01:28.069
+Basic info again, what the narrator reads.
+
+25
+00:01:28.069 --> 00:01:31.633
+Farms, hedges, a church spire in every town.
+
+26
+00:01:32.067 --> 00:01:35.201
+Realm says which world it belongs to.
+
+27
+00:01:35.667 --> 00:01:38.753
+And X and Y are its square on the map grid.
+
+28
+00:01:38.753 --> 00:01:40.618
+X goes east, Y goes north.
+
+29
+00:01:40.618 --> 00:01:46.288
+Next door means one apart, so the Gloamwood sits at one, zero, right beside us.
+
+30
+00:01:46.288 --> 00:01:47.938
+Keep the numbers small.
+
+31
+00:01:49.333 --> 00:01:52.747
+Up top, the Map tab shows it all laid out.
+
+32
+00:01:53.200 --> 00:01:57.999
+There's the Hollow Counties with Mudbury as a dot, and the Gloamwood right next door.
+
+33
+00:01:57.999 --> 00:02:04.096
+You see every square in Studio, but players see a region they haven't found yet as fog with a question mark,
+
+34
+00:02:04.096 --> 00:02:05.959
+until the story takes them there.
+
+35
+00:02:07.367 --> 00:02:11.789
+Now Map, then Locations, and our first town, Mudbury.
+
+36
+00:02:11.789 --> 00:02:17.128
+A location is a place inside a region: a town, a castle, a cave.
+
+37
+00:02:17.128 --> 00:02:19.464
+Players travel to locations.
+
+38
+00:02:19.900 --> 00:02:22.396
+Basic info is what everyone can see.
+
+39
+00:02:22.396 --> 00:02:27.458
+Five hundred stubborn souls, mud to the ankle, and a mayor who hates fun.
+
+40
+00:02:27.900 --> 00:02:29.203
+Complexity type.
+
+41
+00:02:29.203 --> 00:02:32.950
+Simple is one spot, like a tavern or a shrine.
+
+42
+00:02:32.950 --> 00:02:38.732
+Complex has areas inside it, joined by paths, like a town or a dungeon.
+
+43
+00:02:39.167 --> 00:02:44.254
+Size is how big it is on the map, and how far out it catches travellers.
+
+44
+00:02:44.254 --> 00:02:47.363
+If two places overlap, the smaller one wins.
+
+45
+00:02:47.800 --> 00:02:50.936
+Hidden info is the secret only the narrator knows.
+
+46
+00:02:50.936 --> 00:02:53.947
+The best ones are something happening right now.
+
+47
+00:02:53.947 --> 00:02:58.713
+Mine? The mayor's taking Gilt Circus money, and he let the lion out himself.
+
+48
+00:02:59.167 --> 00:03:04.447
+Detail type. Basic lets Voyage write the areas and secrets for you.
+
+49
+00:03:04.447 --> 00:03:07.363
+Detailed uses exactly what you wrote.
+
+50
+00:03:07.800 --> 00:03:11.805
+And down the bottom, its areas, the spots inside the town.
+
+51
+00:03:13.200 --> 00:03:15.069
+The rest of the form, quickly.
+
+52
+00:03:15.069 --> 00:03:20.489
+Initial known puts it on the map from the start, otherwise players find it by visiting.
+
+53
+00:03:20.489 --> 00:03:23.915
+Hidden takes it off the map until a trigger reveals it.
+
+54
+00:03:23.915 --> 00:03:27.092
+Visual tags are a few words that guide its picture.
+
+55
+00:03:27.092 --> 00:03:31.764
+And factions and N P C level range say who's around and how tough they are.
+
+56
+00:03:33.167 --> 00:03:34.839
+Last one, Map, then Areas.
+
+57
+00:03:34.839 --> 00:03:38.506
+Every area belongs to a location, and here are Mudbury's.
+
+58
+00:03:38.506 --> 00:03:43.523
+Here's a thing that trips people up: the first area on the list is the way in.
+
+59
+00:03:43.523 --> 00:03:48.991
+Arrive without picking an area and that's where you land, so put your entrance first.
+
+60
+00:03:48.991 --> 00:03:50.535
+Ours is the high street.
+
+61
+00:03:51.000 --> 00:03:53.588
+The description is what the space is like,
+
+62
+00:03:53.588 --> 00:03:57.223
+what people do there, and one detail you can smell or hear.
+
+63
+00:03:57.667 --> 00:04:00.811
+And paths are the other areas you can walk to from here.
+
+64
+00:04:00.811 --> 00:04:05.303
+The high street joins up to the butcher's yard, the mayor's garden and our camp,
+
+65
+00:04:05.303 --> 00:04:09.346
+and each of those lists the high street back, so you can walk both ways.
+
+66
+00:04:10.733 --> 00:04:13.221
+Studio has its own checklist for this.
+
+67
+00:04:13.221 --> 00:04:17.739
+A place is playable once it has a background, a region and its areas.
+
+68
+00:04:17.739 --> 00:04:22.452
+It's polished once it has a picture, visual tags, factions and a secret.
+
+69
+00:04:22.452 --> 00:04:26.774
+Get it playable first, and put the way in at the top of the areas.
+
+70
+00:04:28.167 --> 00:04:31.052
+And that's the whole map, boxes in boxes.
+
+71
+00:04:31.052 --> 00:04:34.853
+Everything from this one is linked in the description.
+
+72
+00:04:34.853 --> 00:04:39.498
+Next time, the rest of the map folder, and the slow bit, pictures.
+
+73
+00:04:39.933 --> 00:04:43.881
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

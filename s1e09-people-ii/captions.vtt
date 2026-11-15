@@ -1,0 +1,202 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.100
+Hey, Dreamer here.
+
+4
+00:00:09.100 --> 00:00:10.621
+Last time we met the people.
+
+5
+00:00:10.621 --> 00:00:13.553
+Today, the rest of the people folder: types, factions,
+
+6
+00:00:13.553 --> 00:00:16.703
+and the notes Voyage uses when it makes people up for you.
+
+7
+00:00:18.100 --> 00:00:21.683
+Open Characters, then NPCs, then NPC Settings.
+
+8
+00:00:21.683 --> 00:00:29.083
+Up top, two numbers: the health every N P C starts from, and how much more they get each level.
+
+9
+00:00:30.467 --> 00:00:33.767
+Next, back under NPC Settings, open NPC Types.
+
+10
+00:00:33.767 --> 00:00:40.440
+A type is a kind of creature or person that shares a damage profile, so you only set it once.
+
+11
+00:00:40.440 --> 00:00:43.598
+We've got Road Bandits and Gloamwood Things.
+
+12
+00:00:44.033 --> 00:00:47.502
+The description says what they are and how they act.
+
+13
+00:00:47.502 --> 00:00:49.303
+Bandits can be talked down.
+
+14
+00:00:49.303 --> 00:00:50.837
+Gloamwood Things can't.
+
+15
+00:00:51.300 --> 00:00:52.581
+Then what hurts them.
+
+16
+00:00:52.581 --> 00:00:58.008
+Gloamwood Things are weak to fire and light, shrug off piercing, and poison does nothing.
+
+17
+00:00:58.008 --> 00:01:02.155
+Every N P C of that type gets this, plus anything on their own card.
+
+18
+00:01:03.567 --> 00:01:05.954
+Factions live under NPC Settings too.
+
+19
+00:01:05.954 --> 00:01:10.405
+A faction is a group with its own aims, and people can belong to one.
+
+20
+00:01:10.405 --> 00:01:13.566
+Both shows are in here, ours and the Gilt Circus,
+
+21
+00:01:13.566 --> 00:01:17.889
+and I've put myself and Marla in the show and Lucius in the circus.
+
+22
+00:01:18.333 --> 00:01:23.221
+Basic info is the public face, what the towns think of them.
+
+23
+00:01:23.667 --> 00:01:26.784
+Faction type. Major shows as World in the journal,
+
+24
+00:01:26.784 --> 00:01:30.526
+and Voyage hands it to the AI when it makes up a new region.
+
+25
+00:01:30.526 --> 00:01:31.835
+Minor shows as Local.
+
+26
+00:01:32.300 --> 00:01:38.437
+Hidden info is what's really going on, and the best ones have something happening right now.
+
+27
+00:01:38.437 --> 00:01:43.039
+The Gilt Circus is going broke, and it's got someone inside our show.
+
+28
+00:01:44.433 --> 00:01:46.282
+Two tips from Voyage's docs.
+
+29
+00:01:46.282 --> 00:01:51.169
+Give each faction a World Lore entry with the same name and the same text,
+
+30
+00:01:51.169 --> 00:01:53.481
+so the narrator finds it both ways.
+
+31
+00:01:53.481 --> 00:01:58.896
+And a faction that starts hidden is found the moment the story says its full name,
+
+32
+00:01:58.896 --> 00:02:01.802
+so don't call your secret society The Watch.
+
+33
+00:02:03.200 --> 00:02:07.200
+Under NPC Settings, then Advanced, then NPC Archetypes.
+
+34
+00:02:07.200 --> 00:02:09.527
+These are personality templates.
+
+35
+00:02:09.527 --> 00:02:15.708
+Voyage ships twenty-two of them, so it's a long list, and the search box finds yours.
+
+36
+00:02:15.708 --> 00:02:17.817
+I added one called Show Folk.
+
+37
+00:02:18.267 --> 00:02:21.370
+Drives, traits, morality and relationships.
+
+38
+00:02:21.370 --> 00:02:26.278
+When Voyage fleshes out a person it made up, it picks one at random,
+
+39
+00:02:26.278 --> 00:02:29.598
+and only for the tougher tiers, strong and up.
+
+40
+00:02:31.000 --> 00:02:33.486
+And next door, NPC Author Seeds.
+
+41
+00:02:33.486 --> 00:02:38.070
+Each one is a writing style for the people Voyage makes up.
+
+42
+00:02:38.070 --> 00:02:43.586
+Voyage ships nineteen, mostly named after writers like Joe Abercrombie,
+
+43
+00:02:43.586 --> 00:02:47.005
+and it's another long list, so search again.
+
+44
+00:02:47.005 --> 00:02:48.870
+Mine's called Road Show.
+
+45
+00:02:49.333 --> 00:02:54.875
+Five short lines: what you show them through, what you focus on, what they do.
+
+46
+00:02:54.875 --> 00:02:58.640
+Same deal, one picked at random, strong tiers and up.
+
+47
+00:03:00.033 --> 00:03:02.244
+That's the people folder done.
+
+48
+00:03:02.244 --> 00:03:07.401
+Our types, factions, archetype and seed are linked in the description.
+
+49
+00:03:07.401 --> 00:03:13.222
+Next time, the player: premade characters, random names and character creation.
+
+50
+00:03:13.667 --> 00:03:17.615
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

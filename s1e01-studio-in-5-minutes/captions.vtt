@@ -1,0 +1,222 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:10.612
+Hey, I'm Dreamer, and welcome to the workshop.
+
+4
+00:00:10.612 --> 00:00:11.704
+This is episode one.
+
+5
+00:00:11.704 --> 00:00:14.926
+By the end of it you'll know your way around Voyage Studio,
+
+6
+00:00:14.926 --> 00:00:18.038
+and you'll never lose a night's work to a bad save again.
+
+7
+00:00:19.433 --> 00:00:23.284
+Right up top you've got three tabs, and the one after.
+
+8
+00:00:23.284 --> 00:00:25.993
+Content is where you build everything.
+
+9
+00:00:26.433 --> 00:00:29.719
+Publish is your world's shop window.
+
+10
+00:00:30.167 --> 00:00:34.600
+Mods is where you add mods to your world: your own, ones you've bookmarked,
+
+11
+00:00:34.600 --> 00:00:38.441
+and Browse mods up top opens Voyage's Discover page to find more.
+
+12
+00:00:38.441 --> 00:00:40.569
+Nothing changes until you hit Apply.
+
+13
+00:00:41.033 --> 00:00:43.959
+And Map is, well, the map.
+
+14
+00:00:45.367 --> 00:00:47.532
+Down the left is the file tree.
+
+15
+00:00:47.532 --> 00:00:50.885
+Every part of your world lives in a folder here.
+
+16
+00:00:50.885 --> 00:00:53.749
+Story, map, characters, items, mechanics.
+
+17
+00:00:54.200 --> 00:01:00.748
+Open Characters, then NPCs, then World NPCs, and there's every person in your world.
+
+18
+00:01:02.133 --> 00:01:03.456
+Can't find something?
+
+19
+00:01:03.456 --> 00:01:04.526
+Don't go digging.
+
+20
+00:01:04.526 --> 00:01:09.123
+Type in the search box and Studio finds it for you, wherever it's hiding.
+
+21
+00:01:10.533 --> 00:01:15.341
+Open Characters, then NPCs, then World NPCs, and click a card.
+
+22
+00:01:15.341 --> 00:01:16.814
+It opens as a form.
+
+23
+00:01:17.267 --> 00:01:20.672
+Name, looks, personality, what they want.
+
+24
+00:01:20.672 --> 00:01:25.405
+Every box has a little info icon that says what it's for.
+
+25
+00:01:26.800 --> 00:01:31.294
+Back to World NPCs the same way, and this time hit View JSON.
+
+26
+00:01:31.294 --> 00:01:35.124
+Same person, same data, written out as the raw file.
+
+27
+00:01:35.567 --> 00:01:41.093
+This is the bit you can copy and paste, and it's where all my guides tell you to paste things.
+
+28
+00:01:42.500 --> 00:01:44.030
+So which one do you use?
+
+29
+00:01:44.030 --> 00:01:45.815
+Both. They're the same file.
+
+30
+00:01:45.815 --> 00:01:47.983
+The form is safer for small edits.
+
+31
+00:01:47.983 --> 00:01:50.023
+The JSON is faster for big ones.
+
+32
+00:01:50.023 --> 00:01:53.593
+Just know Studio remembers whichever view you used last,
+
+33
+00:01:53.593 --> 00:01:56.462
+so if a file opens looking weird, that's why.
+
+34
+00:01:57.867 --> 00:01:59.173
+Here's the big one.
+
+35
+00:01:59.173 --> 00:02:03.091
+Saving. The little arrow next to Save opens your options.
+
+36
+00:02:03.533 --> 00:02:07.539
+Save Draft keeps your work without touching what players see.
+
+37
+00:02:08.000 --> 00:02:12.447
+Save and Play saves, then starts a game so you can test it.
+
+38
+00:02:12.900 --> 00:02:18.345
+And Discard throws away everything since your last save, so mind that one.
+
+39
+00:02:19.733 --> 00:02:23.220
+Open any file, say World NPCs, and look up top.
+
+40
+00:02:23.220 --> 00:02:25.817
+It tells you if everything's saved.
+
+41
+00:02:26.267 --> 00:02:30.330
+And this button here downloads your whole world as one file.
+
+42
+00:02:30.330 --> 00:02:31.617
+That's your backup.
+
+43
+00:02:31.617 --> 00:02:34.394
+Grab one before any big change. Trust me.
+
+44
+00:02:35.800 --> 00:02:36.800
+So, three rules.
+
+45
+00:02:36.800 --> 00:02:41.420
+Save your draft often, because players never see a draft until you publish.
+
+46
+00:02:41.420 --> 00:02:43.761
+Download a backup before anything big.
+
+47
+00:02:43.761 --> 00:02:46.841
+And never press Discard unless you really mean it.
+
+48
+00:02:48.233 --> 00:02:51.008
+Last stop, the Publish tab.
+
+49
+00:02:51.967 --> 00:02:56.688
+Your cover image, your world's name, and the card description players see,
+
+50
+00:02:56.688 --> 00:02:59.941
+which tops out at two hundred and sixty characters.
+
+51
+00:02:59.941 --> 00:03:04.981
+We'll do publishing properly in its own episode, so don't hit publish just yet.
+
+52
+00:03:06.367 --> 00:03:08.363
+That's Studio in five minutes.
+
+53
+00:03:08.363 --> 00:03:14.687
+Next episode, we give your world its voice, and I'll show you what the narrator actually reads.
+
+54
+00:03:14.687 --> 00:03:18.081
+My worlds and guides are at deaththegrim.github.io.
+
+55
+00:03:18.533 --> 00:03:22.481
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+
