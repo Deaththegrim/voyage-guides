@@ -1,0 +1,182 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:11.408
+Voyage put out a big update on the fourteenth of November.
+
+4
+00:00:11.408 --> 00:00:13.690
+I went through it against my own worlds.
+
+5
+00:00:13.690 --> 00:00:15.686
+Most of it you don't have to touch.
+
+6
+00:00:15.686 --> 00:00:19.508
+There's one thing worth checking, and it takes a couple of minutes.
+
+7
+00:00:20.900 --> 00:00:24.821
+Voyage fixed mix-ups between records that share a name.
+
+8
+00:00:24.821 --> 00:00:27.887
+Here's my own dev world, before I fixed it.
+
+9
+00:00:27.887 --> 00:00:29.312
+I search for Katana.
+
+10
+00:00:29.767 --> 00:00:32.739
+There's an item called Katana.
+
+11
+00:00:33.200 --> 00:00:36.886
+And a trait, also called Katana, that gives you that item.
+
+12
+00:00:36.886 --> 00:00:38.347
+That's the common case.
+
+13
+00:00:38.347 --> 00:00:42.351
+A quest with the same title as the trait it rewards is another.
+
+14
+00:00:42.351 --> 00:00:46.354
+Give every record its own name and the whole problem goes away.
+
+15
+00:00:47.767 --> 00:00:51.533
+One name per record means Voyage never has to guess which one you meant.
+
+16
+00:00:51.533 --> 00:00:56.555
+And if your players get the message your selected traits are not available for this story start,
+
+17
+00:00:56.555 --> 00:00:57.706
+that's not your names.
+
+18
+00:00:57.706 --> 00:01:01.838
+It's an old saved character from before the update: have them make a fresh one.
+
+19
+00:01:03.233 --> 00:01:09.789
+The easy way: export your world from Studio and run the little checker, linked in the description.
+
+20
+00:01:09.789 --> 00:01:15.810
+It only reads the file, and it lists every name used by two kinds of record, traits first.
+
+21
+00:01:15.810 --> 00:01:20.025
+No Python? Type each trait name into Studio's file tree search.
+
+22
+00:01:20.025 --> 00:01:25.176
+If an item, ability, quest or person with the same name comes up, that's one.
+
+23
+00:01:26.567 --> 00:01:28.241
+Rename one side, not both.
+
+24
+00:01:28.241 --> 00:01:30.623
+I kept the side players see the most.
+
+25
+00:01:30.623 --> 00:01:35.258
+My creator pick is now Katana Bearer, and it still gives you the Katana.
+
+26
+00:01:35.258 --> 00:01:38.606
+So the inventory and the story didn't change at all.
+
+27
+00:01:40.000 --> 00:01:42.332
+Studio won't follow a rename for you.
+
+28
+00:01:42.332 --> 00:01:49.894
+After renaming a trait, fix everything that names it: its creator category, any other trait that unlocks or excludes it,
+
+29
+00:01:49.894 --> 00:01:54.306
+your premade characters, the level-up pool, abilities that require it,
+
+30
+00:01:54.306 --> 00:01:57.457
+and any trigger or script that names it in quotes.
+
+31
+00:01:58.867 --> 00:02:01.007
+Then save and read Studio's warnings.
+
+32
+00:02:01.007 --> 00:02:05.056
+If it says references missing, something still points at the old name.
+
+33
+00:02:05.056 --> 00:02:07.312
+And don't worry about players mid-game.
+
+34
+00:02:07.312 --> 00:02:09.163
+A rename only reaches new games.
+
+35
+00:02:09.163 --> 00:02:11.881
+Saves keep playing the version they started on.
+
+36
+00:02:13.267 --> 00:02:14.662
+The rest is optional.
+
+37
+00:02:14.662 --> 00:02:18.916
+The card description on the Publish tab has a shorter limit now,
+
+38
+00:02:18.916 --> 00:02:22.903
+two hundred and sixty characters, but only when you edit it.
+
+39
+00:02:23.367 --> 00:02:27.181
+Combat Settings has new tiers for abilities characters learn in play,
+
+40
+00:02:27.181 --> 00:02:29.447
+so you can sort moves into small and big.
+
+41
+00:02:29.447 --> 00:02:34.091
+There's a new trigger that moves a location, made for things like a travelling ship.
+
+42
+00:02:34.091 --> 00:02:36.799
+And the name filter moved to Content, Characters.
+
+43
+00:02:38.200 --> 00:02:42.979
+That's it. The written guide and the checker are linked in the description.
+
+44
+00:02:42.979 --> 00:02:46.420
+My worlds and lorebooks are at deaththegrim.github.io.
+
+45
+00:02:46.867 --> 00:02:50.815
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

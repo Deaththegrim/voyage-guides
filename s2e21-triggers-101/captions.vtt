@@ -1,0 +1,138 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.165
+Hey, Dreamer here.
+
+4
+00:00:09.165 --> 00:00:13.127
+Today, triggers: how you make things actually happen in your world.
+
+5
+00:00:14.533 --> 00:00:16.919
+Open Mechanics, then Advanced, then Triggers.
+
+6
+00:00:16.919 --> 00:00:20.631
+A trigger is a rule: when all its conditions pass, its effects happen.
+
+7
+00:00:20.631 --> 00:00:22.539
+Voyage starts every world with nine,
+
+8
+00:00:22.539 --> 00:00:27.629
+all about how characters react when you're kind or friendly to them, and I've added two of ours.
+
+9
+00:00:28.067 --> 00:00:33.425
+Bramble in the roses has recurring switched off, so it fires once and it's done.
+
+10
+00:00:33.425 --> 00:00:37.645
+Switch it on and it can fire every turn its conditions are met.
+
+11
+00:00:38.100 --> 00:00:40.358
+Its conditions all have to pass.
+
+12
+00:00:40.358 --> 00:00:44.593
+The first is mechanical: the party is in the mayor's garden.
+
+13
+00:00:44.593 --> 00:00:47.980
+Mechanical checks are exact, and they run first.
+
+14
+00:00:48.433 --> 00:00:54.715
+The second is a story check: the AI reads the story and judges whether the player has found Bramble there.
+
+15
+00:00:54.715 --> 00:00:57.797
+Story checks only run once the mechanical ones pass,
+
+16
+00:00:57.797 --> 00:01:03.190
+and there's a limited number of them each turn, so always pair one with a mechanical check.
+
+17
+00:01:03.633 --> 00:01:04.755
+Then the effects.
+
+18
+00:01:04.755 --> 00:01:11.157
+This one's an instruction for the narrator: Bramble's asleep in the mayor's prize roses, snoring.
+
+19
+00:01:11.600 --> 00:01:15.595
+And this one takes ten off the mayor's relationship score.
+
+20
+00:01:15.595 --> 00:01:20.760
+No guessing here: when the conditions pass, the effects happen, every time.
+
+21
+00:01:22.167 --> 00:01:25.686
+Back in the triggers list, open running on empty, our second one.
+
+22
+00:01:25.686 --> 00:01:29.096
+This one's recurring, so instead of firing once and being done,
+
+23
+00:01:29.096 --> 00:01:31.803
+it can fire every single turn its condition holds.
+
+24
+00:01:32.267 --> 00:01:35.175
+One condition: stamina at zero or below.
+
+25
+00:01:35.175 --> 00:01:39.175
+A resource check passes if anyone in the party matches.
+
+26
+00:01:39.633 --> 00:01:45.938
+And the effect tells the narrator whoever's out is spent, every turn they stay at zero.
+
+27
+00:01:47.333 --> 00:01:51.429
+So when do you use a trigger instead of just telling the narrator?
+
+28
+00:01:51.429 --> 00:01:55.215
+Instructions are the narrator's call, and it can miss things.
+
+29
+00:01:55.215 --> 00:01:58.132
+A trigger fires every time its conditions pass.
+
+30
+00:01:58.132 --> 00:02:00.987
+If something has to happen, make it a trigger.
+
+31
+00:02:02.400 --> 00:02:04.088
+That's triggers 101.
+
+32
+00:02:04.088 --> 00:02:07.041
+Ours are linked in the description.
+
+33
+00:02:07.041 --> 00:02:13.116
+Next time, triggers 102: phases, flags, and which player a trigger hits.
+
+34
+00:02:13.567 --> 00:02:17.515
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

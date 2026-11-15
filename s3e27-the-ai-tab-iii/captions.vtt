@@ -1,0 +1,134 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.460
+Hey, Dreamer here.
+
+4
+00:00:09.460 --> 00:00:14.598
+The AI tab, part three: the jobs that make up the world as you play,
+
+5
+00:00:14.598 --> 00:00:17.922
+encounters, items, new abilities and places.
+
+6
+00:00:19.333 --> 00:00:21.997
+Open the AI tab, then Encounter Elements.
+
+7
+00:00:21.997 --> 00:00:27.390
+These are lists of ideas the AI draws on when it makes up an encounter on the road,
+
+8
+00:00:27.390 --> 00:00:28.690
+grouped by category.
+
+9
+00:00:28.690 --> 00:00:30.769
+Voyage ships twenty one of them.
+
+10
+00:00:31.233 --> 00:00:35.211
+I added one for us, Circus Road: broken-down wagons,
+
+11
+00:00:35.211 --> 00:00:39.418
+rival circus posters, toll bridges with greedy keepers.
+
+12
+00:00:40.833 --> 00:00:46.952
+Encounters is the job that turns those ideas into encounters while you travel through the wild.
+
+13
+00:00:46.952 --> 00:00:53.070
+Ours says what turns up by day and by night, and that about half shouldn't need a fight at all.
+
+14
+00:00:54.467 --> 00:00:58.533
+Item Generation and Usage covers how items are found, bought and used.
+
+15
+00:00:58.533 --> 00:01:04.923
+The most important rule here: nothing goes in the inventory until the player actually takes it or pays for it,
+
+16
+00:01:04.923 --> 00:01:08.350
+or the AI hands things over the moment you look at a stall.
+
+17
+00:01:08.350 --> 00:01:11.255
+Ours has that, our prices, and what bandits carry.
+
+18
+00:01:12.667 --> 00:01:16.739
+Learned Abilities makes up new moves characters learn in play.
+
+19
+00:01:16.739 --> 00:01:21.664
+Ability tier tells it to sort each one into the tiers from combat settings.
+
+20
+00:01:22.100 --> 00:01:25.623
+Our custom says what can be learned, circus tricks,
+
+21
+00:01:25.623 --> 00:01:29.008
+road skills and cons, and what can't: real magic.
+
+22
+00:01:30.400 --> 00:01:33.675
+Location Details writes up places the AI fills in.
+
+23
+00:01:33.675 --> 00:01:38.128
+Ours says what a trade-road town has, and to give one thing you see,
+
+24
+00:01:38.128 --> 00:01:41.534
+one you hear, and how the town feels about the show.
+
+25
+00:01:42.933 --> 00:01:48.643
+And Region Details writes new regions: ours are farm country on the old trade roads,
+
+26
+00:01:48.643 --> 00:01:52.314
+with towns named plainly after what they're known for.
+
+27
+00:01:53.700 --> 00:01:55.621
+One tip from Voyage's docs.
+
+28
+00:01:55.621 --> 00:02:00.316
+What a single item does goes in that item's description, not here.
+
+29
+00:02:00.316 --> 00:02:05.438
+This box is for general rules, and crafting rules belong in Action Info.
+
+30
+00:02:06.833 --> 00:02:08.469
+That's the AI tab done.
+
+31
+00:02:08.469 --> 00:02:11.813
+Our instructions are linked in the description.
+
+32
+00:02:11.813 --> 00:02:15.796
+Next time, audio: voices and the rest of the music page.
+
+33
+00:02:16.233 --> 00:02:20.181
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

@@ -1,0 +1,126 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.352
+Hey, Dreamer here.
+
+4
+00:00:09.352 --> 00:00:16.099
+The AI tab, part two: the jobs that make up characters, run their chats, and decide what they do.
+
+5
+00:00:17.500 --> 00:00:19.453
+Open the AI tab, then New NPC.
+
+6
+00:00:19.453 --> 00:00:25.312
+This one makes up the characters the story needs on the fly, and it only has a custom box.
+
+7
+00:00:25.312 --> 00:00:27.852
+Ours lists what every new person needs,
+
+8
+00:00:27.852 --> 00:00:32.930
+how names sound depending on where they're from, and how tough they should be.
+
+9
+00:00:34.333 --> 00:00:40.132
+NPC Chat Replies is how a character answers when a player chats with them directly.
+
+10
+00:00:40.132 --> 00:00:46.489
+The default treats it like a text chat: a sentence or two, unless the player asks for more.
+
+11
+00:00:46.933 --> 00:00:52.436
+Our custom is how show folk and townsfolk talk, and the one thing nobody talks about.
+
+12
+00:00:53.833 --> 00:00:59.383
+When a chat ends, NPC Chat Summary writes a few sentences about it back into the story.
+
+13
+00:00:59.833 --> 00:01:04.826
+Ours makes sure promises, money and rumours always get carried forward.
+
+14
+00:01:06.233 --> 00:01:12.338
+NPC Details fills in the characters the AI makes up: their public description,
+
+15
+00:01:12.338 --> 00:01:16.252
+hidden info, personality and more, a section each.
+
+16
+00:01:16.252 --> 00:01:18.052
+This one's hidden info.
+
+17
+00:01:18.500 --> 00:01:22.067
+Our custom: everyone in town has an opinion of the show,
+
+18
+00:01:22.067 --> 00:01:28.183
+and in towns the Gilt Circus has worked, their hidden info says whether Gilt money reached them.
+
+19
+00:01:29.567 --> 00:01:33.174
+NPC Intents decides what characters try to do in a fight.
+
+20
+00:01:33.174 --> 00:01:39.249
+Out of the box it only works in combat, and outside a fight it leaves the scene to the narrator.
+
+21
+00:01:39.700 --> 00:01:45.185
+Ours says townsfolk run before they fight, bandits run once two of them drop,
+
+22
+00:01:45.185 --> 00:01:48.605
+and Bramble only ever swats, and only over food.
+
+23
+00:01:50.000 --> 00:01:55.471
+NPC Updates runs after each turn and moves relationship scores.
+
+24
+00:01:55.471 --> 00:02:00.855
+By default a score only shifts for real, face-to-face moments.
+
+25
+00:02:01.300 --> 00:02:07.209
+Ours sets what joining the party means in our world: leaving the show to go with the player.
+
+26
+00:02:08.600 --> 00:02:13.381
+Worth knowing: New NPC and NPC Details work on the characters the AI makes up.
+
+27
+00:02:13.381 --> 00:02:18.898
+Chats, fight intents and relationship updates apply to everyone, your own people included.
+
+28
+00:02:20.300 --> 00:02:21.917
+That's the people side.
+
+29
+00:02:21.917 --> 00:02:25.221
+Our instructions are linked in the description.
+
+30
+00:02:25.221 --> 00:02:30.494
+Next time, the world side: items, learned abilities, encounters and places.
+
+31
+00:02:30.933 --> 00:02:34.881
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

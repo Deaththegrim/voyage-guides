@@ -1,0 +1,134 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.286
+Hey, Dreamer here.
+
+4
+00:00:09.286 --> 00:00:15.020
+Triggers, part two: who a trigger hits, when it runs, and how triggers remember things.
+
+5
+00:00:16.433 --> 00:00:20.581
+Open Mechanics, then Advanced, then Triggers, and open bramble swipe.
+
+6
+00:00:20.581 --> 00:00:21.963
+Scope is set to player.
+
+7
+00:00:21.963 --> 00:00:24.367
+Normally a trigger hits the whole party,
+
+8
+00:00:24.367 --> 00:00:27.974
+but with player scope it lands on the player who set it off.
+
+9
+00:00:28.433 --> 00:00:33.390
+Its condition is an action check: the AI reads what the player is trying to do,
+
+10
+00:00:33.390 --> 00:00:35.272
+before the story gets written.
+
+11
+00:00:35.733 --> 00:00:40.242
+The effect takes five health, with the target set to satisfying players,
+
+12
+00:00:40.242 --> 00:00:42.558
+so only the one who did it gets hurt.
+
+13
+00:00:42.558 --> 00:00:46.565
+Studio shows an empty target as all players, so set it yourself.
+
+14
+00:00:47.000 --> 00:00:52.492
+And this story note lands in this turn's narration: Bramble swats them flat.
+
+15
+00:00:52.933 --> 00:00:54.717
+That's because of the phase.
+
+16
+00:00:54.717 --> 00:01:00.831
+A trigger with an action check runs in planning, before the story, so its notes reach this turn.
+
+17
+00:01:00.831 --> 00:01:06.117
+Everything else runs in the state phase, after the story, and shapes the next turn.
+
+18
+00:01:06.117 --> 00:01:11.022
+You rarely need this box: only to pin a fully mechanical trigger to planning.
+
+19
+00:01:12.433 --> 00:01:16.606
+Now flags. Back in the triggers list, open met Lucius.
+
+20
+00:01:16.606 --> 00:01:20.161
+It fires once, when the story has Lucius Gilt,
+
+21
+00:01:20.161 --> 00:01:24.334
+the rival ringmaster, meeting the player face to face.
+
+22
+00:01:24.800 --> 00:01:28.701
+Its only effect writes a flag, met lucius, set to true.
+
+23
+00:01:28.701 --> 00:01:31.963
+A flag is just something your world remembers.
+
+24
+00:01:32.400 --> 00:01:34.215
+Gilt watching reads that flag.
+
+25
+00:01:34.215 --> 00:01:39.598
+Once it's true and the party's back at camp, one of Gilt's big men turns up at the hedge.
+
+26
+00:01:40.033 --> 00:01:45.119
+Both of its checks are mechanical, so it never spends one of the turn's limited story checks.
+
+27
+00:01:45.119 --> 00:01:49.658
+Judge something once, save it as a flag, and let every other trigger read the flag.
+
+28
+00:01:51.067 --> 00:01:55.335
+One catch: read a flag back as the same type you wrote it.
+
+29
+00:01:55.335 --> 00:01:59.530
+A true or false read as a number just comes back as zero.
+
+30
+00:02:00.933 --> 00:02:02.375
+That's triggers 102.
+
+31
+00:02:02.375 --> 00:02:04.899
+Ours are linked in the description.
+
+32
+00:02:04.899 --> 00:02:09.873
+Next time, scripts: a little code that does the work of ten triggers.
+
+33
+00:02:10.333 --> 00:02:14.281
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

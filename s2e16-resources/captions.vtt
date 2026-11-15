@@ -1,0 +1,142 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.188
+Hey, Dreamer here.
+
+4
+00:00:09.188 --> 00:00:14.265
+Today, resources: health, stamina, and anything else your characters can run out of.
+
+5
+00:00:15.667 --> 00:00:17.866
+Open Mechanics, then Resources.
+
+6
+00:00:17.866 --> 00:00:20.846
+These are the bars on a character's sheet.
+
+7
+00:00:20.846 --> 00:00:25.174
+Voyage gives you health, and I've added stamina for our acts.
+
+8
+00:00:25.174 --> 00:00:26.522
+Let's open stamina.
+
+9
+00:00:26.967 --> 00:00:33.242
+The description is for players: they read it from the little info icon on their character sheet.
+
+10
+00:00:33.242 --> 00:00:35.988
+The AI reads something else, further down.
+
+11
+00:00:36.433 --> 00:00:41.303
+Recharge per turn is how much comes back on its own, and it has to be a whole number.
+
+12
+00:00:41.303 --> 00:00:44.626
+Increase per level is added to the maximum every level up.
+
+13
+00:00:44.626 --> 00:00:48.694
+And restored on rest is how much comes back on a rest: all of it, here.
+
+14
+00:00:49.133 --> 00:00:53.544
+Starting value and maximum value are where a new character begins.
+
+15
+00:00:53.544 --> 00:00:59.357
+The maximum isn't a hard ceiling: traits, attributes and levels all raise it from here.
+
+16
+00:00:59.800 --> 00:01:03.348
+Usage instructions are what the AI actually reads.
+
+17
+00:01:03.348 --> 00:01:06.896
+Voyage's docs suggest three parts: what spends it,
+
+18
+00:01:06.896 --> 00:01:11.437
+a list of costs from minor to extreme, and when not to take any.
+
+19
+00:01:11.437 --> 00:01:16.333
+Skip that last list and the AI might drain stamina over a quiet chat.
+
+20
+00:01:16.767 --> 00:01:20.312
+And is health marks the bar that combat damages.
+
+21
+00:01:20.312 --> 00:01:23.119
+When it hits zero, the character dies.
+
+22
+00:01:23.119 --> 00:01:27.181
+Set it on exactly one resource, and here that's health.
+
+23
+00:01:28.567 --> 00:01:30.591
+Health grows on its own schedule.
+
+24
+00:01:30.591 --> 00:01:35.559
+Start at the maximum, add the increase per level for every level after the first,
+
+25
+00:01:35.559 --> 00:01:38.565
+and every fifth level throws in five more on top.
+
+26
+00:01:38.565 --> 00:01:41.999
+That last bit is built into Voyage, you can't change it.
+
+27
+00:01:43.400 --> 00:01:44.403
+Two more tricks.
+
+28
+00:01:44.403 --> 00:01:50.169
+A tracker, like luck or reputation, is a resource with no recharge and nothing back on rest,
+
+29
+00:01:50.169 --> 00:01:52.989
+and the usage instructions say what moves it.
+
+30
+00:01:52.989 --> 00:01:56.625
+And when you need an exact change, not the AI's judgement,
+
+31
+00:01:56.625 --> 00:01:59.445
+that's a job for triggers, later this season.
+
+32
+00:02:00.833 --> 00:02:01.968
+That's resources.
+
+33
+00:02:01.968 --> 00:02:04.972
+Our stamina bar is linked in the description.
+
+34
+00:02:04.972 --> 00:02:08.577
+Next time, traits: the pages of the character creator.
+
+35
+00:02:09.033 --> 00:02:12.981
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

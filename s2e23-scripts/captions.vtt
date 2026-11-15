@@ -1,0 +1,106 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.222
+Hey, Dreamer here.
+
+4
+00:00:09.222 --> 00:00:14.021
+Today, scripts: a few lines of code on a trigger that can do the work of ten.
+
+5
+00:00:15.433 --> 00:00:20.308
+Open Mechanics, then Advanced, then Triggers, and scroll down to show nights.
+
+6
+00:00:20.308 --> 00:00:26.196
+It's recurring, and its whole job is to count every show the player puts on, all season long.
+
+7
+00:00:26.633 --> 00:00:27.633
+Two conditions.
+
+8
+00:00:27.633 --> 00:00:33.442
+First a quick word match on the player's action, for things like perform, juggle or throw.
+
+9
+00:00:33.442 --> 00:00:39.121
+Only if that matches does the AI check run: is the player really performing for a crowd?
+
+10
+00:00:39.567 --> 00:00:40.652
+Then the script.
+
+11
+00:00:40.652 --> 00:00:44.520
+It runs after the conditions pass and before the effects.
+
+12
+00:00:44.520 --> 00:00:49.609
+It adds one to a counter in storage, and storage is kept from turn to turn.
+
+13
+00:00:50.067 --> 00:00:55.616
+Its effects list is empty, because the script adds the effects itself.
+
+14
+00:00:57.033 --> 00:01:02.766
+On the third show it pushes two effects: word's got round, and Dreamer likes you ten points more.
+
+15
+00:01:02.766 --> 00:01:05.426
+On the tenth, the act's name goes on a wagon.
+
+16
+00:01:05.426 --> 00:01:08.794
+Every other show it sets skip, so nothing happens at all.
+
+17
+00:01:10.200 --> 00:01:13.079
+Scripts can also read the world with check,
+
+18
+00:01:13.079 --> 00:01:18.635
+using the same types as conditions: where the party is, the turn, resources, flags.
+
+19
+00:01:18.635 --> 00:01:23.656
+Mix that with storage and one script can replace a whole stack of triggers.
+
+20
+00:01:25.067 --> 00:01:30.667
+Two limits. Every script in a phase shares half a second, and past that the rest get skipped.
+
+21
+00:01:30.667 --> 00:01:33.799
+And it runs boxed in, with no require and no timers.
+
+22
+00:01:33.799 --> 00:01:38.256
+I tested this one on my own machine before it went in, and you should too.
+
+23
+00:01:39.667 --> 00:01:40.818
+That's scripts.
+
+24
+00:01:40.818 --> 00:01:43.428
+Ours is linked in the description.
+
+25
+00:01:43.428 --> 00:01:47.573
+Next time, we put triggers to work: music on anything.
+
+26
+00:01:48.033 --> 00:01:51.981
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

@@ -1,0 +1,150 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:11.192
+Hey, Dreamer here, and welcome to season three.
+
+4
+00:00:11.192 --> 00:00:16.784
+We're starting on the AI tab: the instructions your world gives each job the AI does.
+
+5
+00:00:18.200 --> 00:00:20.034
+Open the AI tab, then Story.
+
+6
+00:00:20.034 --> 00:00:25.863
+This is the main narration job, the one that writes the story for every turn of the game.
+
+7
+00:00:26.300 --> 00:00:31.304
+Every job comes with Voyage's own sections, like items and how to use the narrator.
+
+8
+00:00:31.304 --> 00:00:34.198
+Keep them as they are and Voyage plays normally.
+
+9
+00:00:34.198 --> 00:00:36.731
+Reuse a section's name and you replace it,
+
+10
+00:00:36.731 --> 00:00:40.348
+and deleting one doesn't stick, because Voyage puts it back.
+
+11
+00:00:40.800 --> 00:00:44.180
+Your world goes in the custom box, which is added on top.
+
+12
+00:00:44.180 --> 00:00:49.577
+Ours has what things cost, how long the show stays in a town, and a few rules about people.
+
+13
+00:00:50.967 --> 00:00:55.086
+Story Memory squeezes old turns down into the summary the narrator reads.
+
+14
+00:00:55.086 --> 00:00:57.456
+Its custom box is what it must never lose.
+
+15
+00:00:57.456 --> 00:01:00.560
+For us that's whether Bramble's back, the show's money,
+
+16
+00:01:00.560 --> 00:01:03.268
+and what the player knows about the Gilt Circus.
+
+17
+00:01:04.667 --> 00:01:08.531
+Initial Start writes the very first scene of a new game,
+
+18
+00:01:08.531 --> 00:01:12.051
+and opening structure is how that scene gets built.
+
+19
+00:01:12.500 --> 00:01:18.862
+Our custom fixes a common slip: characters calling the player by name before anyone's told them it.
+
+20
+00:01:20.267 --> 00:01:22.914
+Action Info runs before the narration.
+
+21
+00:01:22.914 --> 00:01:29.810
+It judges whether an action is possible and how hard it is, and impact is how hard an attack lands.
+
+22
+00:01:30.267 --> 00:01:34.101
+Our custom says what each success level means at the show.
+
+23
+00:01:34.101 --> 00:01:38.928
+The levels themselves are fixed, so describe them, don't invent new ones.
+
+24
+00:01:40.333 --> 00:01:45.549
+Character Background writes the player character's backstory and appearance in the creator.
+
+25
+00:01:45.549 --> 00:01:48.530
+You can replace this whole prompt, but I'd leave it.
+
+26
+00:01:48.967 --> 00:01:55.294
+Our custom just says every character is the show's newest act, with no act worked out yet.
+
+27
+00:01:56.700 --> 00:02:02.272
+Conversation Starters are the two short openers offered when a chat with a character begins.
+
+28
+00:02:02.272 --> 00:02:05.361
+The default keeps them short and tied to the scene.
+
+29
+00:02:05.800 --> 00:02:10.165
+Ours adds what fits a circus, and one thing never to raise.
+
+30
+00:02:11.567 --> 00:02:12.624
+One rule of thumb.
+
+31
+00:02:12.624 --> 00:02:16.499
+These boxes are for voice, tone and guidance the AI can interpret.
+
+32
+00:02:16.499 --> 00:02:20.199
+Anything that must happen at a set moment belongs in a trigger.
+
+33
+00:02:20.199 --> 00:02:24.721
+And put each rule in the right job, or it reaches the AI at the wrong moment.
+
+34
+00:02:26.133 --> 00:02:28.665
+That's the story side of the AI tab.
+
+35
+00:02:28.665 --> 00:02:31.970
+Our instructions are linked in the description.
+
+36
+00:02:31.970 --> 00:02:38.510
+Next time, the people side: new characters, their details, what they want, and how they chat.
+
+37
+00:02:38.967 --> 00:02:42.915
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

@@ -1,0 +1,118 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.331
+Hey, Dreamer here.
+
+4
+00:00:09.331 --> 00:00:12.478
+Today, Studio's settings, and the Creator API,
+
+5
+00:00:12.478 --> 00:00:16.378
+which lets you build a world without ever opening Studio.
+
+6
+00:00:17.767 --> 00:00:20.639
+The gear at the bottom left opens Settings.
+
+7
+00:00:20.639 --> 00:00:25.448
+The first switch decides what Studio opens on: the world and mod picker,
+
+8
+00:00:25.448 --> 00:00:27.786
+or the last world you were editing.
+
+9
+00:00:28.233 --> 00:00:34.380
+Image model is the model behind every picture made while you edit this world: characters,
+
+10
+00:00:34.380 --> 00:00:36.314
+places, items and the cover.
+
+11
+00:00:36.767 --> 00:00:41.518
+Custom agent instructions tell Studio's chat helper how you like to work,
+
+12
+00:00:41.518 --> 00:00:45.683
+like keep the world grounded and ask before adding big factions.
+
+13
+00:00:46.133 --> 00:00:47.193
+Then API keys.
+
+14
+00:00:47.193 --> 00:00:53.854
+A key's secret is shown once, when you make it or rotate it, so store it somewhere safe.
+
+15
+00:00:54.300 --> 00:00:59.369
+These are mine, one per world I build this way, and the black bars are mine too.
+
+16
+00:00:59.369 --> 00:01:01.080
+Never show a key on stream.
+
+17
+00:01:02.467 --> 00:01:04.933
+The API docs button opens the docs.
+
+18
+00:01:04.933 --> 00:01:10.500
+The Creator API lets approved accounts read, edit, validate and publish worlds,
+
+19
+00:01:10.500 --> 00:01:16.701
+and it edits the same draft Studio does, so with Studio open you watch the changes land.
+
+20
+00:01:17.167 --> 00:01:21.137
+It covers worlds, saved revisions you can restore,
+
+21
+00:01:21.137 --> 00:01:25.108
+publishing, mods, images and your world's numbers.
+
+22
+00:01:25.567 --> 00:01:29.644
+And it has limits on how many requests you can send each minute,
+
+23
+00:01:29.644 --> 00:01:32.765
+with tighter ones for edits and the costly calls.
+
+24
+00:01:34.167 --> 00:01:38.771
+Every part of the Workshop world in this series went in through the API.
+
+25
+00:01:38.771 --> 00:01:44.590
+Read the world, change it, have Voyage check it, then save it, and Studio shows the result.
+
+26
+00:01:44.590 --> 00:01:50.537
+Not every account has the API yet, though: other accounts need Studio access and the rollout.
+
+27
+00:01:51.933 --> 00:01:54.125
+That's settings and the API.
+
+28
+00:01:54.125 --> 00:02:00.153
+Next time, the last basic episode: checking your own world before players do.
+
+29
+00:02:00.600 --> 00:02:04.548
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

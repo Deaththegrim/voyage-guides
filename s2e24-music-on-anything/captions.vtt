@@ -1,0 +1,150 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.409
+Hey, Dreamer here.
+
+4
+00:00:09.409 --> 00:00:16.099
+Today, music: how Studio's music page works, and how I put music on one place with triggers.
+
+5
+00:00:17.500 --> 00:00:19.298
+Open Audio, then Music.
+
+6
+00:00:19.298 --> 00:00:22.659
+Every playlist your world can play is here,
+
+7
+00:00:22.659 --> 00:00:27.740
+and each one is a list of songs plus the rules for when it plays.
+
+8
+00:00:28.200 --> 00:00:34.647
+This one has a mechanical cue, character creation, so it plays while players build their character.
+
+9
+00:00:34.647 --> 00:00:38.034
+Cues are fixed moments like combat, travel or dying.
+
+10
+00:00:38.500 --> 00:00:43.653
+Our new one, Show Night, has mood tags instead: circus, crowd, applause and so on.
+
+11
+00:00:43.653 --> 00:00:47.486
+When a scene feels like a show, Voyage can pick it by itself.
+
+12
+00:00:47.933 --> 00:00:52.464
+Songs come from two places: upload your own, or browse Latitude's music.
+
+13
+00:00:52.464 --> 00:00:57.372
+I picked both of ours from Latitude's library, so there was nothing to upload.
+
+14
+00:00:58.767 --> 00:01:01.794
+The easiest win: Voyage's own mood playlists, Calm,
+
+15
+00:01:01.794 --> 00:01:05.356
+Triumphant and the rest, pick themselves by mood tags alone.
+
+16
+00:01:05.356 --> 00:01:10.818
+Swap your songs into them and your whole world sounds like you, with nothing else to set up.
+
+17
+00:01:12.233 --> 00:01:15.244
+For music on one place, you pin it with triggers.
+
+18
+00:01:15.244 --> 00:01:19.484
+Open Mechanics, then Advanced, then Triggers, and open camp music on.
+
+19
+00:01:19.484 --> 00:01:22.311
+It fires when the party is at the show's camp.
+
+20
+00:01:23.300 --> 00:01:26.162
+And only while the flag camp music is false.
+
+21
+00:01:26.162 --> 00:01:31.497
+It's recurring, so without the flag it would fire again every single turn at camp.
+
+22
+00:01:31.933 --> 00:01:37.576
+Its effects: music track set plays Camp Theme, and the flag flips to true.
+
+23
+00:01:38.033 --> 00:01:39.719
+Camp music off is the mirror.
+
+24
+00:01:39.719 --> 00:01:42.973
+The flag is true and the party is anywhere but the camp,
+
+25
+00:01:42.973 --> 00:01:45.705
+so it clears the music and flips the flag back.
+
+26
+00:01:45.705 --> 00:01:48.088
+Walk into camp again and it starts again.
+
+27
+00:01:49.500 --> 00:01:55.767
+Remember: a pinned playlist plays until something clears it, so every start needs a stop.
+
+28
+00:01:55.767 --> 00:01:57.597
+And there's only one slot.
+
+29
+00:01:57.597 --> 00:02:03.653
+A second set replaces the first, and a clear stops whatever is pinned, not just yours.
+
+30
+00:02:05.067 --> 00:02:10.263
+There's also an examples file with seven playlists and eleven triggers: a city,
+
+31
+00:02:10.263 --> 00:02:14.670
+a person, an item, a trait, night music, a battle theme and a mood.
+
+32
+00:02:14.670 --> 00:02:17.235
+Voyage's validator accepts all of them,
+
+33
+00:02:17.235 --> 00:02:21.379
+and the only warnings are the example names you swap for yours.
+
+34
+00:02:22.767 --> 00:02:25.677
+That's music, and that's season two.
+
+35
+00:02:25.677 --> 00:02:31.416
+Our playlists, triggers and the examples are linked in the description.
+
+36
+00:02:31.416 --> 00:02:35.781
+Next season, the AI tab: what your world tells the AI.
+
+37
+00:02:36.233 --> 00:02:40.181
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

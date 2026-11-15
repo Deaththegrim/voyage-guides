@@ -1,0 +1,142 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:09.238
+Hey, Dreamer here.
+
+4
+00:00:09.238 --> 00:00:14.799
+Today, skills: what your characters are actually good at, and how they get better at it.
+
+5
+00:00:16.200 --> 00:00:17.996
+Open Mechanics, then Skills.
+
+6
+00:00:17.996 --> 00:00:23.257
+Voyage starts you with seven, and I've added three for our circus: knife throwing,
+
+7
+00:00:23.257 --> 00:00:25.631
+sleight of hand, and animal handling.
+
+8
+00:00:25.631 --> 00:00:27.299
+Let's open knife throwing.
+
+9
+00:00:28.267 --> 00:00:32.473
+The description is the main thing the AI reads when the skill gets used.
+
+10
+00:00:32.473 --> 00:00:37.264
+Say what it covers, then what a poor roll, a good roll and a great roll look like.
+
+11
+00:00:37.700 --> 00:00:44.964
+Type. Combat is special: a combat skill adds a point of damage for every two points of its attribute above six.
+
+12
+00:00:44.964 --> 00:00:47.975
+No other type does that, so this one's combat.
+
+13
+00:00:48.433 --> 00:00:52.758
+Attribute is the stat that adds to this skill's checks.
+
+14
+00:00:52.758 --> 00:00:55.353
+Knife throwing runs on dexterity.
+
+15
+00:00:55.800 --> 00:00:59.088
+And starting items are handed over with the skill,
+
+16
+00:00:59.088 --> 00:01:02.640
+whether a character starts with it or learns it later.
+
+17
+00:01:02.640 --> 00:01:05.994
+Knife throwing comes with a set of throwing knives.
+
+18
+00:01:07.400 --> 00:01:09.308
+Now Skill Settings, under Skills.
+
+19
+00:01:09.308 --> 00:01:12.778
+This switch lets Voyage invent brand new skills during play.
+
+20
+00:01:12.778 --> 00:01:16.421
+Turn it off and characters only ever have the skills you wrote.
+
+21
+00:01:16.867 --> 00:01:22.507
+Skill type difficulty bonus adds a flat bonus to every check made with a skill of that type.
+
+22
+00:01:22.507 --> 00:01:27.350
+They're all zero here, so the type is just a label, apart from combat's damage.
+
+23
+00:01:27.800 --> 00:01:33.713
+When someone tries a skill they don't have, there's a chance they learn it: a one in ten base chance,
+
+24
+00:01:33.713 --> 00:01:36.933
+plus a little for every point of the skill's attribute.
+
+25
+00:01:36.933 --> 00:01:41.616
+Set both of these to zero and nobody learns new skills after character creation.
+
+26
+00:01:42.067 --> 00:01:43.982
+And skills level through use.
+
+27
+00:01:43.982 --> 00:01:46.757
+The first level takes a hundred skill X P,
+
+28
+00:01:46.757 --> 00:01:50.588
+and every level after that takes forty more than the last.
+
+29
+00:01:52.000 --> 00:01:57.724
+One tip from Voyage's own docs: don't make a pile of skills that all do the same thing.
+
+30
+00:01:57.724 --> 00:02:03.711
+Skills level up through use, so overlapping skills split the X P and all of them stay weak.
+
+31
+00:02:03.711 --> 00:02:09.171
+And spread your skills across different attributes, so no one stat does everything.
+
+32
+00:02:10.567 --> 00:02:11.567
+That's skills.
+
+33
+00:02:11.567 --> 00:02:13.859
+Our three are linked in the description.
+
+34
+00:02:13.859 --> 00:02:18.903
+Next time, resources: health, stamina, and anything else your characters can run out of.
+
+35
+00:02:19.367 --> 00:02:23.315
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+
