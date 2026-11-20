@@ -21,15 +21,15 @@ Today, the advanced folder: levelling up, relationships, death, endings and comb
 Lots of little settings, so let's go.
 
 6
-00:00:19.233 --> 00:00:23.091
+00:00:19.233 --> 00:00:23.116
 Open Mechanics, then Advanced, then Level Progression.
 
 7
-00:00:23.091 --> 00:00:26.305
-Reaching level two takes a thousand X P here,
+00:00:23.116 --> 00:00:26.279
+Reaching level two takes a thousand XP here,
 
 8
-00:00:26.305 --> 00:00:30.449
+00:00:26.279 --> 00:00:30.449
 and every level after that costs more than the one before.
 
 9
@@ -121,42 +121,54 @@ The first few are about moves characters learn during play: how often they can l
 and the tiers the AI sorts them into, each with its own power and cooldown.
 
 31
-00:02:07.733 --> 00:02:13.283
-Base combat X P is what a win in a fight is worth, a hundred by default.
+00:02:07.733 --> 00:02:14.577
+Combat XP is one reward per NPC tier: fifty for a weak NPC, a hundred for an average one,
 
 32
-00:02:13.733 --> 00:02:18.897
-NPC daily healing is how much health characters in the world get back each day.
+00:02:14.577 --> 00:02:19.421
+and up to a thousand for a mythic, before the level difference.
 
 33
-00:02:18.897 --> 00:02:20.792
-The default heals them fully.
+00:02:19.421 --> 00:02:24.573
+This part was re-filmed for Voyage's nineteenth of November update,
 
 34
-00:02:21.233 --> 00:02:25.871
-And damage types are the list every resistance and weakness has to come from.
+00:02:24.573 --> 00:02:28.110
+which replaced the old base combat XP setting.
 
 35
-00:02:25.871 --> 00:02:31.654
-Spell them exactly the same everywhere: capital F fire and small f fire are two different types,
+00:02:28.567 --> 00:02:33.730
+NPC daily healing is how much health characters in the world get back each day.
 
 36
-00:02:31.654 --> 00:02:34.364
-and a mismatch just quietly does full damage.
+00:02:33.730 --> 00:02:35.626
+The default heals them fully.
 
 37
-00:02:35.767 --> 00:02:37.667
-That's the advanced mechanics.
+00:02:36.067 --> 00:02:40.705
+And damage types are the list every resistance and weakness has to come from.
 
 38
-00:02:37.667 --> 00:02:40.391
-Our settings are linked in the description.
+00:02:40.705 --> 00:02:46.487
+Spell them exactly the same everywhere: capital F fire and small f fire are two different types,
 
 39
-00:02:40.391 --> 00:02:44.509
-Next time, triggers: making things actually happen in your world.
+00:02:46.487 --> 00:02:49.198
+and a mismatch just quietly does full damage.
 
 40
-00:02:44.967 --> 00:02:48.915
+00:02:50.600 --> 00:02:52.501
+That's the advanced mechanics.
+
+41
+00:02:52.501 --> 00:02:55.225
+Our settings are linked in the description.
+
+42
+00:02:55.225 --> 00:02:59.342
+Next time, triggers: making things actually happen in your world.
+
+43
+00:02:59.800 --> 00:03:03.748
 I'm Dreamer. Now go build something weird, and I'll see you next time!
 

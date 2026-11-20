@@ -1,0 +1,18 @@
+{
+ "triggers": {
+  "living_cast": {
+   "name": "living_cast",
+   "recurring": true,
+   "phase": "planning",
+   "conditions": [
+    {
+     "type": "game-tick",
+     "operator": "greaterThanOrEqual",
+     "value": 2
+    }
+   ],
+   "effects": [],
+   "script": "// Living Cast: every few turns, one NPC in the scene does something of their own, without being asked.\n// Paste-ready trigger script for Voyage (a Dreamer's Voyage Workshop download). Change GAP and WANTS for your world.\nvar GAP = 3;   // turns between nudges (one NPC acts at most every GAP turns)\nvar WANTS = {  // optional: one line per NPC, what they are after right now. NPCs not listed act from their own record.\n  \"Old Marla\": \"She wants to know who let Bramble out, so she watches people hard and asks the question nobody wants asked.\",\n  \"Lucius Gilt\": \"He wants Dreamer's best act for his own show, and he will buy, bribe or embarrass his way to it.\"\n};\nfunction map(v) { return v && typeof v === 'object' ? v : {}; }\nvar tick = +check({type: 'game-tick'}) || 0;\nvar s = storage.livingCast;\nif (!s || typeof s !== 'object') { s = {next: 0, last: '', seen: {}}; }\nif (!s.seen || typeof s.seen !== 'object') { s.seen = {}; }\nvar scene = map(check({type: 'npc-in-scene', npc: 'anySceneNPC'}));\nvar fightRaw = check({type: 'npc-in-combat', npc: 'anySceneNPC'});\nvar fight = map(fightRaw);\nvar inFight = fightRaw === true || Object.keys(fight).some(function (n) { return fight[n]; });\nvar names = Object.keys(scene).filter(function (n) { return scene[n]; });\nif (tick < 2 || tick < s.next || inFight || !names.length) {\n  skip = true;\n} else {\n  names.sort(function (a, b) {\n    var d = (s.seen[a] === undefined ? -1 : s.seen[a]) - (s.seen[b] === undefined ? -1 : s.seen[b]);\n    return d || (a < b ? -1 : 1);\n  });\n  var who = (names[0] === s.last && names.length > 1) ? names[1] : names[0];\n  effects.push({type: 'story', instruction: who + \" doesn't wait to be asked this turn: they do one thing of their own toward what they want right now, \" +\n    \"in character, something the scene can see (a move, an offer, a demand, a lie, a favour, walking off). \" +\n    (WANTS[who] || \"Work out what from who they are, what they want and what they are hiding.\") +\n    \" One beat only, then leave room for the player to answer it. In a calm scene keep it small.\"});\n  s.seen[who] = tick;\n  s.last = who;\n  s.next = tick + GAP;\n}\nstorage.livingCast = s;\n"
+  }
+ }
+}

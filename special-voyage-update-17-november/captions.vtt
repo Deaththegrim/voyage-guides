@@ -1,0 +1,162 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:11.126
+Voyage put out an update on the seventeenth of November.
+
+4
+00:00:11.126 --> 00:00:14.908
+I went through it in a brand new blank world and in my Workshop world.
+
+5
+00:00:14.908 --> 00:00:17.070
+Three things matter if you build worlds.
+
+6
+00:00:18.467 --> 00:00:20.165
+First, NPC intents.
+
+7
+00:00:20.165 --> 00:00:24.543
+This is a brand new world, made after the update.
+
+8
+00:00:24.543 --> 00:00:30.977
+Under Characters, NPCs, NPC Settings, always run NPC intents starts off.
+
+9
+00:00:31.433 --> 00:00:34.294
+Here's my Workshop world, made before the update.
+
+10
+00:00:34.294 --> 00:00:40.073
+Studio shows it off here too, because nothing's saved yet, but Voyage says older worlds keep it on.
+
+11
+00:00:40.073 --> 00:00:43.984
+If your world needs it, switch it on yourself and there's no doubt.
+
+12
+00:00:44.433 --> 00:00:48.078
+When it's off, NPCs only plan their own moves on combat turns.
+
+13
+00:00:48.078 --> 00:00:51.723
+The rest of the time, the narrator alone decides what they do.
+
+14
+00:00:51.723 --> 00:00:56.602
+So if your NPC intents instructions do real work, switch it on before anyone plays.
+
+15
+00:00:56.602 --> 00:00:59.306
+A game that's already running can't change it.
+
+16
+00:01:00.700 --> 00:01:03.819
+Second, you can write your own opening now.
+
+17
+00:01:03.819 --> 00:01:07.445
+Open a story start under Game Start, Story Starts.
+
+18
+00:01:07.900 --> 00:01:10.719
+There's a new box called authored opening.
+
+19
+00:01:10.719 --> 00:01:16.758
+It's shown exactly as written, with no AI rewriting, so write it for solo and multiplayer.
+
+20
+00:01:17.200 --> 00:01:20.466
+Once there's text in it, you can add scene NPCs.
+
+21
+00:01:20.466 --> 00:01:24.003
+They're in the scene, but they don't join the party.
+
+22
+00:01:24.467 --> 00:01:28.072
+You can set the day, the time of day and the music too,
+
+23
+00:01:28.072 --> 00:01:31.874
+and the music has to be a playlist your world already has.
+
+24
+00:01:32.333 --> 00:01:35.794
+Fallback says what happens when the opening can't be used.
+
+25
+00:01:35.794 --> 00:01:40.270
+Generate writes one instead, and error reports it so you can fix the start.
+
+26
+00:01:40.733 --> 00:01:44.881
+It needs at least one starting location, or Studio flags it.
+
+27
+00:01:44.881 --> 00:01:51.310
+And the text doesn't give anything, so starting items and quests still go in their own boxes.
+
+28
+00:01:52.700 --> 00:01:53.700
+Third, skills.
+
+29
+00:01:53.700 --> 00:01:57.746
+A trigger can now give a skill the character doesn't have yet.
+
+30
+00:01:57.746 --> 00:01:59.769
+Before the update, it couldn't.
+
+31
+00:01:59.769 --> 00:02:05.120
+A trait that boosts a skill the character doesn't have now creates that skill too.
+
+32
+00:02:05.120 --> 00:02:08.775
+If you built a workaround for this, it's worth a retest.
+
+33
+00:02:10.167 --> 00:02:11.379
+The rest is quick.
+
+34
+00:02:11.379 --> 00:02:15.216
+Image links on Voyage's own hosts can be short paths now,
+
+35
+00:02:15.216 --> 00:02:19.458
+and they no longer count against your world's character limits.
+
+36
+00:02:19.458 --> 00:02:23.969
+Renamed skills, resources, locations and areas keep their progress.
+
+37
+00:02:23.969 --> 00:02:29.355
+With PvP damage off, players can't hurt, control or rob each other's characters.
+
+38
+00:02:29.355 --> 00:02:36.222
+And republish your world if you want NPC alternate portraits ready ahead of time in visual novel mode.
+
+39
+00:02:37.633 --> 00:02:42.335
+That's it. My worlds and lorebooks are at deaththegrim.github.io.
+
+40
+00:02:42.800 --> 00:02:46.748
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+

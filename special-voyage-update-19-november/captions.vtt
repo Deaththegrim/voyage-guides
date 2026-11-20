@@ -1,0 +1,190 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.497
+Warning! Warning!
+
+2
+00:00:01.497 --> 00:00:06.705
+I built this with AI and text to speech, because I can't narrate for shit!
+
+3
+00:00:08.100 --> 00:00:11.338
+Voyage put out an update on the nineteenth of November.
+
+4
+00:00:11.338 --> 00:00:16.991
+I went through it in a brand new blank world, in my Workshop world and in Voyage's own API docs.
+
+5
+00:00:16.991 --> 00:00:21.760
+Three things matter if you build worlds, and the patch notes skip the second one.
+
+6
+00:00:23.167 --> 00:00:24.614
+First, combat XP.
+
+7
+00:00:24.614 --> 00:00:30.318
+Under Mechanics, Advanced, Combat Settings, base combat XP is gone.
+
+8
+00:00:30.318 --> 00:00:33.553
+Every NPC tier has its own reward now.
+
+9
+00:00:34.000 --> 00:00:37.098
+A brand new world gives fifty for a weak NPC,
+
+10
+00:00:37.098 --> 00:00:41.918
+a hundred for an average one and a hundred and fifty for a strong one.
+
+11
+00:00:42.367 --> 00:00:48.230
+Two hundred for an elite, twice that for a boss, and a thousand for a mythic.
+
+12
+00:00:48.667 --> 00:00:51.351
+Your old worlds were converted for you.
+
+13
+00:00:51.351 --> 00:00:55.963
+Your old base became the average reward and the rest scale from it,
+
+14
+00:00:55.963 --> 00:00:59.886
+so beating a boss now pays far more than any win used to.
+
+15
+00:00:59.886 --> 00:01:04.154
+In episode twenty I said a win was worth a hundred by default.
+
+16
+00:01:04.154 --> 00:01:06.012
+That's the average NPC now.
+
+17
+00:01:06.467 --> 00:01:12.469
+These rewards are still adjusted for the level difference, and Voyage doesn't say by how much.
+
+18
+00:01:13.867 --> 00:01:15.825
+Second, one the notes don't mention.
+
+19
+00:01:15.825 --> 00:01:18.980
+If you edit your world as JSON or through the Creator API,
+
+20
+00:01:18.980 --> 00:01:22.950
+an NPC's starting relationship has to be called initial relationship now.
+
+21
+00:01:22.950 --> 00:01:26.595
+Voyage's own check refuses the old name, relationship, as an error.
+
+22
+00:01:26.595 --> 00:01:29.043
+Your worlds in Studio were converted for you.
+
+23
+00:01:29.043 --> 00:01:33.285
+It's the copies you keep yourself that need fixing, and every one of mine did.
+
+24
+00:01:34.700 --> 00:01:36.866
+Third, music has a new editor.
+
+25
+00:01:36.866 --> 00:01:39.466
+Open Audio, Music, and press try it.
+
+26
+00:01:39.466 --> 00:01:42.137
+Your music stays the same either way.
+
+27
+00:01:42.967 --> 00:01:48.656
+Rehearse lets you type a moment the way the AI would, and shows you which theme plays.
+
+28
+00:01:49.100 --> 00:01:50.306
+And read this line.
+
+29
+00:01:50.306 --> 00:01:55.767
+The AI only sees a hundred and twenty eight of your mood words, from the first themes.
+
+30
+00:01:55.767 --> 00:02:01.418
+Later words still match but come up less often, so put the themes that matter most first.
+
+31
+00:02:01.867 --> 00:02:04.001
+Each theme gets its own page now.
+
+32
+00:02:04.001 --> 00:02:07.751
+Open one from the tree under Music, and you get its songs,
+
+33
+00:02:07.751 --> 00:02:12.083
+then when it plays: its mood tags, its game moments and its places.
+
+34
+00:02:12.533 --> 00:02:16.542
+Generate makes new music, and every generator costs usage.
+
+35
+00:02:16.542 --> 00:02:20.136
+Lyria and Stable Audio cost about three story turns,
+
+36
+00:02:20.136 --> 00:02:24.145
+the new one, Treblo, a bit more, and ElevenLabs about six.
+
+37
+00:02:24.145 --> 00:02:25.804
+I don't use any of them.
+
+38
+00:02:26.267 --> 00:02:34.575
+Places tie a theme to regions, locations or areas, so it usually plays while the party is there.
+
+39
+00:02:35.967 --> 00:02:37.058
+The rest is quick.
+
+40
+00:02:37.058 --> 00:02:40.575
+Through the Creator API you can look into player feedback,
+
+41
+00:02:40.575 --> 00:02:45.607
+with the game state before or after a report and a playable link that recreates it.
+
+42
+00:02:45.607 --> 00:02:50.639
+Images have to be approved and yours now, but links to your own hosting still work.
+
+43
+00:02:50.639 --> 00:02:54.034
+Heal abilities and items can be made stronger or weaker,
+
+44
+00:02:54.034 --> 00:02:57.612
+but there's no new setting for it, so I haven't tested how.
+
+45
+00:02:57.612 --> 00:03:00.037
+And there's a new voice, a female ghost.
+
+46
+00:03:01.433 --> 00:03:06.135
+That's it. My worlds and lorebooks are at deaththegrim.github.io.
+
+47
+00:03:06.600 --> 00:03:10.548
+I'm Dreamer. Now go build something weird, and I'll see you next time!
+
